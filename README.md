@@ -1,5 +1,7 @@
 # Lingo
 
+![license](https://img.shields.io/badge/license-MIT-green) [![GitHub](https://img.shields.io/badge/GitHub-nulljosh%2Flingo-black?logo=github)](https://github.com/nulljosh/lingo)
+
 A lightweight, gamified language/skill learning app. Vanilla HTML/CSS/JS, no build step.
 
 Live at [lingo.heyitsmejosh.com](https://lingo.heyitsmejosh.com).
