@@ -19,3 +19,9 @@ Lingo — a static, vanilla JS/HTML/CSS gamified learning app. No framework, no 
 - Lesson content is data-driven via JSON, not hardcoded per-lesson HTML
 - Keep it framework-free; don't introduce a build step or bundler unless explicitly asked
 - Accessibility: maintain `aria-label`s and skip-link already present in `index.html` when editing the header/nav
+
+## Roadmap
+- [ ] Confirm whether the app still exists/is current (recovered 2026-06-21 after accidental deletion)
+- [ ] Build out: language quizzes + law quizzes, plus macOS/Windows "how to use computers" quizzes
+- [ ] iOS + macOS parity (currently web-only, stubs on other platforms)
+- [ ] Run `/mint` on it once it stands up
