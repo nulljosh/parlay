@@ -276,7 +276,7 @@
         },
         {
           "id": "anatomy12",
-          "name": "Anatomy & Physiology",
+          "name": "Anatomy & Physiology 12",
           "icon": "fa-solid fa-heart-pulse",
           "level": "BC Grade 12",
           "packPath": "content/courses/anatomy12.json"
