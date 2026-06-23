@@ -1,0 +1,214 @@
+{
+  "id": "music_history",
+  "name": "Music History",
+  "category": "skills",
+  "icon": "fa-solid fa-guitar",
+  "level": "Genres & Artists",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Who composed the Moonlight Sonata?",
+              "answer": "Beethoven",
+              "choices": [
+                "Beethoven",
+                "Mozart",
+                "Bach",
+                "Chopin"
+              ],
+              "id": "music_history_0"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Jazz originated in?",
+              "answer": "New Orleans",
+              "choices": [
+                "New Orleans",
+                "Chicago",
+                "New York",
+                "Memphis"
+              ],
+              "id": "music_history_1"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Who is the King of Pop?",
+              "answer": "Michael Jackson",
+              "choices": [
+                "Michael Jackson",
+                "Elvis Presley",
+                "Prince",
+                "Stevie Wonder"
+              ],
+              "id": "music_history_2"
+            },
+            {
+              "type": "mathChoice",
+              "question": "The Beatles were from?",
+              "answer": "Liverpool",
+              "choices": [
+                "Liverpool",
+                "London",
+                "Manchester",
+                "Birmingham"
+              ],
+              "id": "music_history_3"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Who composed The Four Seasons?",
+              "answer": "Vivaldi",
+              "choices": [
+                "Vivaldi",
+                "Bach",
+                "Handel",
+                "Haydn"
+              ],
+              "id": "music_history_4"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Rock and roll emerged in the?",
+              "answer": "1950s",
+              "choices": [
+                "1940s",
+                "1950s",
+                "1960s",
+                "1970s"
+              ],
+              "id": "music_history_5"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Who is the King of Rock and Roll?",
+              "answer": "Elvis Presley",
+              "choices": [
+                "Elvis Presley",
+                "Chuck Berry",
+                "Little Richard",
+                "Buddy Holly"
+              ],
+              "id": "music_history_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Hip hop originated in?",
+              "answer": "The Bronx, NYC",
+              "choices": [
+                "The Bronx, NYC",
+                "Los Angeles",
+                "Atlanta",
+                "Detroit"
+              ],
+              "id": "music_history_7"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Who composed Symphony No. 9?",
+              "answer": "Beethoven",
+              "choices": [
+                "Beethoven",
+                "Mozart",
+                "Tchaikovsky",
+                "Brahms"
+              ],
+              "id": "music_history_8"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Woodstock festival was in?",
+              "answer": "1969",
+              "choices": [
+                "1965",
+                "1967",
+                "1969",
+                "1971"
+              ],
+              "id": "music_history_9"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Who invented the phonograph?",
+              "answer": "Thomas Edison",
+              "choices": [
+                "Thomas Edison",
+                "Alexander Bell",
+                "Nikola Tesla",
+                "Guglielmo Marconi"
+              ],
+              "id": "music_history_10"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Grunge music originated in?",
+              "answer": "Seattle",
+              "choices": [
+                "Seattle",
+                "Portland",
+                "San Francisco",
+                "Los Angeles"
+              ],
+              "id": "music_history_11"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Who composed The Magic Flute?",
+              "answer": "Mozart",
+              "choices": [
+                "Mozart",
+                "Beethoven",
+                "Wagner",
+                "Verdi"
+              ],
+              "id": "music_history_12"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Blues music originated in?",
+              "answer": "Mississippi Delta",
+              "choices": [
+                "Mississippi Delta",
+                "Chicago",
+                "New Orleans",
+                "Memphis"
+              ],
+              "id": "music_history_13"
+            }
+          ]
+        },
+        {
+          "id": "u1l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Baroque period was approximately?",
+              "answer": "1600-1750",
+              "choices": [
+                "1400-1600",
+                "1600-1750",
+                "1750-1820",
+                "1820-1900"
+              ],
+              "id": "music_history_14"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

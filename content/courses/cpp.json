@@ -1,0 +1,214 @@
+{
+  "id": "cpp",
+  "name": "C++",
+  "category": "programming",
+  "icon": "fa-solid fa-microchip",
+  "level": "Systems & Games",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "C++ output statement?",
+              "answer": "std::cout",
+              "choices": [
+                "std::cout",
+                "print()",
+                "printf()",
+                "System.out"
+              ],
+              "id": "cpp_0"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Include header syntax?",
+              "answer": "#include <iostream>",
+              "choices": [
+                "#include <iostream>",
+                "import iostream",
+                "using iostream",
+                "require iostream"
+              ],
+              "id": "cpp_1"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Pointer declaration?",
+              "answer": "int* ptr",
+              "choices": [
+                "int* ptr",
+                "ptr int",
+                "int &ptr",
+                "pointer<int> ptr"
+              ],
+              "id": "cpp_2"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Dynamic memory allocation?",
+              "answer": "new",
+              "choices": [
+                "new",
+                "malloc",
+                "alloc",
+                "create"
+              ],
+              "id": "cpp_3"
+            },
+            {
+              "type": "mathChoice",
+              "question": "C++ string type?",
+              "answer": "std::string",
+              "choices": [
+                "std::string",
+                "String",
+                "string",
+                "char[]"
+              ],
+              "id": "cpp_4"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Reference parameter syntax?",
+              "answer": "void func(int& x)",
+              "choices": [
+                "void func(int& x)",
+                "void func(int* x)",
+                "void func(ref int x)",
+                "void func(int x&)"
+              ],
+              "id": "cpp_5"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Standard container for dynamic array?",
+              "answer": "std::vector",
+              "choices": [
+                "std::vector",
+                "std::array",
+                "std::list",
+                "std::deque"
+              ],
+              "id": "cpp_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Virtual function purpose?",
+              "answer": "Runtime polymorphism",
+              "choices": [
+                "Runtime polymorphism",
+                "Compile-time optimization",
+                "Memory management",
+                "Thread safety"
+              ],
+              "id": "cpp_7"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Smart pointer that has unique ownership?",
+              "answer": "unique_ptr",
+              "choices": [
+                "unique_ptr",
+                "shared_ptr",
+                "weak_ptr",
+                "auto_ptr"
+              ],
+              "id": "cpp_8"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Namespace access operator?",
+              "answer": "::",
+              "choices": [
+                "::",
+                ".",
+                "->",
+                "=>"
+              ],
+              "id": "cpp_9"
+            },
+            {
+              "type": "mathChoice",
+              "question": "C++ lambda syntax?",
+              "answer": "[](int x) { return x; }",
+              "choices": [
+                "[](int x) { return x; }",
+                "(x) => x",
+                "lambda x: x",
+                "fn(x) -> x"
+              ],
+              "id": "cpp_10"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Range-based for loop?",
+              "answer": "for (auto x : vec)",
+              "choices": [
+                "for (auto x : vec)",
+                "for x in vec",
+                "foreach (x in vec)",
+                "for (x of vec)"
+              ],
+              "id": "cpp_11"
+            },
+            {
+              "type": "mathChoice",
+              "question": "C++ access modifier default in class?",
+              "answer": "private",
+              "choices": [
+                "private",
+                "public",
+                "protected",
+                "internal"
+              ],
+              "id": "cpp_12"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Template syntax?",
+              "answer": "template<typename T>",
+              "choices": [
+                "template<typename T>",
+                "generic<T>",
+                "<T> template",
+                "type T template"
+              ],
+              "id": "cpp_13"
+            }
+          ]
+        },
+        {
+          "id": "u1l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Multiple inheritance supported?",
+              "answer": "Yes",
+              "choices": [
+                "Yes",
+                "No",
+                "Only interfaces",
+                "Only abstract classes"
+              ],
+              "id": "cpp_14"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

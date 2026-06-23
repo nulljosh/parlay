@@ -1,0 +1,116 @@
+{
+  "id": "computers",
+  "name": "Computer Basics",
+  "category": "computers",
+  "icon": "fa-solid fa-computer",
+  "level": "Digital Literacy",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "Hardware",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "The parts",
+          "exercises": [
+            { "type": "mathChoice", "question": "Which part does the actual computing and runs instructions?", "answer": "CPU", "choices": ["CPU", "Monitor", "Keyboard", "Speaker"] },
+            { "type": "mathChoice", "question": "Which holds data temporarily while programs run, and is wiped on power off?", "answer": "RAM", "choices": ["RAM", "Hard drive", "CPU", "Screen"] },
+            { "type": "mathChoice", "question": "Which keeps your files even after the computer is turned off?", "answer": "Storage (SSD/HDD)", "choices": ["Storage (SSD/HDD)", "RAM", "CPU cache", "The power cable"] },
+            { "type": "mathChoice", "question": "Which is an input device?", "answer": "Keyboard", "choices": ["Keyboard", "Monitor", "Printer", "Speaker"] }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "How they work together",
+          "exercises": [
+            { "type": "mathChoice", "question": "Which is faster to read from?", "answer": "RAM", "choices": ["RAM", "A hard drive", "A USB stick", "A DVD"] },
+            { "type": "mathChoice", "question": "More RAM mainly helps you do what?", "answer": "Run more programs at once", "choices": ["Run more programs at once", "Store more files forever", "Make the screen brighter", "Type faster"] },
+            { "type": "mathChoice", "question": "What does the operating system do?", "answer": "Manages hardware and runs your programs", "choices": ["Manages hardware and runs your programs", "Only browses the web", "Only stores photos", "Only plays music"] },
+            { "type": "mathChoice", "question": "Which is an operating system?", "answer": "Windows", "choices": ["Windows", "Chrome", "Excel", "Wi-Fi"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u2",
+      "title": "Files & Folders",
+      "lessons": [
+        {
+          "id": "u2l1",
+          "title": "Organizing files",
+          "exercises": [
+            { "type": "mathChoice", "question": "What does the part after the dot in photo.jpg tell you?", "answer": "The file type", "choices": ["The file type", "The file size", "Who made it", "The folder"] },
+            { "type": "mathChoice", "question": "Which extension is an image?", "answer": ".png", "choices": [".png", ".txt", ".mp3", ".pdf"] },
+            { "type": "mathChoice", "question": "A folder inside another folder is called a?", "answer": "Subfolder", "choices": ["Subfolder", "Root", "Drive", "Shortcut"] },
+            { "type": "mathChoice", "question": "What is a file path?", "answer": "The address that locates a file", "choices": ["The address that locates a file", "The file's color", "How big the file is", "The app icon"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u3",
+      "title": "The Internet",
+      "lessons": [
+        {
+          "id": "u3l1",
+          "title": "How it connects",
+          "exercises": [
+            { "type": "mathChoice", "question": "What does a URL identify?", "answer": "The address of a web page", "choices": ["The address of a web page", "Your password", "The Wi-Fi name", "The file size"] },
+            { "type": "mathChoice", "question": "In https://, what does the 's' add?", "answer": "Encryption (security)", "choices": ["Encryption (security)", "Speed", "Sound", "Storage"] },
+            { "type": "mathChoice", "question": "What does a web browser do?", "answer": "Loads and displays web pages", "choices": ["Loads and displays web pages", "Stores all your files", "Runs the CPU", "Prints documents"] },
+            { "type": "mathChoice", "question": "DNS turns a domain name into what?", "answer": "An IP address", "choices": ["An IP address", "A password", "A file", "A folder"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u4",
+      "title": "Security & Privacy",
+      "lessons": [
+        {
+          "id": "u4l1",
+          "title": "Staying safe",
+          "exercises": [
+            { "type": "mathChoice", "question": "Which is the strongest password?", "answer": "A long, random passphrase", "choices": ["A long, random passphrase", "password123", "Your birthday", "Your pet's name"] },
+            { "type": "mathChoice", "question": "What is phishing?", "answer": "A fake message tricking you into sharing info", "choices": ["A fake message tricking you into sharing info", "A type of antivirus", "A faster Wi-Fi", "A backup tool"] },
+            { "type": "mathChoice", "question": "What does two-factor authentication add?", "answer": "A second proof of identity", "choices": ["A second proof of identity", "A faster login", "More storage", "A new password every day"] },
+            { "type": "mathChoice", "question": "Before entering a password, you should check the?", "answer": "Website address", "choices": ["Website address", "Screen brightness", "Battery level", "Font size"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u5",
+      "title": "AI Literacy",
+      "lessons": [
+        {
+          "id": "u5l1",
+          "title": "Understanding AI",
+          "exercises": [
+            { "type": "mathChoice", "question": "A large language model mainly does what?", "answer": "Predicts likely next words", "choices": ["Predicts likely next words", "Looks up exact facts in a database", "Browses live websites by default", "Stores your files"] },
+            { "type": "mathChoice", "question": "When an AI states something false confidently, that is called a?", "answer": "Hallucination", "choices": ["Hallucination", "Bug", "Virus", "Glitch"] },
+            { "type": "mathChoice", "question": "The instruction you give an AI is called a?", "answer": "Prompt", "choices": ["Prompt", "Patch", "Cookie", "Cache"] },
+            { "type": "mathChoice", "question": "Best practice when using AI output for something important?", "answer": "Verify it against a trusted source", "choices": ["Verify it against a trusted source", "Always trust it", "Never read it", "Share your passwords with it"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u6",
+      "title": "Command Line",
+      "lessons": [
+        {
+          "id": "u6l1",
+          "title": "Basic commands",
+          "exercises": [
+            { "type": "mathChoice", "question": "Which command lists the files in a folder?", "answer": "ls", "choices": ["ls", "cd", "rm", "mv"] },
+            { "type": "mathChoice", "question": "Which command changes into a directory?", "answer": "cd", "choices": ["cd", "ls", "cat", "pwd"] },
+            { "type": "mathChoice", "question": "Which command prints the current directory?", "answer": "pwd", "choices": ["pwd", "ls", "cd", "echo"] },
+            { "type": "mathChoice", "question": "What does cd .. do?", "answer": "Move up one folder", "choices": ["Move up one folder", "Delete a folder", "List files", "Make a folder"] }
+          ]
+        }
+      ]
+    }
+  ]
+}

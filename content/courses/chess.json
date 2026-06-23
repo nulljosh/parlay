@@ -1,0 +1,214 @@
+{
+  "id": "chess",
+  "name": "Chess",
+  "category": "skills",
+  "icon": "fa-solid fa-chess",
+  "level": "Strategy & Tactics",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "How many squares on a chess board?",
+              "answer": "64",
+              "choices": [
+                "36",
+                "49",
+                "64",
+                "81"
+              ],
+              "id": "chess_0"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Which piece can jump over others?",
+              "answer": "Knight",
+              "choices": [
+                "Knight",
+                "Bishop",
+                "Rook",
+                "Queen"
+              ],
+              "id": "chess_1"
+            },
+            {
+              "type": "mathChoice",
+              "question": "How does a pawn capture?",
+              "answer": "Diagonally forward",
+              "choices": [
+                "Diagonally forward",
+                "Straight forward",
+                "Any direction",
+                "Sideways"
+              ],
+              "id": "chess_2"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Castling involves which pieces?",
+              "answer": "King and rook",
+              "choices": [
+                "King and rook",
+                "King and queen",
+                "King and bishop",
+                "King and knight"
+              ],
+              "id": "chess_3"
+            },
+            {
+              "type": "mathChoice",
+              "question": "En passant is a special move for?",
+              "answer": "Pawns",
+              "choices": [
+                "Pawns",
+                "Knights",
+                "Bishops",
+                "Rooks"
+              ],
+              "id": "chess_4"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Most powerful piece?",
+              "answer": "Queen",
+              "choices": [
+                "Queen",
+                "King",
+                "Rook",
+                "Knight"
+              ],
+              "id": "chess_5"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Stalemate result?",
+              "answer": "Draw",
+              "choices": [
+                "Draw",
+                "Win for attacker",
+                "Loss for defender",
+                "Restart"
+              ],
+              "id": "chess_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Bishop moves?",
+              "answer": "Diagonally",
+              "choices": [
+                "Diagonally",
+                "Straight lines",
+                "L-shape",
+                "Any direction"
+              ],
+              "id": "chess_7"
+            },
+            {
+              "type": "mathChoice",
+              "question": "What is check?",
+              "answer": "King is under attack",
+              "choices": [
+                "King is under attack",
+                "King is captured",
+                "Game is over",
+                "Pawn reaches end"
+              ],
+              "id": "chess_8"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Pawn promotion happens at?",
+              "answer": "Opposite end of board",
+              "choices": [
+                "Opposite end of board",
+                "Center of board",
+                "After 10 moves",
+                "After capturing"
+              ],
+              "id": "chess_9"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Starting number of pieces per side?",
+              "answer": "16",
+              "choices": [
+                "12",
+                "14",
+                "16",
+                "20"
+              ],
+              "id": "chess_10"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Rook moves?",
+              "answer": "Horizontally and vertically",
+              "choices": [
+                "Horizontally and vertically",
+                "Diagonally",
+                "L-shape",
+                "One square any direction"
+              ],
+              "id": "chess_11"
+            },
+            {
+              "type": "mathChoice",
+              "question": "What is a fork?",
+              "answer": "One piece attacks two",
+              "choices": [
+                "One piece attacks two",
+                "Two pieces attack one",
+                "Trading pieces",
+                "Blocking a check"
+              ],
+              "id": "chess_12"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Point value of a knight?",
+              "answer": "3",
+              "choices": [
+                "1",
+                "3",
+                "5",
+                "9"
+              ],
+              "id": "chess_13"
+            }
+          ]
+        },
+        {
+          "id": "u1l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "What is checkmate?",
+              "answer": "King cannot escape attack",
+              "choices": [
+                "King cannot escape attack",
+                "King is in check",
+                "All pieces captured",
+                "Time runs out"
+              ],
+              "id": "chess_14"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

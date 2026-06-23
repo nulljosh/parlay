@@ -1,0 +1,148 @@
+{
+  "id": "anatomy12",
+  "name": "Anatomy & Physiology",
+  "category": "science",
+  "icon": "fa-solid fa-heart-pulse",
+  "level": "BC Grade 12",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Number of bones in adult human?",
+              "answer": "206",
+              "choices": [
+                "206",
+                "213",
+                "270",
+                "300"
+              ],
+              "id": "anatomy12_0"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Largest bone?",
+              "answer": "Femur",
+              "choices": [
+                "Tibia",
+                "Femur",
+                "Humerus",
+                "Spine"
+              ],
+              "id": "anatomy12_1"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Three types of muscle?",
+              "answer": "Skeletal, cardiac, smooth",
+              "choices": [
+                "Skeletal, cardiac, smooth",
+                "Voluntary, involuntary, cardiac",
+                "Striated, smooth, rough",
+                "Fast, slow, cardiac"
+              ],
+              "id": "anatomy12_2"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Neurotransmitter at muscle junction?",
+              "answer": "Acetylcholine",
+              "choices": [
+                "Dopamine",
+                "Serotonin",
+                "Acetylcholine",
+                "GABA"
+              ],
+              "id": "anatomy12_3"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Basic unit of nervous system?",
+              "answer": "Neuron",
+              "choices": [
+                "Nerve",
+                "Neuron",
+                "Axon",
+                "Synapse"
+              ],
+              "id": "anatomy12_4"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Heart chambers?",
+              "answer": "4",
+              "choices": [
+                "2",
+                "3",
+                "4",
+                "5"
+              ],
+              "id": "anatomy12_5"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Gas exchange occurs in?",
+              "answer": "Alveoli",
+              "choices": [
+                "Bronchi",
+                "Bronchioles",
+                "Alveoli",
+                "Trachea"
+              ],
+              "id": "anatomy12_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Most absorption occurs in?",
+              "answer": "Small intestine",
+              "choices": [
+                "Stomach",
+                "Small intestine",
+                "Large intestine",
+                "Liver"
+              ],
+              "id": "anatomy12_7"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Master gland?",
+              "answer": "Pituitary",
+              "choices": [
+                "Thyroid",
+                "Pituitary",
+                "Adrenal",
+                "Pancreas"
+              ],
+              "id": "anatomy12_8"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Functional unit of kidney?",
+              "answer": "Nephron",
+              "choices": [
+                "Glomerulus",
+                "Nephron",
+                "Loop of Henle",
+                "Collecting duct"
+              ],
+              "id": "anatomy12_9"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

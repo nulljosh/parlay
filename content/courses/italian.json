@@ -1,0 +1,208 @@
+{
+  "id": "italian",
+  "name": "Italian",
+  "category": "languages",
+  "icon": "fa-solid fa-pizza-slice",
+  "level": "Beginner to Intermediate",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "translation",
+              "question": "Hello",
+              "answer": "Ciao",
+              "choices": [
+                "Ciao",
+                "Grazie",
+                "Prego",
+                "Scusa"
+              ],
+              "id": "italian_0"
+            },
+            {
+              "type": "translation",
+              "question": "Thank you",
+              "answer": "Grazie",
+              "choices": [
+                "Grazie",
+                "Ciao",
+                "Prego",
+                "Buono"
+              ],
+              "id": "italian_1"
+            },
+            {
+              "type": "translation",
+              "question": "Goodbye",
+              "answer": "Arrivederci",
+              "choices": [
+                "Arrivederci",
+                "Ciao",
+                "Buongiorno",
+                "Grazie"
+              ],
+              "id": "italian_2"
+            },
+            {
+              "type": "translation",
+              "question": "Water",
+              "answer": "Acqua",
+              "choices": [
+                "Acqua",
+                "Fuoco",
+                "Aria",
+                "Terra"
+              ],
+              "id": "italian_3"
+            },
+            {
+              "type": "translation",
+              "question": "Good morning",
+              "answer": "Buongiorno",
+              "choices": [
+                "Buongiorno",
+                "Buonanotte",
+                "Buonasera",
+                "Ciao"
+              ],
+              "id": "italian_4"
+            },
+            {
+              "type": "translation",
+              "question": "Cat",
+              "answer": "Gatto",
+              "choices": [
+                "Gatto",
+                "Cane",
+                "Uccello",
+                "Pesce"
+              ],
+              "id": "italian_5"
+            },
+            {
+              "type": "translation",
+              "question": "House",
+              "answer": "Casa",
+              "choices": [
+                "Casa",
+                "Porta",
+                "Strada",
+                "Cucina"
+              ],
+              "id": "italian_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "translation",
+              "question": "Please",
+              "answer": "Per favore",
+              "choices": [
+                "Per favore",
+                "Grazie",
+                "Prego",
+                "Scusa"
+              ],
+              "id": "italian_7"
+            },
+            {
+              "type": "sentence",
+              "question": "The cat is small",
+              "answer": "Il gatto e piccolo",
+              "words": [
+                "Il",
+                "gatto",
+                "e",
+                "piccolo",
+                "grande",
+                "cane"
+              ],
+              "id": "italian_8"
+            },
+            {
+              "type": "sentence",
+              "question": "I eat pizza",
+              "answer": "Io mangio la pizza",
+              "words": [
+                "Io",
+                "mangio",
+                "la",
+                "pizza",
+                "bevo",
+                "acqua"
+              ],
+              "id": "italian_9"
+            },
+            {
+              "type": "sentence",
+              "question": "The book is good",
+              "answer": "Il libro e buono",
+              "words": [
+                "Il",
+                "libro",
+                "e",
+                "buono",
+                "cattivo",
+                "La"
+              ],
+              "id": "italian_10"
+            },
+            {
+              "type": "sentence",
+              "question": "She speaks Italian",
+              "answer": "Lei parla italiano",
+              "words": [
+                "Lei",
+                "parla",
+                "italiano",
+                "Lui",
+                "inglese",
+                "scrive"
+              ],
+              "id": "italian_11"
+            },
+            {
+              "type": "listening",
+              "question": "Type what you hear",
+              "audio": "Buongiorno",
+              "answer": "Buongiorno",
+              "id": "italian_12"
+            },
+            {
+              "type": "listening",
+              "question": "Type what you hear",
+              "audio": "Come stai",
+              "answer": "Come stai",
+              "id": "italian_13"
+            }
+          ]
+        },
+        {
+          "id": "u1l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "listening",
+              "question": "Type what you hear",
+              "audio": "Mi chiamo Marco",
+              "answer": "Mi chiamo Marco",
+              "id": "italian_14"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "lang": "it-IT"
+}

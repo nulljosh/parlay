@@ -1,0 +1,214 @@
+{
+  "id": "go",
+  "name": "Go",
+  "category": "programming",
+  "icon": "fa-brands fa-golang",
+  "level": "Cloud & DevOps",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Go entry point function?",
+              "answer": "func main()",
+              "choices": [
+                "func main()",
+                "def main():",
+                "int main()",
+                "function main()"
+              ],
+              "id": "go_0"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Print in Go?",
+              "answer": "fmt.Println()",
+              "choices": [
+                "fmt.Println()",
+                "print()",
+                "console.log()",
+                "System.out.println()"
+              ],
+              "id": "go_1"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Declare a variable in Go?",
+              "answer": "var x int",
+              "choices": [
+                "var x int",
+                "int x",
+                "let x: int",
+                "x := int"
+              ],
+              "id": "go_2"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Short variable declaration?",
+              "answer": ":=",
+              "choices": [
+                ":=",
+                "=",
+                "==",
+                "->"
+              ],
+              "id": "go_3"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Go concurrency primitive?",
+              "answer": "goroutine",
+              "choices": [
+                "goroutine",
+                "thread",
+                "async",
+                "coroutine"
+              ],
+              "id": "go_4"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Channel communication keyword?",
+              "answer": "chan",
+              "choices": [
+                "chan",
+                "channel",
+                "pipe",
+                "stream"
+              ],
+              "id": "go_5"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Error handling pattern in Go?",
+              "answer": "if err != nil",
+              "choices": [
+                "if err != nil",
+                "try/catch",
+                "try/except",
+                "Result<T, E>"
+              ],
+              "id": "go_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Go has classes?",
+              "answer": "No, only structs",
+              "choices": [
+                "No, only structs",
+                "Yes",
+                "Only interfaces",
+                "Only traits"
+              ],
+              "id": "go_7"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Multiple return values?",
+              "answer": "Yes, natively",
+              "choices": [
+                "Yes, natively",
+                "No",
+                "Only with tuples",
+                "Only with arrays"
+              ],
+              "id": "go_8"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Go build tool?",
+              "answer": "go build",
+              "choices": [
+                "go build",
+                "make",
+                "cargo build",
+                "gcc"
+              ],
+              "id": "go_9"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Go slice vs array?",
+              "answer": "Slice is dynamic",
+              "choices": [
+                "Slice is dynamic",
+                "Array is dynamic",
+                "Both are fixed",
+                "No difference"
+              ],
+              "id": "go_10"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Defer statement executes when?",
+              "answer": "When function returns",
+              "choices": [
+                "When function returns",
+                "Immediately",
+                "Never",
+                "At program exit"
+              ],
+              "id": "go_11"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Exported names start with?",
+              "answer": "Uppercase letter",
+              "choices": [
+                "Uppercase letter",
+                "Lowercase letter",
+                "Underscore",
+                "pub keyword"
+              ],
+              "id": "go_12"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Go module file?",
+              "answer": "go.mod",
+              "choices": [
+                "go.mod",
+                "package.json",
+                "Cargo.toml",
+                "pom.xml"
+              ],
+              "id": "go_13"
+            }
+          ]
+        },
+        {
+          "id": "u1l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Interface satisfaction in Go?",
+              "answer": "Implicit",
+              "choices": [
+                "Implicit",
+                "Explicit with implements",
+                "Explicit with extends",
+                "Not supported"
+              ],
+              "id": "go_14"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

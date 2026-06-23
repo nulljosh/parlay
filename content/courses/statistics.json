@@ -1,0 +1,154 @@
+{
+  "id": "statistics",
+  "name": "Statistics",
+  "category": "math",
+  "icon": "fa-solid fa-chart-bar",
+  "level": "Data Analysis",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "math",
+              "question": "Mean of 2, 4, 6, 8, 10",
+              "answer": "6",
+              "id": "statistics_0"
+            },
+            {
+              "type": "math",
+              "question": "Median of 3, 7, 8, 12, 15",
+              "answer": "8",
+              "id": "statistics_1"
+            },
+            {
+              "type": "math",
+              "question": "Mode of 1, 2, 2, 3, 4, 2",
+              "answer": "2",
+              "id": "statistics_2"
+            },
+            {
+              "type": "math",
+              "question": "Range of 5, 10, 15, 20, 25",
+              "answer": "20",
+              "id": "statistics_3"
+            },
+            {
+              "type": "math",
+              "question": "Mean of 10, 20, 30",
+              "answer": "20",
+              "id": "statistics_4"
+            },
+            {
+              "type": "math",
+              "question": "Median of 1, 3, 5, 7",
+              "answer": "4",
+              "id": "statistics_5"
+            },
+            {
+              "type": "math",
+              "question": "Probability of heads on fair coin",
+              "answer": "0.5",
+              "id": "statistics_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "math",
+              "question": "Combinations: C(5,2)",
+              "answer": "10",
+              "id": "statistics_7"
+            },
+            {
+              "type": "math",
+              "question": "Permutations: P(4,2)",
+              "answer": "12",
+              "id": "statistics_8"
+            },
+            {
+              "type": "math",
+              "question": "Variance of 2, 4, 6 (population)",
+              "answer": "2.67",
+              "id": "statistics_9"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Standard deviation measures?",
+              "answer": "Spread of data",
+              "choices": [
+                "Spread of data",
+                "Center of data",
+                "Shape of data",
+                "Size of data"
+              ],
+              "id": "statistics_10"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Normal distribution is shaped like?",
+              "answer": "Bell curve",
+              "choices": [
+                "Bell curve",
+                "Straight line",
+                "U-shape",
+                "Flat line"
+              ],
+              "id": "statistics_11"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Correlation of -1 means?",
+              "answer": "Perfect negative correlation",
+              "choices": [
+                "Perfect negative correlation",
+                "No correlation",
+                "Perfect positive correlation",
+                "Weak correlation"
+              ],
+              "id": "statistics_12"
+            },
+            {
+              "type": "mathChoice",
+              "question": "P-value below 0.05 means?",
+              "answer": "Statistically significant",
+              "choices": [
+                "Statistically significant",
+                "Not significant",
+                "Error in data",
+                "Need more data"
+              ],
+              "id": "statistics_13"
+            }
+          ]
+        },
+        {
+          "id": "u1l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "What is a sample?",
+              "answer": "Subset of a population",
+              "choices": [
+                "Subset of a population",
+                "Entire population",
+                "Single data point",
+                "Statistical test"
+              ],
+              "id": "statistics_14"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

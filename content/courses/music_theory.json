@@ -1,0 +1,214 @@
+{
+  "id": "music_theory",
+  "name": "Music Theory",
+  "category": "skills",
+  "icon": "fa-solid fa-music",
+  "level": "Notes & Chords",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Circle of fifths starts?",
+              "answer": "C",
+              "choices": [
+                "C",
+                "A",
+                "G",
+                "F"
+              ],
+              "id": "music_theory_0"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Time signature top number?",
+              "answer": "Beats per measure",
+              "choices": [
+                "Beats per measure",
+                "Note value",
+                "Tempo",
+                "Key signature"
+              ],
+              "id": "music_theory_1"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Pentatonic scale notes?",
+              "answer": "5",
+              "choices": [
+                "5",
+                "7",
+                "12",
+                "8"
+              ],
+              "id": "music_theory_2"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Common chord progression?",
+              "answer": "I-V-vi-IV",
+              "choices": [
+                "I-V-vi-IV",
+                "I-II-III-IV",
+                "V-IV-III-II",
+                "vi-V-IV-I"
+              ],
+              "id": "music_theory_3"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Relative minor of C?",
+              "answer": "A minor",
+              "choices": [
+                "A minor",
+                "E minor",
+                "D minor",
+                "G minor"
+              ],
+              "id": "music_theory_4"
+            },
+            {
+              "type": "mathChoice",
+              "question": "How many notes in a chromatic scale?",
+              "answer": "12",
+              "choices": [
+                "7",
+                "8",
+                "10",
+                "12"
+              ],
+              "id": "music_theory_5"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Major scale intervals?",
+              "answer": "W-W-H-W-W-W-H",
+              "choices": [
+                "W-W-H-W-W-W-H",
+                "W-H-W-W-H-W-W",
+                "H-W-W-H-W-W-W",
+                "W-W-W-H-W-W-H"
+              ],
+              "id": "music_theory_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "What is a tritone?",
+              "answer": "Interval of 3 whole steps",
+              "choices": [
+                "Interval of 3 whole steps",
+                "3 notes played together",
+                "A type of scale",
+                "A chord inversion"
+              ],
+              "id": "music_theory_7"
+            },
+            {
+              "type": "mathChoice",
+              "question": "How many sharps in G major?",
+              "answer": "1",
+              "choices": [
+                "0",
+                "1",
+                "2",
+                "3"
+              ],
+              "id": "music_theory_8"
+            },
+            {
+              "type": "mathChoice",
+              "question": "A major chord consists of?",
+              "answer": "Root, major 3rd, perfect 5th",
+              "choices": [
+                "Root, major 3rd, perfect 5th",
+                "Root, minor 3rd, perfect 5th",
+                "Root, 4th, 5th",
+                "Root, 2nd, 5th"
+              ],
+              "id": "music_theory_9"
+            },
+            {
+              "type": "mathChoice",
+              "question": "What does BPM stand for?",
+              "answer": "Beats per minute",
+              "choices": [
+                "Beats per minute",
+                "Bars per measure",
+                "Bass percussion mix",
+                "Basic pitch modulation"
+              ],
+              "id": "music_theory_10"
+            },
+            {
+              "type": "mathChoice",
+              "question": "A whole note lasts how many beats in 4/4?",
+              "answer": "4",
+              "choices": [
+                "1",
+                "2",
+                "3",
+                "4"
+              ],
+              "id": "music_theory_11"
+            },
+            {
+              "type": "mathChoice",
+              "question": "What is a diminished chord?",
+              "answer": "Root, minor 3rd, diminished 5th",
+              "choices": [
+                "Root, minor 3rd, diminished 5th",
+                "Root, major 3rd, perfect 5th",
+                "Root, minor 3rd, perfect 5th",
+                "Root, major 3rd, augmented 5th"
+              ],
+              "id": "music_theory_12"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Middle C is which octave?",
+              "answer": "C4",
+              "choices": [
+                "C3",
+                "C4",
+                "C5",
+                "C2"
+              ],
+              "id": "music_theory_13"
+            }
+          ]
+        },
+        {
+          "id": "u1l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "What is syncopation?",
+              "answer": "Accent on weak beats",
+              "choices": [
+                "Accent on weak beats",
+                "Playing in unison",
+                "Speeding up tempo",
+                "Playing softly"
+              ],
+              "id": "music_theory_14"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

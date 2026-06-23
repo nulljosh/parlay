@@ -1,0 +1,214 @@
+{
+  "id": "astronomy",
+  "name": "Astronomy",
+  "category": "science",
+  "icon": "fa-solid fa-satellite",
+  "level": "Space & Cosmos",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Closest star to Earth?",
+              "answer": "The Sun",
+              "choices": [
+                "The Sun",
+                "Proxima Centauri",
+                "Alpha Centauri",
+                "Sirius"
+              ],
+              "id": "astronomy_0"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Largest planet in solar system?",
+              "answer": "Jupiter",
+              "choices": [
+                "Jupiter",
+                "Saturn",
+                "Neptune",
+                "Uranus"
+              ],
+              "id": "astronomy_1"
+            },
+            {
+              "type": "mathChoice",
+              "question": "How many planets in our solar system?",
+              "answer": "8",
+              "choices": [
+                "7",
+                "8",
+                "9",
+                "10"
+              ],
+              "id": "astronomy_2"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Light year measures?",
+              "answer": "Distance",
+              "choices": [
+                "Distance",
+                "Time",
+                "Speed",
+                "Brightness"
+              ],
+              "id": "astronomy_3"
+            },
+            {
+              "type": "mathChoice",
+              "question": "What is a galaxy?",
+              "answer": "Collection of stars and matter",
+              "choices": [
+                "Collection of stars and matter",
+                "A single star",
+                "A planet system",
+                "A nebula"
+              ],
+              "id": "astronomy_4"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Our galaxy is called?",
+              "answer": "Milky Way",
+              "choices": [
+                "Milky Way",
+                "Andromeda",
+                "Triangulum",
+                "Centaurus"
+              ],
+              "id": "astronomy_5"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Red planet?",
+              "answer": "Mars",
+              "choices": [
+                "Mars",
+                "Jupiter",
+                "Venus",
+                "Mercury"
+              ],
+              "id": "astronomy_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "What causes tides?",
+              "answer": "Moon's gravity",
+              "choices": [
+                "Moon's gravity",
+                "Sun's gravity",
+                "Wind",
+                "Earth's rotation"
+              ],
+              "id": "astronomy_7"
+            },
+            {
+              "type": "mathChoice",
+              "question": "A supernova is?",
+              "answer": "Exploding star",
+              "choices": [
+                "Exploding star",
+                "New star forming",
+                "Black hole",
+                "Comet"
+              ],
+              "id": "astronomy_8"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Smallest planet?",
+              "answer": "Mercury",
+              "choices": [
+                "Mercury",
+                "Mars",
+                "Venus",
+                "Pluto"
+              ],
+              "id": "astronomy_9"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Planet known for its rings?",
+              "answer": "Saturn",
+              "choices": [
+                "Saturn",
+                "Jupiter",
+                "Uranus",
+                "Neptune"
+              ],
+              "id": "astronomy_10"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Age of the universe (approx)?",
+              "answer": "13.8 billion years",
+              "choices": [
+                "13.8 billion years",
+                "4.5 billion years",
+                "10 billion years",
+                "20 billion years"
+              ],
+              "id": "astronomy_11"
+            },
+            {
+              "type": "mathChoice",
+              "question": "What is a black hole?",
+              "answer": "Region where gravity prevents escape",
+              "choices": [
+                "Region where gravity prevents escape",
+                "Empty space",
+                "Dark nebula",
+                "Dead star only"
+              ],
+              "id": "astronomy_12"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Hubble's law relates to?",
+              "answer": "Expansion of universe",
+              "choices": [
+                "Expansion of universe",
+                "Planet orbits",
+                "Star brightness",
+                "Moon phases"
+              ],
+              "id": "astronomy_13"
+            }
+          ]
+        },
+        {
+          "id": "u1l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "The asteroid belt is between?",
+              "answer": "Mars and Jupiter",
+              "choices": [
+                "Mars and Jupiter",
+                "Earth and Mars",
+                "Jupiter and Saturn",
+                "Venus and Earth"
+              ],
+              "id": "astronomy_14"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

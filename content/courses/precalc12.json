@@ -1,0 +1,124 @@
+{
+  "id": "precalc12",
+  "name": "Pre-Calculus 12",
+  "category": "math",
+  "icon": "fa-solid fa-book-open",
+  "level": "BC Grade 12",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "math",
+              "question": "Convert to radians: 180 deg",
+              "answer": "pi",
+              "id": "precalc12_0"
+            },
+            {
+              "type": "math",
+              "question": "Exact value: sin(pi/6)",
+              "answer": "1/2",
+              "id": "precalc12_1"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Unit circle: cos(pi/2)",
+              "answer": "0",
+              "choices": [
+                "0",
+                "1",
+                "-1",
+                "sqrt(2)/2"
+              ],
+              "id": "precalc12_2"
+            },
+            {
+              "type": "math",
+              "question": "Solve: sin(x) = 1/2, 0 <= x <= 2pi",
+              "answer": "pi/6, 5pi/6",
+              "id": "precalc12_3"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Amplitude of y = 3sin(2x)",
+              "answer": "3",
+              "choices": [
+                "1",
+                "2",
+                "3",
+                "6"
+              ],
+              "id": "precalc12_4"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Period of y = sin(2x)",
+              "answer": "pi",
+              "choices": [
+                "2pi",
+                "pi",
+                "pi/2",
+                "4pi"
+              ],
+              "id": "precalc12_5"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Law of Sines?",
+              "answer": "a/sin(A) = b/sin(B) = c/sin(C)",
+              "choices": [
+                "a^2=b^2+c^2",
+                "a/sin(A) = b/sin(B)",
+                "sin(A)/a = sin(B)/b",
+                "a/sin(A) = b/sin(B) = c/sin(C)"
+              ],
+              "id": "precalc12_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "math",
+              "question": "Evaluate: log3(27)",
+              "answer": "3",
+              "id": "precalc12_7"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Exponential growth model?",
+              "answer": "y = a * b^x",
+              "choices": [
+                "y = mx + b",
+                "y = a * b^x",
+                "y = ax^2",
+                "y = a/x"
+              ],
+              "id": "precalc12_8"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Number of permutations: P(5,3)",
+              "answer": "60",
+              "choices": [
+                "20",
+                "60",
+                "120",
+                "125"
+              ],
+              "id": "precalc12_9"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

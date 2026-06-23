@@ -1,0 +1,146 @@
+{
+  "id": "spanish",
+  "name": "Spanish",
+  "category": "languages",
+  "icon": "fa-solid fa-earth-americas",
+  "level": "Beginner to Advanced",
+  "lang": "es-ES",
+  "version": 2,
+  "units": [
+    {
+      "id": "u1",
+      "title": "Basics",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Greetings",
+          "exercises": [
+            { "type": "translation", "question": "Hello", "answer": "Hola", "choices": ["Hola", "Adiós", "Gracias", "Por favor"] },
+            { "type": "translation", "question": "Good morning", "answer": "Buenos días", "choices": ["Buenos días", "Buenas noches", "Hasta luego", "De nada"] },
+            { "type": "translation", "question": "Goodbye", "answer": "Adiós", "choices": ["Adiós", "Hola", "Sí", "No"] },
+            { "type": "listening", "question": "Type what you hear", "audio": "Hola", "answer": "Hola" },
+            { "type": "sentence", "question": "Good night", "answer": "Buenas noches", "words": ["Buenas", "noches", "días", "tardes"] }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Courtesy",
+          "exercises": [
+            { "type": "translation", "question": "Thank you", "answer": "Gracias", "choices": ["Gracias", "De nada", "Por favor", "Perdón"] },
+            { "type": "translation", "question": "Please", "answer": "Por favor", "choices": ["Por favor", "Gracias", "Hola", "Sí"] },
+            { "type": "translation", "question": "You're welcome", "answer": "De nada", "choices": ["De nada", "Gracias", "Adiós", "Perdón"] },
+            { "type": "translation", "question": "Excuse me", "answer": "Perdón", "choices": ["Perdón", "Hola", "Gracias", "Bien"] },
+            { "type": "listening", "question": "Type what you hear", "audio": "Por favor", "answer": "Por favor" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u2",
+      "title": "People & Family",
+      "lessons": [
+        {
+          "id": "u2l1",
+          "title": "Family",
+          "exercises": [
+            { "type": "translation", "question": "Mother", "answer": "Madre", "choices": ["Madre", "Padre", "Hermano", "Hija"] },
+            { "type": "translation", "question": "Father", "answer": "Padre", "choices": ["Padre", "Madre", "Hijo", "Abuelo"] },
+            { "type": "translation", "question": "Brother", "answer": "Hermano", "choices": ["Hermano", "Hermana", "Primo", "Tío"] },
+            { "type": "sentence", "question": "My family is big", "answer": "Mi familia es grande", "words": ["Mi", "familia", "es", "grande", "pequeña", "casa"] },
+            { "type": "listening", "question": "Type what you hear", "audio": "Madre", "answer": "Madre" }
+          ]
+        },
+        {
+          "id": "u2l2",
+          "title": "Describing people",
+          "exercises": [
+            { "type": "translation", "question": "Friend", "answer": "Amigo", "choices": ["Amigo", "Enemigo", "Vecino", "Niño"] },
+            { "type": "sentence", "question": "The girl is tall", "answer": "La niña es alta", "words": ["La", "niña", "es", "alta", "bajo", "niño"] },
+            { "type": "sentence", "question": "He is my friend", "answer": "Él es mi amigo", "words": ["Él", "es", "mi", "amigo", "amiga", "ella"] },
+            { "type": "translation", "question": "Happy", "answer": "Feliz", "choices": ["Feliz", "Triste", "Cansado", "Enojado"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u3",
+      "title": "Food & Drink",
+      "lessons": [
+        {
+          "id": "u3l1",
+          "title": "Basics",
+          "exercises": [
+            { "type": "translation", "question": "Water", "answer": "Agua", "choices": ["Agua", "Leche", "Vino", "Café"] },
+            { "type": "translation", "question": "Bread", "answer": "Pan", "choices": ["Pan", "Queso", "Carne", "Fruta"] },
+            { "type": "translation", "question": "Apple", "answer": "Manzana", "choices": ["Manzana", "Naranja", "Plátano", "Uva"] },
+            { "type": "listening", "question": "Type what you hear", "audio": "Agua", "answer": "Agua" },
+            { "type": "sentence", "question": "I want water", "answer": "Quiero agua", "words": ["Quiero", "agua", "pan", "tengo"] }
+          ]
+        },
+        {
+          "id": "u3l2",
+          "title": "At the restaurant",
+          "exercises": [
+            { "type": "sentence", "question": "The bill, please", "answer": "La cuenta por favor", "words": ["La", "cuenta", "por", "favor", "mesa", "menú"] },
+            { "type": "translation", "question": "Coffee", "answer": "Café", "choices": ["Café", "Té", "Jugo", "Agua"] },
+            { "type": "sentence", "question": "I eat bread", "answer": "Yo como pan", "words": ["Yo", "como", "pan", "bebo", "agua"] },
+            { "type": "translation", "question": "Delicious", "answer": "Delicioso", "choices": ["Delicioso", "Caro", "Frío", "Picante"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u4",
+      "title": "Travel & Places",
+      "lessons": [
+        {
+          "id": "u4l1",
+          "title": "Getting around",
+          "exercises": [
+            { "type": "translation", "question": "Where", "answer": "Dónde", "choices": ["Dónde", "Cuándo", "Cómo", "Qué"] },
+            { "type": "sentence", "question": "Where is the station", "answer": "Dónde está la estación", "words": ["Dónde", "está", "la", "estación", "casa", "tiene"] },
+            { "type": "translation", "question": "Airport", "answer": "Aeropuerto", "choices": ["Aeropuerto", "Estación", "Hotel", "Calle"] },
+            { "type": "translation", "question": "Left", "answer": "Izquierda", "choices": ["Izquierda", "Derecha", "Recto", "Cerca"] },
+            { "type": "listening", "question": "Type what you hear", "audio": "Hotel", "answer": "Hotel" }
+          ]
+        },
+        {
+          "id": "u4l2",
+          "title": "Numbers & money",
+          "exercises": [
+            { "type": "translation", "question": "One", "answer": "Uno", "choices": ["Uno", "Dos", "Tres", "Cuatro"] },
+            { "type": "translation", "question": "Ten", "answer": "Diez", "choices": ["Diez", "Nueve", "Ocho", "Cien"] },
+            { "type": "sentence", "question": "How much does it cost", "answer": "Cuánto cuesta", "words": ["Cuánto", "cuesta", "dónde", "está"] },
+            { "type": "translation", "question": "Money", "answer": "Dinero", "choices": ["Dinero", "Tarjeta", "Cambio", "Precio"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u5",
+      "title": "Time & Daily Life",
+      "lessons": [
+        {
+          "id": "u5l1",
+          "title": "Time",
+          "exercises": [
+            { "type": "translation", "question": "Today", "answer": "Hoy", "choices": ["Hoy", "Mañana", "Ayer", "Ahora"] },
+            { "type": "translation", "question": "Tomorrow", "answer": "Mañana", "choices": ["Mañana", "Hoy", "Tarde", "Noche"] },
+            { "type": "sentence", "question": "What time is it", "answer": "Qué hora es", "words": ["Qué", "hora", "es", "día", "tiempo"] },
+            { "type": "listening", "question": "Type what you hear", "audio": "Hoy", "answer": "Hoy" }
+          ]
+        },
+        {
+          "id": "u5l2",
+          "title": "Routine",
+          "exercises": [
+            { "type": "sentence", "question": "I work every day", "answer": "Trabajo todos los días", "words": ["Trabajo", "todos", "los", "días", "noche", "hoy"] },
+            { "type": "translation", "question": "To sleep", "answer": "Dormir", "choices": ["Dormir", "Comer", "Correr", "Leer"] },
+            { "type": "sentence", "question": "I read a book", "answer": "Leo un libro", "words": ["Leo", "un", "libro", "escribo", "carta"] },
+            { "type": "translation", "question": "House", "answer": "Casa", "choices": ["Casa", "Calle", "Ciudad", "Cuarto"] }
+          ]
+        }
+      ]
+    }
+  ]
+}

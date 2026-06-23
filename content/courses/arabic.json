@@ -1,0 +1,208 @@
+{
+  "id": "arabic",
+  "name": "Arabic",
+  "category": "languages",
+  "icon": "fa-solid fa-earth-africa",
+  "level": "Beginner",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "translation",
+              "question": "Hello",
+              "answer": "Marhaba",
+              "choices": [
+                "Marhaba",
+                "Shukran",
+                "Ma'a salama",
+                "Min fadlak"
+              ],
+              "id": "arabic_0"
+            },
+            {
+              "type": "translation",
+              "question": "Thank you",
+              "answer": "Shukran",
+              "choices": [
+                "Shukran",
+                "Marhaba",
+                "Afwan",
+                "Na'am"
+              ],
+              "id": "arabic_1"
+            },
+            {
+              "type": "translation",
+              "question": "Goodbye",
+              "answer": "Ma'a salama",
+              "choices": [
+                "Ma'a salama",
+                "Marhaba",
+                "Shukran",
+                "Sabah al-khayr"
+              ],
+              "id": "arabic_2"
+            },
+            {
+              "type": "translation",
+              "question": "Water",
+              "answer": "Maa",
+              "choices": [
+                "Maa",
+                "Nar",
+                "Hawa",
+                "Turab"
+              ],
+              "id": "arabic_3"
+            },
+            {
+              "type": "translation",
+              "question": "Yes",
+              "answer": "Na'am",
+              "choices": [
+                "Na'am",
+                "La",
+                "Rubbama",
+                "Abadan"
+              ],
+              "id": "arabic_4"
+            },
+            {
+              "type": "translation",
+              "question": "Good morning",
+              "answer": "Sabah al-khayr",
+              "choices": [
+                "Sabah al-khayr",
+                "Masa al-khayr",
+                "Marhaba",
+                "Tisbah ala khayr"
+              ],
+              "id": "arabic_5"
+            },
+            {
+              "type": "translation",
+              "question": "Cat",
+              "answer": "Qitta",
+              "choices": [
+                "Qitta",
+                "Kalb",
+                "Tayr",
+                "Samaka"
+              ],
+              "id": "arabic_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "translation",
+              "question": "Book",
+              "answer": "Kitab",
+              "choices": [
+                "Kitab",
+                "Qalam",
+                "Bayt",
+                "Bab"
+              ],
+              "id": "arabic_7"
+            },
+            {
+              "type": "sentence",
+              "question": "I am a student",
+              "answer": "Ana talib",
+              "words": [
+                "Ana",
+                "talib",
+                "mudarris",
+                "Huwa",
+                "Hiya",
+                "fi"
+              ],
+              "id": "arabic_8"
+            },
+            {
+              "type": "sentence",
+              "question": "The house is big",
+              "answer": "Al-bayt kabir",
+              "words": [
+                "Al-bayt",
+                "kabir",
+                "saghir",
+                "Al-kitab",
+                "jamil",
+                "fi"
+              ],
+              "id": "arabic_9"
+            },
+            {
+              "type": "sentence",
+              "question": "I like coffee",
+              "answer": "Ana uhibbu al-qahwa",
+              "words": [
+                "Ana",
+                "uhibbu",
+                "al-qahwa",
+                "al-shay",
+                "la",
+                "Anta"
+              ],
+              "id": "arabic_10"
+            },
+            {
+              "type": "sentence",
+              "question": "This is a book",
+              "answer": "Hadha kitab",
+              "words": [
+                "Hadha",
+                "kitab",
+                "qalam",
+                "Hadhihi",
+                "kabir",
+                "fi"
+              ],
+              "id": "arabic_11"
+            },
+            {
+              "type": "listening",
+              "question": "Type what you hear",
+              "audio": "Marhaba",
+              "answer": "Marhaba",
+              "id": "arabic_12"
+            },
+            {
+              "type": "listening",
+              "question": "Type what you hear",
+              "audio": "Shukran jazilan",
+              "answer": "Shukran jazilan",
+              "id": "arabic_13"
+            }
+          ]
+        },
+        {
+          "id": "u1l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "listening",
+              "question": "Type what you hear",
+              "audio": "Sabah al-khayr",
+              "answer": "Sabah al-khayr",
+              "id": "arabic_14"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "lang": "ar-SA"
+}

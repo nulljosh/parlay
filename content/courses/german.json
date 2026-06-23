@@ -1,0 +1,208 @@
+{
+  "id": "german",
+  "name": "German",
+  "category": "languages",
+  "icon": "fa-solid fa-language",
+  "level": "Beginner to Intermediate",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "translation",
+              "question": "Hello",
+              "answer": "Hallo",
+              "choices": [
+                "Hallo",
+                "Danke",
+                "Bitte",
+                "Tschuss"
+              ],
+              "id": "german_0"
+            },
+            {
+              "type": "translation",
+              "question": "Thank you",
+              "answer": "Danke",
+              "choices": [
+                "Danke",
+                "Bitte",
+                "Hallo",
+                "Ja"
+              ],
+              "id": "german_1"
+            },
+            {
+              "type": "translation",
+              "question": "Goodbye",
+              "answer": "Tschuss",
+              "choices": [
+                "Tschuss",
+                "Hallo",
+                "Danke",
+                "Nein"
+              ],
+              "id": "german_2"
+            },
+            {
+              "type": "translation",
+              "question": "Water",
+              "answer": "Wasser",
+              "choices": [
+                "Wasser",
+                "Feuer",
+                "Luft",
+                "Erde"
+              ],
+              "id": "german_3"
+            },
+            {
+              "type": "translation",
+              "question": "Dog",
+              "answer": "Hund",
+              "choices": [
+                "Hund",
+                "Katze",
+                "Vogel",
+                "Fisch"
+              ],
+              "id": "german_4"
+            },
+            {
+              "type": "translation",
+              "question": "House",
+              "answer": "Haus",
+              "choices": [
+                "Haus",
+                "Auto",
+                "Baum",
+                "Buch"
+              ],
+              "id": "german_5"
+            },
+            {
+              "type": "translation",
+              "question": "Good morning",
+              "answer": "Guten Morgen",
+              "choices": [
+                "Guten Morgen",
+                "Guten Tag",
+                "Guten Abend",
+                "Gute Nacht"
+              ],
+              "id": "german_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "translation",
+              "question": "Please",
+              "answer": "Bitte",
+              "choices": [
+                "Bitte",
+                "Danke",
+                "Ja",
+                "Nein"
+              ],
+              "id": "german_7"
+            },
+            {
+              "type": "sentence",
+              "question": "The dog is big",
+              "answer": "Der Hund ist gross",
+              "words": [
+                "Der",
+                "Hund",
+                "ist",
+                "gross",
+                "klein",
+                "Katze"
+              ],
+              "id": "german_8"
+            },
+            {
+              "type": "sentence",
+              "question": "I drink water",
+              "answer": "Ich trinke Wasser",
+              "words": [
+                "Ich",
+                "trinke",
+                "Wasser",
+                "esse",
+                "Brot",
+                "Du"
+              ],
+              "id": "german_9"
+            },
+            {
+              "type": "sentence",
+              "question": "She is nice",
+              "answer": "Sie ist nett",
+              "words": [
+                "Sie",
+                "ist",
+                "nett",
+                "Er",
+                "gross",
+                "schnell"
+              ],
+              "id": "german_10"
+            },
+            {
+              "type": "sentence",
+              "question": "The book is good",
+              "answer": "Das Buch ist gut",
+              "words": [
+                "Das",
+                "Buch",
+                "ist",
+                "gut",
+                "schlecht",
+                "Der"
+              ],
+              "id": "german_11"
+            },
+            {
+              "type": "listening",
+              "question": "Type what you hear",
+              "audio": "Guten Tag",
+              "answer": "Guten Tag",
+              "id": "german_12"
+            },
+            {
+              "type": "listening",
+              "question": "Type what you hear",
+              "audio": "Ich liebe dich",
+              "answer": "Ich liebe dich",
+              "id": "german_13"
+            }
+          ]
+        },
+        {
+          "id": "u1l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "listening",
+              "question": "Type what you hear",
+              "audio": "Entschuldigung",
+              "answer": "Entschuldigung",
+              "id": "german_14"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "lang": "de-DE"
+}

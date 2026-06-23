@@ -1,0 +1,17 @@
+{
+  "name": "Lingo - Learn Anything",
+  "short_name": "Lingo",
+  "description": "Gamified language and skill learning platform",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0c1a12",
+  "background_color": "#0c1a12",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

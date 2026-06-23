@@ -1,0 +1,208 @@
+{
+  "id": "hindi",
+  "name": "Hindi",
+  "category": "languages",
+  "icon": "fa-solid fa-earth-asia",
+  "level": "Beginner",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "translation",
+              "question": "Hello",
+              "answer": "Namaste",
+              "choices": [
+                "Namaste",
+                "Dhanyavaad",
+                "Alvida",
+                "Kripaya"
+              ],
+              "id": "hindi_0"
+            },
+            {
+              "type": "translation",
+              "question": "Thank you",
+              "answer": "Dhanyavaad",
+              "choices": [
+                "Dhanyavaad",
+                "Namaste",
+                "Haan",
+                "Maaf kijiye"
+              ],
+              "id": "hindi_1"
+            },
+            {
+              "type": "translation",
+              "question": "Goodbye",
+              "answer": "Alvida",
+              "choices": [
+                "Alvida",
+                "Namaste",
+                "Dhanyavaad",
+                "Shubh ratri"
+              ],
+              "id": "hindi_2"
+            },
+            {
+              "type": "translation",
+              "question": "Water",
+              "answer": "Paani",
+              "choices": [
+                "Paani",
+                "Aag",
+                "Hawa",
+                "Mitti"
+              ],
+              "id": "hindi_3"
+            },
+            {
+              "type": "translation",
+              "question": "Yes",
+              "answer": "Haan",
+              "choices": [
+                "Haan",
+                "Nahin",
+                "Shayad",
+                "Kabhi nahin"
+              ],
+              "id": "hindi_4"
+            },
+            {
+              "type": "translation",
+              "question": "Good morning",
+              "answer": "Suprabhat",
+              "choices": [
+                "Suprabhat",
+                "Shubh ratri",
+                "Namaste",
+                "Shubh sandhya"
+              ],
+              "id": "hindi_5"
+            },
+            {
+              "type": "translation",
+              "question": "Cat",
+              "answer": "Billi",
+              "choices": [
+                "Billi",
+                "Kutta",
+                "Pakshi",
+                "Machhli"
+              ],
+              "id": "hindi_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "translation",
+              "question": "Book",
+              "answer": "Kitab",
+              "choices": [
+                "Kitab",
+                "Kalam",
+                "Ghar",
+                "Darwaza"
+              ],
+              "id": "hindi_7"
+            },
+            {
+              "type": "sentence",
+              "question": "I am a student",
+              "answer": "Main ek vidyarthi hoon",
+              "words": [
+                "Main",
+                "ek",
+                "vidyarthi",
+                "hoon",
+                "adhyapak",
+                "Woh"
+              ],
+              "id": "hindi_8"
+            },
+            {
+              "type": "sentence",
+              "question": "The house is big",
+              "answer": "Ghar bada hai",
+              "words": [
+                "Ghar",
+                "bada",
+                "hai",
+                "chhota",
+                "Kitab",
+                "mein"
+              ],
+              "id": "hindi_9"
+            },
+            {
+              "type": "sentence",
+              "question": "I like tea",
+              "answer": "Mujhe chai pasand hai",
+              "words": [
+                "Mujhe",
+                "chai",
+                "pasand",
+                "hai",
+                "coffee",
+                "nahin"
+              ],
+              "id": "hindi_10"
+            },
+            {
+              "type": "sentence",
+              "question": "She is beautiful",
+              "answer": "Woh sundar hai",
+              "words": [
+                "Woh",
+                "sundar",
+                "hai",
+                "Main",
+                "lamba",
+                "nahin"
+              ],
+              "id": "hindi_11"
+            },
+            {
+              "type": "listening",
+              "question": "Type what you hear",
+              "audio": "Namaste",
+              "answer": "Namaste",
+              "id": "hindi_12"
+            },
+            {
+              "type": "listening",
+              "question": "Type what you hear",
+              "audio": "Aap kaise hain",
+              "answer": "Aap kaise hain",
+              "id": "hindi_13"
+            }
+          ]
+        },
+        {
+          "id": "u1l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "listening",
+              "question": "Type what you hear",
+              "audio": "Dhanyavaad",
+              "answer": "Dhanyavaad",
+              "id": "hindi_14"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "lang": "hi-IN"
+}

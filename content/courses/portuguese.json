@@ -1,0 +1,208 @@
+{
+  "id": "portuguese",
+  "name": "Portuguese",
+  "category": "languages",
+  "icon": "fa-solid fa-earth-americas",
+  "level": "Beginner",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "translation",
+              "question": "Hello",
+              "answer": "Ola",
+              "choices": [
+                "Ola",
+                "Tchau",
+                "Obrigado",
+                "Por favor"
+              ],
+              "id": "portuguese_0"
+            },
+            {
+              "type": "translation",
+              "question": "Thank you",
+              "answer": "Obrigado",
+              "choices": [
+                "Obrigado",
+                "Ola",
+                "Tchau",
+                "Desculpa"
+              ],
+              "id": "portuguese_1"
+            },
+            {
+              "type": "translation",
+              "question": "Goodbye",
+              "answer": "Tchau",
+              "choices": [
+                "Tchau",
+                "Ola",
+                "Bom dia",
+                "Obrigado"
+              ],
+              "id": "portuguese_2"
+            },
+            {
+              "type": "translation",
+              "question": "Water",
+              "answer": "Agua",
+              "choices": [
+                "Agua",
+                "Fogo",
+                "Ar",
+                "Terra"
+              ],
+              "id": "portuguese_3"
+            },
+            {
+              "type": "translation",
+              "question": "Dog",
+              "answer": "Cachorro",
+              "choices": [
+                "Cachorro",
+                "Gato",
+                "Passaro",
+                "Peixe"
+              ],
+              "id": "portuguese_4"
+            },
+            {
+              "type": "translation",
+              "question": "Good morning",
+              "answer": "Bom dia",
+              "choices": [
+                "Bom dia",
+                "Boa noite",
+                "Boa tarde",
+                "Ola"
+              ],
+              "id": "portuguese_5"
+            },
+            {
+              "type": "translation",
+              "question": "House",
+              "answer": "Casa",
+              "choices": [
+                "Casa",
+                "Rua",
+                "Carro",
+                "Porta"
+              ],
+              "id": "portuguese_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "translation",
+              "question": "Please",
+              "answer": "Por favor",
+              "choices": [
+                "Por favor",
+                "Obrigado",
+                "Desculpa",
+                "Sim"
+              ],
+              "id": "portuguese_7"
+            },
+            {
+              "type": "sentence",
+              "question": "The dog is big",
+              "answer": "O cachorro e grande",
+              "words": [
+                "O",
+                "cachorro",
+                "e",
+                "grande",
+                "pequeno",
+                "gato"
+              ],
+              "id": "portuguese_8"
+            },
+            {
+              "type": "sentence",
+              "question": "I drink coffee",
+              "answer": "Eu bebo cafe",
+              "words": [
+                "Eu",
+                "bebo",
+                "cafe",
+                "como",
+                "agua",
+                "Ela"
+              ],
+              "id": "portuguese_9"
+            },
+            {
+              "type": "sentence",
+              "question": "She is pretty",
+              "answer": "Ela e bonita",
+              "words": [
+                "Ela",
+                "e",
+                "bonita",
+                "Ele",
+                "alto",
+                "feio"
+              ],
+              "id": "portuguese_10"
+            },
+            {
+              "type": "sentence",
+              "question": "The book is good",
+              "answer": "O livro e bom",
+              "words": [
+                "O",
+                "livro",
+                "e",
+                "bom",
+                "ruim",
+                "A"
+              ],
+              "id": "portuguese_11"
+            },
+            {
+              "type": "listening",
+              "question": "Type what you hear",
+              "audio": "Bom dia",
+              "answer": "Bom dia",
+              "id": "portuguese_12"
+            },
+            {
+              "type": "listening",
+              "question": "Type what you hear",
+              "audio": "Como vai voce",
+              "answer": "Como vai voce",
+              "id": "portuguese_13"
+            }
+          ]
+        },
+        {
+          "id": "u1l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "listening",
+              "question": "Type what you hear",
+              "audio": "Boa noite",
+              "answer": "Boa noite",
+              "id": "portuguese_14"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "lang": "pt-BR"
+}

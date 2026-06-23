@@ -1,0 +1,214 @@
+{
+  "id": "javascript",
+  "name": "JavaScript",
+  "category": "programming",
+  "icon": "fa-brands fa-js",
+  "level": "Web Development",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Log to console in JavaScript?",
+              "answer": "console.log()",
+              "choices": [
+                "print()",
+                "console.log()",
+                "echo()",
+                "printf()"
+              ],
+              "id": "javascript_0"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Define a function in JS?",
+              "answer": "function name() {}",
+              "choices": [
+                "function name() {}",
+                "def name():",
+                "func name() {}",
+                "fn name() {}"
+              ],
+              "id": "javascript_1"
+            },
+            {
+              "type": "mathChoice",
+              "question": "JavaScript array method to add item?",
+              "answer": "push()",
+              "choices": [
+                "add()",
+                "push()",
+                "append()",
+                "insert()"
+              ],
+              "id": "javascript_2"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Check type in JavaScript?",
+              "answer": "typeof",
+              "choices": [
+                "type()",
+                "typeof",
+                "instanceof",
+                "getType()"
+              ],
+              "id": "javascript_3"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Arrow function syntax?",
+              "answer": "() => {}",
+              "choices": [
+                "() => {}",
+                "() -> {}",
+                "lambda() {}",
+                "func() {}"
+              ],
+              "id": "javascript_4"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Declare a constant in JS?",
+              "answer": "const",
+              "choices": [
+                "const",
+                "let",
+                "var",
+                "final"
+              ],
+              "id": "javascript_5"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Which is NOT a JS data type?",
+              "answer": "float",
+              "choices": [
+                "string",
+                "boolean",
+                "float",
+                "undefined"
+              ],
+              "id": "javascript_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Template literal syntax?",
+              "answer": "`Hello ${name}`",
+              "choices": [
+                "`Hello ${name}`",
+                "\"Hello ${name}\"",
+                "'Hello ${name}'",
+                "f\"Hello {name}\""
+              ],
+              "id": "javascript_7"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Strict equality operator?",
+              "answer": "===",
+              "choices": [
+                "===",
+                "==",
+                "!=",
+                "="
+              ],
+              "id": "javascript_8"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Destructure an object?",
+              "answer": "const { a, b } = obj",
+              "choices": [
+                "const { a, b } = obj",
+                "const [a, b] = obj",
+                "const (a, b) = obj",
+                "const a, b = obj"
+              ],
+              "id": "javascript_9"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Promise method for parallel execution?",
+              "answer": "Promise.all()",
+              "choices": [
+                "Promise.all()",
+                "Promise.race()",
+                "Promise.any()",
+                "Promise.resolve()"
+              ],
+              "id": "javascript_10"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Which keyword creates a class?",
+              "answer": "class",
+              "choices": [
+                "class",
+                "struct",
+                "object",
+                "type"
+              ],
+              "id": "javascript_11"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Spread operator syntax?",
+              "answer": "...array",
+              "choices": [
+                "...array",
+                "**array",
+                "*array",
+                "..array"
+              ],
+              "id": "javascript_12"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Event loop handles what?",
+              "answer": "Async callbacks",
+              "choices": [
+                "Async callbacks",
+                "Memory allocation",
+                "Garbage collection",
+                "Compilation"
+              ],
+              "id": "javascript_13"
+            }
+          ]
+        },
+        {
+          "id": "u1l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Optional chaining operator?",
+              "answer": "?.",
+              "choices": [
+                "?.",
+                "??",
+                "?:",
+                "?.()"
+              ],
+              "id": "javascript_14"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

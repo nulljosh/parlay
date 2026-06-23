@@ -1,0 +1,208 @@
+{
+  "id": "dutch",
+  "name": "Dutch",
+  "category": "languages",
+  "icon": "fa-solid fa-earth-europe",
+  "level": "Beginner",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "translation",
+              "question": "Hello",
+              "answer": "Hallo",
+              "choices": [
+                "Hallo",
+                "Dank u",
+                "Tot ziens",
+                "Alsjeblieft"
+              ],
+              "id": "dutch_0"
+            },
+            {
+              "type": "translation",
+              "question": "Thank you",
+              "answer": "Dank u",
+              "choices": [
+                "Dank u",
+                "Hallo",
+                "Ja",
+                "Sorry"
+              ],
+              "id": "dutch_1"
+            },
+            {
+              "type": "translation",
+              "question": "Goodbye",
+              "answer": "Tot ziens",
+              "choices": [
+                "Tot ziens",
+                "Hallo",
+                "Dank u",
+                "Goedemorgen"
+              ],
+              "id": "dutch_2"
+            },
+            {
+              "type": "translation",
+              "question": "Water",
+              "answer": "Water",
+              "choices": [
+                "Water",
+                "Vuur",
+                "Lucht",
+                "Aarde"
+              ],
+              "id": "dutch_3"
+            },
+            {
+              "type": "translation",
+              "question": "Good morning",
+              "answer": "Goedemorgen",
+              "choices": [
+                "Goedemorgen",
+                "Goedenavond",
+                "Goedenacht",
+                "Hallo"
+              ],
+              "id": "dutch_4"
+            },
+            {
+              "type": "translation",
+              "question": "Cat",
+              "answer": "Kat",
+              "choices": [
+                "Kat",
+                "Hond",
+                "Vogel",
+                "Vis"
+              ],
+              "id": "dutch_5"
+            },
+            {
+              "type": "translation",
+              "question": "Dog",
+              "answer": "Hond",
+              "choices": [
+                "Hond",
+                "Kat",
+                "Paard",
+                "Konijn"
+              ],
+              "id": "dutch_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "translation",
+              "question": "Please",
+              "answer": "Alsjeblieft",
+              "choices": [
+                "Alsjeblieft",
+                "Dank u",
+                "Sorry",
+                "Ja"
+              ],
+              "id": "dutch_7"
+            },
+            {
+              "type": "sentence",
+              "question": "The cat is small",
+              "answer": "De kat is klein",
+              "words": [
+                "De",
+                "kat",
+                "is",
+                "klein",
+                "groot",
+                "hond"
+              ],
+              "id": "dutch_8"
+            },
+            {
+              "type": "sentence",
+              "question": "I drink coffee",
+              "answer": "Ik drink koffie",
+              "words": [
+                "Ik",
+                "drink",
+                "koffie",
+                "eet",
+                "thee",
+                "Hij"
+              ],
+              "id": "dutch_9"
+            },
+            {
+              "type": "sentence",
+              "question": "The book is good",
+              "answer": "Het boek is goed",
+              "words": [
+                "Het",
+                "boek",
+                "is",
+                "goed",
+                "slecht",
+                "De"
+              ],
+              "id": "dutch_10"
+            },
+            {
+              "type": "sentence",
+              "question": "She is nice",
+              "answer": "Zij is aardig",
+              "words": [
+                "Zij",
+                "is",
+                "aardig",
+                "Hij",
+                "groot",
+                "snel"
+              ],
+              "id": "dutch_11"
+            },
+            {
+              "type": "listening",
+              "question": "Type what you hear",
+              "audio": "Goedemorgen",
+              "answer": "Goedemorgen",
+              "id": "dutch_12"
+            },
+            {
+              "type": "listening",
+              "question": "Type what you hear",
+              "audio": "Hoe gaat het",
+              "answer": "Hoe gaat het",
+              "id": "dutch_13"
+            }
+          ]
+        },
+        {
+          "id": "u1l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "listening",
+              "question": "Type what you hear",
+              "audio": "Tot ziens",
+              "answer": "Tot ziens",
+              "id": "dutch_14"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "lang": "nl-NL"
+}

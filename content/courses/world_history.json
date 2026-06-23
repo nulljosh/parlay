@@ -1,0 +1,214 @@
+{
+  "id": "world_history",
+  "name": "World History",
+  "category": "skills",
+  "icon": "fa-solid fa-landmark",
+  "level": "Events & Civilizations",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Roman Empire fell?",
+              "answer": "476 AD",
+              "choices": [
+                "476 AD",
+                "1000 AD",
+                "100 BC",
+                "300 AD"
+              ],
+              "id": "world_history_0"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Renaissance began?",
+              "answer": "14th century",
+              "choices": [
+                "14th century",
+                "10th century",
+                "17th century",
+                "12th century"
+              ],
+              "id": "world_history_1"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Columbus sailed?",
+              "answer": "1492",
+              "choices": [
+                "1492",
+                "1500",
+                "1485",
+                "1512"
+              ],
+              "id": "world_history_2"
+            },
+            {
+              "type": "mathChoice",
+              "question": "French Revolution?",
+              "answer": "1789",
+              "choices": [
+                "1789",
+                "1776",
+                "1800",
+                "1750"
+              ],
+              "id": "world_history_3"
+            },
+            {
+              "type": "mathChoice",
+              "question": "World War I years?",
+              "answer": "1914-1918",
+              "choices": [
+                "1914-1918",
+                "1939-1945",
+                "1910-1914",
+                "1918-1922"
+              ],
+              "id": "world_history_4"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Who built the Great Pyramid of Giza?",
+              "answer": "Ancient Egyptians",
+              "choices": [
+                "Ancient Egyptians",
+                "Romans",
+                "Greeks",
+                "Persians"
+              ],
+              "id": "world_history_5"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Berlin Wall fell in?",
+              "answer": "1989",
+              "choices": [
+                "1985",
+                "1987",
+                "1989",
+                "1991"
+              ],
+              "id": "world_history_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "American Declaration of Independence?",
+              "answer": "1776",
+              "choices": [
+                "1776",
+                "1789",
+                "1750",
+                "1800"
+              ],
+              "id": "world_history_7"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Who was the first Emperor of China?",
+              "answer": "Qin Shi Huang",
+              "choices": [
+                "Qin Shi Huang",
+                "Kublai Khan",
+                "Sun Tzu",
+                "Confucius"
+              ],
+              "id": "world_history_8"
+            },
+            {
+              "type": "mathChoice",
+              "question": "World War II ended in?",
+              "answer": "1945",
+              "choices": [
+                "1943",
+                "1944",
+                "1945",
+                "1946"
+              ],
+              "id": "world_history_9"
+            },
+            {
+              "type": "mathChoice",
+              "question": "The Industrial Revolution began in?",
+              "answer": "England",
+              "choices": [
+                "England",
+                "France",
+                "Germany",
+                "United States"
+              ],
+              "id": "world_history_10"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Cold War was between?",
+              "answer": "USA and USSR",
+              "choices": [
+                "USA and USSR",
+                "USA and China",
+                "UK and Germany",
+                "France and Russia"
+              ],
+              "id": "world_history_11"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Ancient Greek democracy originated in?",
+              "answer": "Athens",
+              "choices": [
+                "Athens",
+                "Sparta",
+                "Rome",
+                "Corinth"
+              ],
+              "id": "world_history_12"
+            },
+            {
+              "type": "mathChoice",
+              "question": "The Magna Carta was signed in?",
+              "answer": "1215",
+              "choices": [
+                "1066",
+                "1215",
+                "1300",
+                "1415"
+              ],
+              "id": "world_history_13"
+            }
+          ]
+        },
+        {
+          "id": "u1l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Who discovered America (European)?",
+              "answer": "Christopher Columbus",
+              "choices": [
+                "Christopher Columbus",
+                "Amerigo Vespucci",
+                "Leif Erikson",
+                "Ferdinand Magellan"
+              ],
+              "id": "world_history_14"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
