@@ -1,0 +1,154 @@
+{
+  "id": "arithmetic",
+  "name": "Arithmetic",
+  "category": "math",
+  "icon": "fa-solid fa-plus",
+  "level": "Basic Math",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "math",
+              "question": "5 + 7",
+              "answer": "12",
+              "id": "arithmetic_0"
+            },
+            {
+              "type": "math",
+              "question": "15 - 8",
+              "answer": "7",
+              "id": "arithmetic_1"
+            },
+            {
+              "type": "math",
+              "question": "6 x 9",
+              "answer": "54",
+              "id": "arithmetic_2"
+            },
+            {
+              "type": "math",
+              "question": "72 / 8",
+              "answer": "9",
+              "id": "arithmetic_3"
+            },
+            {
+              "type": "math",
+              "question": "13 + 29",
+              "answer": "42",
+              "id": "arithmetic_4"
+            },
+            {
+              "type": "math",
+              "question": "144 / 12",
+              "answer": "12",
+              "id": "arithmetic_5"
+            },
+            {
+              "type": "math",
+              "question": "25 x 4",
+              "answer": "100",
+              "id": "arithmetic_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "math",
+              "question": "1000 - 387",
+              "answer": "613",
+              "id": "arithmetic_7"
+            },
+            {
+              "type": "math",
+              "question": "17 x 6",
+              "answer": "102",
+              "id": "arithmetic_8"
+            },
+            {
+              "type": "math",
+              "question": "256 / 16",
+              "answer": "16",
+              "id": "arithmetic_9"
+            },
+            {
+              "type": "mathChoice",
+              "question": "What is 15% of 200?",
+              "answer": "30",
+              "choices": [
+                "20",
+                "25",
+                "30",
+                "35"
+              ],
+              "id": "arithmetic_10"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Greatest common factor of 12 and 18?",
+              "answer": "6",
+              "choices": [
+                "3",
+                "6",
+                "9",
+                "12"
+              ],
+              "id": "arithmetic_11"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Least common multiple of 4 and 6?",
+              "answer": "12",
+              "choices": [
+                "12",
+                "18",
+                "24",
+                "36"
+              ],
+              "id": "arithmetic_12"
+            },
+            {
+              "type": "mathChoice",
+              "question": "What is 3/4 as a decimal?",
+              "answer": "0.75",
+              "choices": [
+                "0.25",
+                "0.50",
+                "0.75",
+                "0.34"
+              ],
+              "id": "arithmetic_13"
+            }
+          ]
+        },
+        {
+          "id": "u1l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Order of operations acronym?",
+              "answer": "PEMDAS",
+              "choices": [
+                "PEMDAS",
+                "BODMAS",
+                "SADMEP",
+                "PEDMAS"
+              ],
+              "id": "arithmetic_14"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

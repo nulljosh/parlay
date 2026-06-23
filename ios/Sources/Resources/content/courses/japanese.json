@@ -1,0 +1,210 @@
+{
+  "id": "japanese",
+  "name": "Japanese",
+  "category": "languages",
+  "icon": "fa-solid fa-earth-asia",
+  "level": "Beginner",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "translation",
+              "question": "Hello",
+              "answer": "Konnichiwa",
+              "choices": [
+                "Konnichiwa",
+                "Sayounara",
+                "Arigatou",
+                "Sumimasen"
+              ],
+              "id": "japanese_0"
+            },
+            {
+              "type": "translation",
+              "question": "Thank you",
+              "answer": "Arigatou",
+              "choices": [
+                "Arigatou",
+                "Konnichiwa",
+                "Gomen",
+                "Hai"
+              ],
+              "id": "japanese_1"
+            },
+            {
+              "type": "translation",
+              "question": "Goodbye",
+              "answer": "Sayounara",
+              "choices": [
+                "Sayounara",
+                "Konnichiwa",
+                "Ohayou",
+                "Arigatou"
+              ],
+              "id": "japanese_2"
+            },
+            {
+              "type": "translation",
+              "question": "Good morning",
+              "answer": "Ohayou gozaimasu",
+              "choices": [
+                "Ohayou gozaimasu",
+                "Konbanwa",
+                "Konnichiwa",
+                "Oyasumi"
+              ],
+              "id": "japanese_3"
+            },
+            {
+              "type": "translation",
+              "question": "Water",
+              "answer": "Mizu",
+              "choices": [
+                "Mizu",
+                "Hi",
+                "Kaze",
+                "Tsuchi"
+              ],
+              "id": "japanese_4"
+            },
+            {
+              "type": "translation",
+              "question": "Cat",
+              "answer": "Neko",
+              "choices": [
+                "Neko",
+                "Inu",
+                "Tori",
+                "Sakana"
+              ],
+              "id": "japanese_5"
+            },
+            {
+              "type": "translation",
+              "question": "Dog",
+              "answer": "Inu",
+              "choices": [
+                "Inu",
+                "Neko",
+                "Uma",
+                "Usagi"
+              ],
+              "id": "japanese_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "translation",
+              "question": "Yes",
+              "answer": "Hai",
+              "choices": [
+                "Hai",
+                "Iie",
+                "Tabun",
+                "Chotto"
+              ],
+              "id": "japanese_7"
+            },
+            {
+              "type": "sentence",
+              "question": "I am a student",
+              "answer": "Watashi wa gakusei desu",
+              "words": [
+                "Watashi",
+                "wa",
+                "gakusei",
+                "desu",
+                "sensei",
+                "anata"
+              ],
+              "id": "japanese_8"
+            },
+            {
+              "type": "sentence",
+              "question": "This is a book",
+              "answer": "Kore wa hon desu",
+              "words": [
+                "Kore",
+                "wa",
+                "hon",
+                "desu",
+                "pen",
+                "Sore"
+              ],
+              "id": "japanese_9"
+            },
+            {
+              "type": "sentence",
+              "question": "I like sushi",
+              "answer": "Watashi wa sushi ga suki desu",
+              "words": [
+                "Watashi",
+                "wa",
+                "sushi",
+                "ga",
+                "suki",
+                "desu",
+                "kirai",
+                "ramen"
+              ],
+              "id": "japanese_10"
+            },
+            {
+              "type": "sentence",
+              "question": "The cat is cute",
+              "answer": "Neko wa kawaii desu",
+              "words": [
+                "Neko",
+                "wa",
+                "kawaii",
+                "desu",
+                "Inu",
+                "ookii"
+              ],
+              "id": "japanese_11"
+            },
+            {
+              "type": "listening",
+              "question": "Type what you hear",
+              "audio": "Konnichiwa",
+              "answer": "Konnichiwa",
+              "id": "japanese_12"
+            },
+            {
+              "type": "listening",
+              "question": "Type what you hear",
+              "audio": "Arigatou gozaimasu",
+              "answer": "Arigatou gozaimasu",
+              "id": "japanese_13"
+            }
+          ]
+        },
+        {
+          "id": "u1l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "listening",
+              "question": "Type what you hear",
+              "audio": "Sumimasen",
+              "answer": "Sumimasen",
+              "id": "japanese_14"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "lang": "ja-JP"
+}

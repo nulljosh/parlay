@@ -1,0 +1,173 @@
+{
+  "id": "calculus",
+  "name": "Calculus",
+  "category": "math",
+  "icon": "fa-solid fa-infinity",
+  "level": "Limits to Series",
+  "version": 2,
+  "units": [
+    {
+      "id": "u1",
+      "title": "Limits & Continuity",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Evaluating limits",
+          "exercises": [
+            { "type": "math", "question": "lim(x->2) (x^2 - 4)/(x - 2)", "answer": "4", "id": "calculus_15" },
+            { "type": "mathChoice", "question": "Limit as x->0 of sin(x)/x?", "answer": "1", "choices": ["0", "1", "infinity", "undefined"], "id": "calculus_12" },
+            { "type": "math", "question": "lim(x->infinity) 1/x", "answer": "0", "id": "calculus_16" },
+            { "type": "mathChoice", "question": "lim(x->3) 7", "answer": "7", "choices": ["7", "0", "3", "undefined"], "id": "calculus_17" }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Continuity & L'Hopital",
+          "exercises": [
+            { "type": "mathChoice", "question": "A function f is continuous at x = a when...", "answer": "lim(x->a) f(x) = f(a)", "choices": ["lim(x->a) f(x) = f(a)", "f(a) is undefined", "f has a sharp corner at a", "f is increasing at a"], "id": "calculus_18" },
+            { "type": "mathChoice", "question": "L'Hopital's rule applies when?", "answer": "0/0 or infinity/infinity", "choices": ["0/0 or infinity/infinity", "Always", "Only polynomials", "Only trig functions"], "id": "calculus_14" },
+            { "type": "math", "question": "lim(x->0) (e^x - 1)/x via L'Hopital", "answer": "1", "id": "calculus_19" },
+            { "type": "mathChoice", "question": "A jump discontinuity occurs when...", "answer": "left and right limits differ", "choices": ["left and right limits differ", "the function is undefined everywhere", "the derivative is zero", "the function is periodic"], "id": "calculus_20" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u2",
+      "title": "Derivative Rules",
+      "lessons": [
+        {
+          "id": "u2l1",
+          "title": "Power, trig, exponential & log rules",
+          "exercises": [
+            { "type": "math", "question": "Derivative of x^2", "answer": "2x", "id": "calculus_0" },
+            { "type": "math", "question": "Derivative of 5x^3", "answer": "15x^2", "id": "calculus_1" },
+            { "type": "math", "question": "Derivative of x^4", "answer": "4x^3", "id": "calculus_9" },
+            { "type": "math", "question": "Derivative of sin(x)", "answer": "cos(x)", "id": "calculus_3" },
+            { "type": "math", "question": "Derivative of cos(x)", "answer": "-sin(x)", "id": "calculus_7" },
+            { "type": "math", "question": "Derivative of e^x", "answer": "e^x", "id": "calculus_4" },
+            { "type": "math", "question": "Derivative of ln(x)", "answer": "1/x", "id": "calculus_6" },
+            { "type": "mathChoice", "question": "What does the derivative represent?", "answer": "Rate of change", "choices": ["Rate of change", "Area under curve", "Maximum value", "Average value"], "id": "calculus_10" }
+          ]
+        },
+        {
+          "id": "u2l2",
+          "title": "Product, quotient & chain rules",
+          "exercises": [
+            { "type": "mathChoice", "question": "Chain rule is used for?", "answer": "Composite functions", "choices": ["Composite functions", "Products", "Quotients", "Constants"], "id": "calculus_13" },
+            { "type": "mathChoice", "question": "The product rule states d/dx[f*g] equals?", "answer": "f'g + fg'", "choices": ["f'g + fg'", "f'g'", "f'/g'", "fg' - f'g"], "id": "calculus_22" },
+            { "type": "mathChoice", "question": "The quotient rule states d/dx[f/g] equals?", "answer": "(f'g - fg')/g^2", "choices": ["(f'g - fg')/g^2", "(f'g + fg')/g^2", "f'/g'", "fg'/g^2"], "id": "calculus_23" },
+            { "type": "math", "question": "Derivative of sin(x^2) using the chain rule", "answer": "2x*cos(x^2)", "id": "calculus_24" },
+            { "type": "math", "question": "Derivative of (3x + 1)^4", "answer": "12(3x + 1)^3", "id": "calculus_25" },
+            { "type": "mathChoice", "question": "To differentiate a composition f(g(x)), you multiply by...", "answer": "the derivative of the inner function", "choices": ["the derivative of the inner function", "the derivative of the outer function only", "g(x) itself", "nothing extra"], "id": "calculus_26" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u3",
+      "title": "Derivative Applications",
+      "lessons": [
+        {
+          "id": "u3l1",
+          "title": "Related rates & critical points",
+          "exercises": [
+            { "type": "mathChoice", "question": "A critical point occurs where...", "answer": "f'(x) = 0 or is undefined", "choices": ["f'(x) = 0 or is undefined", "f(x) = 0", "f''(x) = 0", "f(x) is at a minimum"], "id": "calculus_27" },
+            { "type": "math", "question": "Find the critical point of f(x) = x^2 - 4x", "answer": "x = 2", "id": "calculus_28" },
+            { "type": "mathChoice", "question": "The first derivative test classifies a critical point by...", "answer": "the sign change of f' around it", "choices": ["the sign change of f' around it", "the value of f at that point", "the value of f'' at that point", "whether f is continuous"], "id": "calculus_29" },
+            { "type": "mathChoice", "question": "In related rates problems, you differentiate an equation with respect to...", "answer": "time", "choices": ["time", "x", "the unknown rate", "a constant"], "id": "calculus_30" }
+          ]
+        },
+        {
+          "id": "u3l2",
+          "title": "Curve sketching, concavity & extrema",
+          "exercises": [
+            { "type": "mathChoice", "question": "A function is concave up where...", "answer": "f''(x) > 0", "choices": ["f''(x) > 0", "f''(x) < 0", "f'(x) > 0", "f'(x) = 0"], "id": "calculus_31" },
+            { "type": "mathChoice", "question": "An inflection point occurs where...", "answer": "concavity changes", "choices": ["concavity changes", "the function is at a maximum", "f'(x) = 0", "the function is undefined"], "id": "calculus_32" },
+            { "type": "math", "question": "Second derivative of f(x) = x^3 - 3x", "answer": "6x", "id": "calculus_33" },
+            { "type": "mathChoice", "question": "The second derivative test says f has a local minimum where f'(x) = 0 and...", "answer": "f''(x) > 0", "choices": ["f''(x) > 0", "f''(x) < 0", "f''(x) = 0", "f'(x) > 0"], "id": "calculus_34" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u4",
+      "title": "Integral Basics",
+      "lessons": [
+        {
+          "id": "u4l1",
+          "title": "Antiderivatives & indefinite integrals",
+          "exercises": [
+            { "type": "math", "question": "Integral of 2x dx", "answer": "x^2 + C", "id": "calculus_2" },
+            { "type": "math", "question": "Integral of 3x^2 dx", "answer": "x^3 + C", "id": "calculus_8" },
+            { "type": "math", "question": "Integral of 1/x dx", "answer": "ln|x| + C", "id": "calculus_5" },
+            { "type": "math", "question": "Integral of cos(x) dx", "answer": "sin(x) + C", "id": "calculus_35" },
+            { "type": "math", "question": "Integral of e^x dx", "answer": "e^x + C", "id": "calculus_36" }
+          ]
+        },
+        {
+          "id": "u4l2",
+          "title": "Definite integrals & the Fundamental Theorem",
+          "exercises": [
+            { "type": "mathChoice", "question": "Integral represents?", "answer": "Area under curve", "choices": ["Area under curve", "Slope at a point", "Rate of change", "Maximum value"], "id": "calculus_11" },
+            { "type": "mathChoice", "question": "The Fundamental Theorem of Calculus connects...", "answer": "derivatives and integrals", "choices": ["derivatives and integrals", "limits and continuity", "sequences and series", "areas and volumes"], "id": "calculus_37" },
+            { "type": "math", "question": "Evaluate the integral of x dx from 0 to 2", "answer": "2", "id": "calculus_38" },
+            { "type": "mathChoice", "question": "A definite integral evaluates to a...", "answer": "number", "choices": ["number", "function", "derivative", "limit"], "id": "calculus_39" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u5",
+      "title": "Integration Techniques",
+      "lessons": [
+        {
+          "id": "u5l1",
+          "title": "Substitution",
+          "exercises": [
+            { "type": "mathChoice", "question": "u-substitution is the reverse of which rule?", "answer": "the chain rule", "choices": ["the chain rule", "the product rule", "the quotient rule", "the power rule"], "id": "calculus_40" },
+            { "type": "math", "question": "Integral of 2x*cos(x^2) dx using u = x^2", "answer": "sin(x^2) + C", "id": "calculus_41" },
+            { "type": "mathChoice", "question": "When using substitution u = g(x), you must also replace...", "answer": "dx with du/g'(x)", "choices": ["dx with du/g'(x)", "the limits only", "nothing else", "the constant of integration"], "id": "calculus_42" },
+            { "type": "math", "question": "Integral of (2x + 1)^3 * 2 dx using u = 2x + 1", "answer": "(2x + 1)^4/4 + C", "id": "calculus_43" }
+          ]
+        },
+        {
+          "id": "u5l2",
+          "title": "Integration by parts",
+          "exercises": [
+            { "type": "mathChoice", "question": "Integration by parts comes from reversing which rule?", "answer": "the product rule", "choices": ["the product rule", "the chain rule", "the quotient rule", "the power rule"], "id": "calculus_44" },
+            { "type": "mathChoice", "question": "The integration by parts formula is?", "answer": "u dv = uv - v du", "choices": ["u dv = uv - v du", "u dv = uv + v du", "u dv = u'v - uv'", "u dv = u/v"], "id": "calculus_45" },
+            { "type": "math", "question": "Integral of x*e^x dx using parts (u = x, dv = e^x dx)", "answer": "x*e^x - e^x + C", "id": "calculus_46" },
+            { "type": "mathChoice", "question": "A good first choice for u in LIATE ordering is...", "answer": "logarithmic or inverse trig functions", "choices": ["logarithmic or inverse trig functions", "exponential functions", "trig functions", "polynomials of high degree"], "id": "calculus_47" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u6",
+      "title": "Applications & Series",
+      "lessons": [
+        {
+          "id": "u6l1",
+          "title": "Area & volume of revolution",
+          "exercises": [
+            { "type": "mathChoice", "question": "The area between two curves f(x) and g(x), with f on top, is found by integrating...", "answer": "f(x) - g(x)", "choices": ["f(x) - g(x)", "f(x) + g(x)", "f(x) * g(x)", "f(x) / g(x)"], "id": "calculus_48" },
+            { "type": "math", "question": "Area under y = x from x = 0 to x = 4", "answer": "8", "id": "calculus_49" },
+            { "type": "mathChoice", "question": "The disk method finds volume by integrating cross-sectional...", "answer": "areas of circles", "choices": ["areas of circles", "perimeters", "diameters", "arc lengths"], "id": "calculus_50" },
+            { "type": "mathChoice", "question": "Volume of revolution around the x-axis uses the formula pi times the integral of...", "answer": "[f(x)]^2 dx", "choices": ["[f(x)]^2 dx", "f(x) dx", "f(x)^2 dx^2", "2*f(x) dx"], "id": "calculus_51" }
+          ]
+        },
+        {
+          "id": "u6l2",
+          "title": "Sequences & series",
+          "exercises": [
+            { "type": "mathChoice", "question": "A sequence converges if its terms approach...", "answer": "a finite limit", "choices": ["a finite limit", "zero always", "infinity", "a repeating pattern"], "id": "calculus_52" },
+            { "type": "mathChoice", "question": "A geometric series with ratio r converges when...", "answer": "|r| < 1", "choices": ["|r| < 1", "r > 1", "r = 1", "r is an integer"], "id": "calculus_53" },
+            { "type": "math", "question": "Sum of the geometric series 1 + 1/2 + 1/4 + 1/8 + ...", "answer": "2", "id": "calculus_54" },
+            { "type": "mathChoice", "question": "A Taylor series represents a function as a sum of...", "answer": "powers of (x - a)", "choices": ["powers of (x - a)", "trig functions only", "exponential terms only", "rational functions"], "id": "calculus_55" }
+          ]
+        }
+      ]
+    }
+  ]
+}

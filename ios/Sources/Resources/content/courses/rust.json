@@ -1,0 +1,214 @@
+{
+  "id": "rust",
+  "name": "Rust",
+  "category": "programming",
+  "icon": "fa-brands fa-rust",
+  "level": "Systems Programming",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Rust package manager?",
+              "answer": "cargo",
+              "choices": [
+                "cargo",
+                "rustc",
+                "crate",
+                "rust-pm"
+              ],
+              "id": "rust_0"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Define variable in Rust?",
+              "answer": "let",
+              "choices": [
+                "let",
+                "var",
+                "const",
+                "def"
+              ],
+              "id": "rust_1"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Mutable variable in Rust?",
+              "answer": "let mut",
+              "choices": [
+                "let mut",
+                "var",
+                "mut let",
+                "mutable"
+              ],
+              "id": "rust_2"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Result type in Rust?",
+              "answer": "Ok/Err",
+              "choices": [
+                "Ok/Err",
+                "Success/Fail",
+                "True/False",
+                "Some/None"
+              ],
+              "id": "rust_3"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Rust memory safety?",
+              "answer": "Compile-time",
+              "choices": [
+                "Compile-time",
+                "Runtime",
+                "Manual",
+                "Garbage collected"
+              ],
+              "id": "rust_4"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Print to stdout in Rust?",
+              "answer": "println!()",
+              "choices": [
+                "println!()",
+                "print()",
+                "console.log()",
+                "echo()"
+              ],
+              "id": "rust_5"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Rust string type for owned data?",
+              "answer": "String",
+              "choices": [
+                "String",
+                "&str",
+                "str",
+                "Str"
+              ],
+              "id": "rust_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Ownership rule: how many owners?",
+              "answer": "One",
+              "choices": [
+                "One",
+                "Two",
+                "Unlimited",
+                "None"
+              ],
+              "id": "rust_7"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Pattern matching keyword?",
+              "answer": "match",
+              "choices": [
+                "match",
+                "switch",
+                "case",
+                "when"
+              ],
+              "id": "rust_8"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Define a struct?",
+              "answer": "struct Name {}",
+              "choices": [
+                "struct Name {}",
+                "class Name {}",
+                "type Name {}",
+                "object Name {}"
+              ],
+              "id": "rust_9"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Trait is similar to?",
+              "answer": "Interface",
+              "choices": [
+                "Interface",
+                "Class",
+                "Module",
+                "Package"
+              ],
+              "id": "rust_10"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Immutable borrow syntax?",
+              "answer": "&value",
+              "choices": [
+                "&value",
+                "*value",
+                "ref value",
+                "@value"
+              ],
+              "id": "rust_11"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Option type variants?",
+              "answer": "Some/None",
+              "choices": [
+                "Some/None",
+                "Ok/Err",
+                "True/False",
+                "Just/Nothing"
+              ],
+              "id": "rust_12"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Rust loop keyword for infinite loop?",
+              "answer": "loop",
+              "choices": [
+                "loop",
+                "while true",
+                "for ever",
+                "repeat"
+              ],
+              "id": "rust_13"
+            }
+          ]
+        },
+        {
+          "id": "u1l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Cargo command to compile + run?",
+              "answer": "cargo run",
+              "choices": [
+                "cargo run",
+                "cargo build",
+                "cargo exec",
+                "cargo start"
+              ],
+              "id": "rust_14"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

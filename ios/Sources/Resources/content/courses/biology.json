@@ -1,0 +1,214 @@
+{
+  "id": "biology",
+  "name": "Biology",
+  "category": "science",
+  "icon": "fa-solid fa-dna",
+  "level": "Life Sciences",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "DNA base pairs?",
+              "answer": "A-T, G-C",
+              "choices": [
+                "A-T, G-C",
+                "A-G, T-C",
+                "A-C, T-G",
+                "A-A, T-T"
+              ],
+              "id": "biology_0"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Photosynthesis produces?",
+              "answer": "Glucose and oxygen",
+              "choices": [
+                "Glucose and oxygen",
+                "Carbon dioxide",
+                "Water only",
+                "Nitrogen"
+              ],
+              "id": "biology_1"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Human chromosomes?",
+              "answer": "46",
+              "choices": [
+                "46",
+                "23",
+                "92",
+                "48"
+              ],
+              "id": "biology_2"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Largest organ?",
+              "answer": "Skin",
+              "choices": [
+                "Skin",
+                "Liver",
+                "Brain",
+                "Heart"
+              ],
+              "id": "biology_3"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Powerhouse of the cell?",
+              "answer": "Mitochondria",
+              "choices": [
+                "Nucleus",
+                "Mitochondria",
+                "Ribosome",
+                "Chloroplast"
+              ],
+              "id": "biology_4"
+            },
+            {
+              "type": "mathChoice",
+              "question": "DNA stands for?",
+              "answer": "Deoxyribonucleic acid",
+              "choices": [
+                "Deoxyribonucleic acid",
+                "Dinucleotide acid",
+                "Deoxyribose nucleic acid",
+                "Denatured nucleic acid"
+              ],
+              "id": "biology_5"
+            },
+            {
+              "type": "mathChoice",
+              "question": "What organelle controls the cell?",
+              "answer": "Nucleus",
+              "choices": [
+                "Nucleus",
+                "Mitochondria",
+                "Ribosome",
+                "Golgi body"
+              ],
+              "id": "biology_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Process of cell division?",
+              "answer": "Mitosis",
+              "choices": [
+                "Mitosis",
+                "Osmosis",
+                "Diffusion",
+                "Respiration"
+              ],
+              "id": "biology_7"
+            },
+            {
+              "type": "mathChoice",
+              "question": "What carries oxygen in blood?",
+              "answer": "Hemoglobin",
+              "choices": [
+                "Hemoglobin",
+                "Plasma",
+                "White blood cells",
+                "Platelets"
+              ],
+              "id": "biology_8"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Gregor Mendel is the father of?",
+              "answer": "Genetics",
+              "choices": [
+                "Genetics",
+                "Evolution",
+                "Ecology",
+                "Taxonomy"
+              ],
+              "id": "biology_9"
+            },
+            {
+              "type": "mathChoice",
+              "question": "What is the basic unit of life?",
+              "answer": "Cell",
+              "choices": [
+                "Cell",
+                "Atom",
+                "Molecule",
+                "Organ"
+              ],
+              "id": "biology_10"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Photosynthesis occurs in?",
+              "answer": "Chloroplasts",
+              "choices": [
+                "Chloroplasts",
+                "Mitochondria",
+                "Nucleus",
+                "Ribosomes"
+              ],
+              "id": "biology_11"
+            },
+            {
+              "type": "mathChoice",
+              "question": "What is natural selection?",
+              "answer": "Survival of the fittest",
+              "choices": [
+                "Survival of the fittest",
+                "Random mutation",
+                "Genetic drift",
+                "Artificial breeding"
+              ],
+              "id": "biology_12"
+            },
+            {
+              "type": "mathChoice",
+              "question": "RNA differs from DNA by having?",
+              "answer": "Uracil instead of thymine",
+              "choices": [
+                "Uracil instead of thymine",
+                "Thymine instead of uracil",
+                "Two strands",
+                "Deoxyribose sugar"
+              ],
+              "id": "biology_13"
+            }
+          ]
+        },
+        {
+          "id": "u1l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Ecosystem includes?",
+              "answer": "Living and non-living things",
+              "choices": [
+                "Living and non-living things",
+                "Only animals",
+                "Only plants",
+                "Only microbes"
+              ],
+              "id": "biology_14"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "id": "chinese",
+  "name": "Chinese",
+  "category": "languages",
+  "icon": "fa-solid fa-earth-asia",
+  "level": "Beginner",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "translation",
+              "question": "Hello",
+              "answer": "Ni hao",
+              "choices": [
+                "Ni hao",
+                "Zaijian",
+                "Xiexie",
+                "Duibuqi"
+              ],
+              "id": "chinese_0"
+            },
+            {
+              "type": "translation",
+              "question": "Thank you",
+              "answer": "Xiexie",
+              "choices": [
+                "Xiexie",
+                "Ni hao",
+                "Zaijian",
+                "Buke qi"
+              ],
+              "id": "chinese_1"
+            },
+            {
+              "type": "translation",
+              "question": "Goodbye",
+              "answer": "Zaijian",
+              "choices": [
+                "Zaijian",
+                "Ni hao",
+                "Xiexie",
+                "Wanan"
+              ],
+              "id": "chinese_2"
+            },
+            {
+              "type": "translation",
+              "question": "Water",
+              "answer": "Shui",
+              "choices": [
+                "Shui",
+                "Huo",
+                "Feng",
+                "Tu"
+              ],
+              "id": "chinese_3"
+            },
+            {
+              "type": "translation",
+              "question": "Good morning",
+              "answer": "Zao shang hao",
+              "choices": [
+                "Zao shang hao",
+                "Wan shang hao",
+                "Xiawu hao",
+                "Ni hao"
+              ],
+              "id": "chinese_4"
+            },
+            {
+              "type": "translation",
+              "question": "Cat",
+              "answer": "Mao",
+              "choices": [
+                "Mao",
+                "Gou",
+                "Niao",
+                "Yu"
+              ],
+              "id": "chinese_5"
+            },
+            {
+              "type": "translation",
+              "question": "Dog",
+              "answer": "Gou",
+              "choices": [
+                "Gou",
+                "Mao",
+                "Ma",
+                "Niu"
+              ],
+              "id": "chinese_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "translation",
+              "question": "Yes",
+              "answer": "Shi",
+              "choices": [
+                "Shi",
+                "Bu shi",
+                "Mei you",
+                "Keyi"
+              ],
+              "id": "chinese_7"
+            },
+            {
+              "type": "sentence",
+              "question": "I am Chinese",
+              "answer": "Wo shi Zhongguo ren",
+              "words": [
+                "Wo",
+                "shi",
+                "Zhongguo",
+                "ren",
+                "Meiguo",
+                "ta"
+              ],
+              "id": "chinese_8"
+            },
+            {
+              "type": "sentence",
+              "question": "I like tea",
+              "answer": "Wo xihuan cha",
+              "words": [
+                "Wo",
+                "xihuan",
+                "cha",
+                "kafei",
+                "bu",
+                "he"
+              ],
+              "id": "chinese_9"
+            },
+            {
+              "type": "sentence",
+              "question": "This is a book",
+              "answer": "Zhe shi yi ben shu",
+              "words": [
+                "Zhe",
+                "shi",
+                "yi",
+                "ben",
+                "shu",
+                "na",
+                "bi",
+                "ge"
+              ],
+              "id": "chinese_10"
+            },
+            {
+              "type": "sentence",
+              "question": "She is a teacher",
+              "answer": "Ta shi laoshi",
+              "words": [
+                "Ta",
+                "shi",
+                "laoshi",
+                "xuesheng",
+                "Wo",
+                "bu"
+              ],
+              "id": "chinese_11"
+            },
+            {
+              "type": "listening",
+              "question": "Type what you hear",
+              "audio": "Ni hao",
+              "answer": "Ni hao",
+              "id": "chinese_12"
+            },
+            {
+              "type": "listening",
+              "question": "Type what you hear",
+              "audio": "Xiexie ni",
+              "answer": "Xiexie ni",
+              "id": "chinese_13"
+            }
+          ]
+        },
+        {
+          "id": "u1l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "listening",
+              "question": "Type what you hear",
+              "audio": "Zao shang hao",
+              "answer": "Zao shang hao",
+              "id": "chinese_14"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "lang": "zh-CN"
+}

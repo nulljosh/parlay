@@ -1,0 +1,214 @@
+{
+  "id": "physics",
+  "name": "Physics",
+  "category": "science",
+  "icon": "fa-solid fa-atom",
+  "level": "Forces & Energy",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Newton's first law?",
+              "answer": "Law of inertia",
+              "choices": [
+                "Law of inertia",
+                "F=ma",
+                "Action-reaction",
+                "Conservation"
+              ],
+              "id": "physics_0"
+            },
+            {
+              "type": "mathChoice",
+              "question": "E=mc^2 means?",
+              "answer": "Energy-mass equivalence",
+              "choices": [
+                "Energy-mass equivalence",
+                "Electric charge",
+                "Electromagnetic force",
+                "Electron mass"
+              ],
+              "id": "physics_1"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Speed of sound?",
+              "answer": "343 m/s",
+              "choices": [
+                "343 m/s",
+                "3000 m/s",
+                "30 m/s",
+                "3 m/s"
+              ],
+              "id": "physics_2"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Unit of force?",
+              "answer": "Newton",
+              "choices": [
+                "Newton",
+                "Joule",
+                "Watt",
+                "Pascal"
+              ],
+              "id": "physics_3"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Gravity on Earth?",
+              "answer": "9.8 m/s^2",
+              "choices": [
+                "9.8 m/s^2",
+                "10 m/s^2",
+                "8.9 m/s^2",
+                "11 m/s^2"
+              ],
+              "id": "physics_4"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Unit of energy?",
+              "answer": "Joule",
+              "choices": [
+                "Joule",
+                "Newton",
+                "Watt",
+                "Volt"
+              ],
+              "id": "physics_5"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Speed of light?",
+              "answer": "3 x 10^8 m/s",
+              "choices": [
+                "3 x 10^8 m/s",
+                "3 x 10^6 m/s",
+                "3 x 10^10 m/s",
+                "3 x 10^5 m/s"
+              ],
+              "id": "physics_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Ohm's law?",
+              "answer": "V = IR",
+              "choices": [
+                "V = IR",
+                "P = IV",
+                "F = ma",
+                "E = mc^2"
+              ],
+              "id": "physics_7"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Unit of power?",
+              "answer": "Watt",
+              "choices": [
+                "Watt",
+                "Joule",
+                "Newton",
+                "Ampere"
+              ],
+              "id": "physics_8"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Conservation of energy states?",
+              "answer": "Energy cannot be created or destroyed",
+              "choices": [
+                "Energy cannot be created or destroyed",
+                "Energy always increases",
+                "Energy only flows downhill",
+                "Energy equals mass"
+              ],
+              "id": "physics_9"
+            },
+            {
+              "type": "mathChoice",
+              "question": "What is frequency measured in?",
+              "answer": "Hertz",
+              "choices": [
+                "Hertz",
+                "Meters",
+                "Seconds",
+                "Newtons"
+              ],
+              "id": "physics_10"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Kinetic energy formula?",
+              "answer": "1/2 mv^2",
+              "choices": [
+                "1/2 mv^2",
+                "mgh",
+                "mv",
+                "ma"
+              ],
+              "id": "physics_11"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Newton's third law?",
+              "answer": "Every action has equal and opposite reaction",
+              "choices": [
+                "Every action has equal and opposite reaction",
+                "F = ma",
+                "Objects at rest stay at rest",
+                "Energy is conserved"
+              ],
+              "id": "physics_12"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Unit of electric charge?",
+              "answer": "Coulomb",
+              "choices": [
+                "Coulomb",
+                "Ampere",
+                "Volt",
+                "Ohm"
+              ],
+              "id": "physics_13"
+            }
+          ]
+        },
+        {
+          "id": "u1l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Acceleration due to gravity is?",
+              "answer": "Constant near Earth surface",
+              "choices": [
+                "Constant near Earth surface",
+                "Always 10 m/s^2",
+                "Variable everywhere",
+                "Zero in orbit"
+              ],
+              "id": "physics_14"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

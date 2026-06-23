@@ -1,0 +1,214 @@
+{
+  "id": "geography",
+  "name": "Geography",
+  "category": "skills",
+  "icon": "fa-solid fa-globe",
+  "level": "Countries & Capitals",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Largest country by area?",
+              "answer": "Russia",
+              "choices": [
+                "Russia",
+                "Canada",
+                "China",
+                "United States"
+              ],
+              "id": "geography_0"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Longest river in the world?",
+              "answer": "Nile",
+              "choices": [
+                "Nile",
+                "Amazon",
+                "Mississippi",
+                "Yangtze"
+              ],
+              "id": "geography_1"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Largest ocean?",
+              "answer": "Pacific",
+              "choices": [
+                "Pacific",
+                "Atlantic",
+                "Indian",
+                "Arctic"
+              ],
+              "id": "geography_2"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Capital of Japan?",
+              "answer": "Tokyo",
+              "choices": [
+                "Tokyo",
+                "Osaka",
+                "Kyoto",
+                "Seoul"
+              ],
+              "id": "geography_3"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Highest mountain?",
+              "answer": "Mount Everest",
+              "choices": [
+                "Mount Everest",
+                "K2",
+                "Kangchenjunga",
+                "Mont Blanc"
+              ],
+              "id": "geography_4"
+            },
+            {
+              "type": "mathChoice",
+              "question": "How many continents?",
+              "answer": "7",
+              "choices": [
+                "5",
+                "6",
+                "7",
+                "8"
+              ],
+              "id": "geography_5"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Largest desert?",
+              "answer": "Sahara",
+              "choices": [
+                "Sahara",
+                "Gobi",
+                "Arabian",
+                "Kalahari"
+              ],
+              "id": "geography_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Capital of Australia?",
+              "answer": "Canberra",
+              "choices": [
+                "Canberra",
+                "Sydney",
+                "Melbourne",
+                "Brisbane"
+              ],
+              "id": "geography_7"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Which country has the most people?",
+              "answer": "India",
+              "choices": [
+                "India",
+                "China",
+                "United States",
+                "Indonesia"
+              ],
+              "id": "geography_8"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Capital of Brazil?",
+              "answer": "Brasilia",
+              "choices": [
+                "Brasilia",
+                "Rio de Janeiro",
+                "Sao Paulo",
+                "Salvador"
+              ],
+              "id": "geography_9"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Largest lake by surface area?",
+              "answer": "Caspian Sea",
+              "choices": [
+                "Caspian Sea",
+                "Lake Superior",
+                "Lake Victoria",
+                "Lake Baikal"
+              ],
+              "id": "geography_10"
+            },
+            {
+              "type": "mathChoice",
+              "question": "The Amazon rainforest is mostly in?",
+              "answer": "Brazil",
+              "choices": [
+                "Brazil",
+                "Peru",
+                "Colombia",
+                "Venezuela"
+              ],
+              "id": "geography_11"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Which continent is the driest?",
+              "answer": "Antarctica",
+              "choices": [
+                "Antarctica",
+                "Africa",
+                "Australia",
+                "Asia"
+              ],
+              "id": "geography_12"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Capital of Canada?",
+              "answer": "Ottawa",
+              "choices": [
+                "Ottawa",
+                "Toronto",
+                "Vancouver",
+                "Montreal"
+              ],
+              "id": "geography_13"
+            }
+          ]
+        },
+        {
+          "id": "u1l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "The Great Barrier Reef is off the coast of?",
+              "answer": "Australia",
+              "choices": [
+                "Australia",
+                "Indonesia",
+                "Philippines",
+                "Thailand"
+              ],
+              "id": "geography_14"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

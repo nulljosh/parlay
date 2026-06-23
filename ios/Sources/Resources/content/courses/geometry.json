@@ -1,0 +1,154 @@
+{
+  "id": "geometry",
+  "name": "Geometry",
+  "category": "math",
+  "icon": "fa-solid fa-draw-polygon",
+  "level": "Shapes & Angles",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "math",
+              "question": "Area of rectangle: length 8, width 5",
+              "answer": "40",
+              "id": "geometry_0"
+            },
+            {
+              "type": "math",
+              "question": "Perimeter of square with side 7",
+              "answer": "28",
+              "id": "geometry_1"
+            },
+            {
+              "type": "math",
+              "question": "Area of triangle: base 10, height 6",
+              "answer": "30",
+              "id": "geometry_2"
+            },
+            {
+              "type": "math",
+              "question": "Circumference of circle: radius 7 (use 22/7)",
+              "answer": "44",
+              "id": "geometry_3"
+            },
+            {
+              "type": "math",
+              "question": "Sum of angles in a triangle",
+              "answer": "180",
+              "id": "geometry_4"
+            },
+            {
+              "type": "math",
+              "question": "Volume of cube with side 3",
+              "answer": "27",
+              "id": "geometry_5"
+            },
+            {
+              "type": "math",
+              "question": "Area of square with side 9",
+              "answer": "81",
+              "id": "geometry_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "math",
+              "question": "Hypotenuse: legs 3 and 4",
+              "answer": "5",
+              "id": "geometry_7"
+            },
+            {
+              "type": "math",
+              "question": "Sum of interior angles of a hexagon",
+              "answer": "720",
+              "id": "geometry_8"
+            },
+            {
+              "type": "math",
+              "question": "Volume of rectangular prism: 4 x 5 x 3",
+              "answer": "60",
+              "id": "geometry_9"
+            },
+            {
+              "type": "mathChoice",
+              "question": "How many sides does a pentagon have?",
+              "answer": "5",
+              "choices": [
+                "4",
+                "5",
+                "6",
+                "7"
+              ],
+              "id": "geometry_10"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Pythagorean theorem?",
+              "answer": "a^2 + b^2 = c^2",
+              "choices": [
+                "a^2 + b^2 = c^2",
+                "a + b = c",
+                "a^2 - b^2 = c^2",
+                "2a + 2b = c"
+              ],
+              "id": "geometry_11"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Area of a circle formula?",
+              "answer": "pi * r^2",
+              "choices": [
+                "pi * r^2",
+                "2 * pi * r",
+                "pi * d",
+                "pi * r^3"
+              ],
+              "id": "geometry_12"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Angles in a quadrilateral sum to?",
+              "answer": "360",
+              "choices": [
+                "180",
+                "270",
+                "360",
+                "540"
+              ],
+              "id": "geometry_13"
+            }
+          ]
+        },
+        {
+          "id": "u1l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "What is a polygon with 8 sides?",
+              "answer": "Octagon",
+              "choices": [
+                "Hexagon",
+                "Heptagon",
+                "Octagon",
+                "Nonagon"
+              ],
+              "id": "geometry_14"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

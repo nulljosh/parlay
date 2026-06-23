@@ -1,0 +1,154 @@
+{
+  "id": "algebra",
+  "name": "Algebra",
+  "category": "math",
+  "icon": "fa-solid fa-superscript",
+  "level": "Equations & Variables",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "math",
+              "question": "Solve for x: x + 5 = 12",
+              "answer": "7",
+              "id": "algebra_0"
+            },
+            {
+              "type": "math",
+              "question": "Solve for x: 2x = 10",
+              "answer": "5",
+              "id": "algebra_1"
+            },
+            {
+              "type": "math",
+              "question": "Solve for y: y - 3 = 7",
+              "answer": "10",
+              "id": "algebra_2"
+            },
+            {
+              "type": "math",
+              "question": "Solve for x: 3x + 2 = 11",
+              "answer": "3",
+              "id": "algebra_3"
+            },
+            {
+              "type": "math",
+              "question": "Solve for x: x^2 = 16",
+              "answer": "4",
+              "id": "algebra_4"
+            },
+            {
+              "type": "math",
+              "question": "Solve for x: 5x - 3 = 22",
+              "answer": "5",
+              "id": "algebra_5"
+            },
+            {
+              "type": "math",
+              "question": "Solve for x: x/4 = 7",
+              "answer": "28",
+              "id": "algebra_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "math",
+              "question": "Simplify: 3(x + 2) when x = 4",
+              "answer": "18",
+              "id": "algebra_7"
+            },
+            {
+              "type": "math",
+              "question": "Solve for x: 2x + 3 = x + 8",
+              "answer": "5",
+              "id": "algebra_8"
+            },
+            {
+              "type": "math",
+              "question": "Evaluate: 2^5",
+              "answer": "32",
+              "id": "algebra_9"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Slope-intercept form?",
+              "answer": "y = mx + b",
+              "choices": [
+                "y = mx + b",
+                "ax + by = c",
+                "y - y1 = m(x - x1)",
+                "x = -b/2a"
+              ],
+              "id": "algebra_10"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Quadratic formula gives?",
+              "answer": "Roots of ax^2+bx+c=0",
+              "choices": [
+                "Roots of ax^2+bx+c=0",
+                "Slope of a line",
+                "Area of a circle",
+                "Volume of a cube"
+              ],
+              "id": "algebra_11"
+            },
+            {
+              "type": "mathChoice",
+              "question": "If f(x) = 2x + 1, f(3) = ?",
+              "answer": "7",
+              "choices": [
+                "5",
+                "6",
+                "7",
+                "8"
+              ],
+              "id": "algebra_12"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Zero of f(x) = x - 5?",
+              "answer": "5",
+              "choices": [
+                "0",
+                "-5",
+                "5",
+                "10"
+              ],
+              "id": "algebra_13"
+            }
+          ]
+        },
+        {
+          "id": "u1l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "What does the discriminant determine?",
+              "answer": "Number of real roots",
+              "choices": [
+                "Number of real roots",
+                "Y-intercept",
+                "Slope",
+                "Vertex"
+              ],
+              "id": "algebra_14"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

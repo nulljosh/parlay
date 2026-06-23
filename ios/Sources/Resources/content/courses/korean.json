@@ -1,0 +1,210 @@
+{
+  "id": "korean",
+  "name": "Korean",
+  "category": "languages",
+  "icon": "fa-solid fa-earth-asia",
+  "level": "Beginner",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "translation",
+              "question": "Hello",
+              "answer": "Annyeonghaseyo",
+              "choices": [
+                "Annyeonghaseyo",
+                "Kamsahamnida",
+                "Annyeong",
+                "Mianhamnida"
+              ],
+              "id": "korean_0"
+            },
+            {
+              "type": "translation",
+              "question": "Thank you",
+              "answer": "Kamsahamnida",
+              "choices": [
+                "Kamsahamnida",
+                "Annyeonghaseyo",
+                "Mianhamnida",
+                "Ne"
+              ],
+              "id": "korean_1"
+            },
+            {
+              "type": "translation",
+              "question": "Goodbye",
+              "answer": "Annyeonghi gaseyo",
+              "choices": [
+                "Annyeonghi gaseyo",
+                "Annyeonghaseyo",
+                "Kamsahamnida",
+                "Jalga"
+              ],
+              "id": "korean_2"
+            },
+            {
+              "type": "translation",
+              "question": "Water",
+              "answer": "Mul",
+              "choices": [
+                "Mul",
+                "Bul",
+                "Baram",
+                "Heuk"
+              ],
+              "id": "korean_3"
+            },
+            {
+              "type": "translation",
+              "question": "Yes",
+              "answer": "Ne",
+              "choices": [
+                "Ne",
+                "Aniyo",
+                "Keurae",
+                "Molla"
+              ],
+              "id": "korean_4"
+            },
+            {
+              "type": "translation",
+              "question": "Cat",
+              "answer": "Goyangi",
+              "choices": [
+                "Goyangi",
+                "Gae",
+                "Sae",
+                "Mulgogi"
+              ],
+              "id": "korean_5"
+            },
+            {
+              "type": "translation",
+              "question": "Dog",
+              "answer": "Gae",
+              "choices": [
+                "Gae",
+                "Goyangi",
+                "Mal",
+                "So"
+              ],
+              "id": "korean_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "translation",
+              "question": "Sorry",
+              "answer": "Mianhamnida",
+              "choices": [
+                "Mianhamnida",
+                "Kamsahamnida",
+                "Annyeonghaseyo",
+                "Ne"
+              ],
+              "id": "korean_7"
+            },
+            {
+              "type": "sentence",
+              "question": "I am a student",
+              "answer": "Jeo neun haksaeng imnida",
+              "words": [
+                "Jeo",
+                "neun",
+                "haksaeng",
+                "imnida",
+                "seonsaengnim",
+                "geu"
+              ],
+              "id": "korean_8"
+            },
+            {
+              "type": "sentence",
+              "question": "I like Korea",
+              "answer": "Jeo neun Hanguk eul joahamnida",
+              "words": [
+                "Jeo",
+                "neun",
+                "Hanguk",
+                "eul",
+                "joahamnida",
+                "Miguk",
+                "sireohamnida",
+                "ga"
+              ],
+              "id": "korean_9"
+            },
+            {
+              "type": "sentence",
+              "question": "This is delicious",
+              "answer": "Igeo neun masisseoyo",
+              "words": [
+                "Igeo",
+                "neun",
+                "masisseoyo",
+                "Geugeo",
+                "eobseoyo",
+                "aniyeyo"
+              ],
+              "id": "korean_10"
+            },
+            {
+              "type": "sentence",
+              "question": "Where is the bathroom",
+              "answer": "Hwajangsil eodi yeyo",
+              "words": [
+                "Hwajangsil",
+                "eodi",
+                "yeyo",
+                "mwo",
+                "sigdang",
+                "isseoyo"
+              ],
+              "id": "korean_11"
+            },
+            {
+              "type": "listening",
+              "question": "Type what you hear",
+              "audio": "Annyeonghaseyo",
+              "answer": "Annyeonghaseyo",
+              "id": "korean_12"
+            },
+            {
+              "type": "listening",
+              "question": "Type what you hear",
+              "audio": "Kamsahamnida",
+              "answer": "Kamsahamnida",
+              "id": "korean_13"
+            }
+          ]
+        },
+        {
+          "id": "u1l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "listening",
+              "question": "Type what you hear",
+              "audio": "Annyeonghi gaseyo",
+              "answer": "Annyeonghi gaseyo",
+              "id": "korean_14"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "lang": "ko-KR"
+}

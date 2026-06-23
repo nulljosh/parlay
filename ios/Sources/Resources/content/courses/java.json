@@ -1,0 +1,214 @@
+{
+  "id": "java",
+  "name": "Java",
+  "category": "programming",
+  "icon": "fa-brands fa-java",
+  "level": "Enterprise & Android",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Java entry point method?",
+              "answer": "public static void main(String[] args)",
+              "choices": [
+                "public static void main(String[] args)",
+                "def main():",
+                "int main()",
+                "func main()"
+              ],
+              "id": "java_0"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Print to console in Java?",
+              "answer": "System.out.println()",
+              "choices": [
+                "System.out.println()",
+                "console.log()",
+                "print()",
+                "cout <<"
+              ],
+              "id": "java_1"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Java is compiled to?",
+              "answer": "Bytecode",
+              "choices": [
+                "Bytecode",
+                "Machine code",
+                "JavaScript",
+                "Assembly"
+              ],
+              "id": "java_2"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Keyword for inheritance?",
+              "answer": "extends",
+              "choices": [
+                "extends",
+                "inherits",
+                "implements",
+                "derives"
+              ],
+              "id": "java_3"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Interface keyword?",
+              "answer": "implements",
+              "choices": [
+                "implements",
+                "extends",
+                "uses",
+                "interface"
+              ],
+              "id": "java_4"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Java runs on?",
+              "answer": "JVM",
+              "choices": [
+                "JVM",
+                "CLR",
+                "V8",
+                "LLVM"
+              ],
+              "id": "java_5"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Immutable string alternative?",
+              "answer": "StringBuilder",
+              "choices": [
+                "StringBuilder",
+                "StringBuffer",
+                "MutableString",
+                "CharArray"
+              ],
+              "id": "java_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Java collection for key-value pairs?",
+              "answer": "HashMap",
+              "choices": [
+                "HashMap",
+                "ArrayList",
+                "LinkedList",
+                "TreeSet"
+              ],
+              "id": "java_7"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Handle exceptions in Java?",
+              "answer": "try/catch",
+              "choices": [
+                "try/catch",
+                "try/except",
+                "begin/rescue",
+                "try/handle"
+              ],
+              "id": "java_8"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Access modifier for subclass access?",
+              "answer": "protected",
+              "choices": [
+                "protected",
+                "private",
+                "public",
+                "default"
+              ],
+              "id": "java_9"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Java generics syntax?",
+              "answer": "List<String>",
+              "choices": [
+                "List<String>",
+                "List[String]",
+                "List(String)",
+                "List{String}"
+              ],
+              "id": "java_10"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Java 8 lambda syntax?",
+              "answer": "(x) -> x + 1",
+              "choices": [
+                "(x) -> x + 1",
+                "(x) => x + 1",
+                "lambda x: x + 1",
+                "[](x) { x + 1 }"
+              ],
+              "id": "java_11"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Final keyword prevents?",
+              "answer": "Modification/override",
+              "choices": [
+                "Modification/override",
+                "Compilation",
+                "Instantiation",
+                "Importing"
+              ],
+              "id": "java_12"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Abstract class can be instantiated?",
+              "answer": "No",
+              "choices": [
+                "No",
+                "Yes",
+                "Only with factory",
+                "Only in subclass"
+              ],
+              "id": "java_13"
+            }
+          ]
+        },
+        {
+          "id": "u1l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Java package manager?",
+              "answer": "Maven/Gradle",
+              "choices": [
+                "Maven/Gradle",
+                "npm",
+                "pip",
+                "cargo"
+              ],
+              "id": "java_14"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

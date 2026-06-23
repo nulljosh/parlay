@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		032AEBC42C7E6F3DA3A91693 /* precalc11.json in Resources */ = {isa = PBXBuildFile; fileRef = 879E14E2752370F51B709C91 /* precalc11.json */; };
+		045907B630F7999ACB5E5B8C /* korean.json in Resources */ = {isa = PBXBuildFile; fileRef = C1328B3C2F4DE1C280B2CFA8 /* korean.json */; };
+		0BB7B0CD6F4A3CC8281854C9 /* arabic.json in Resources */ = {isa = PBXBuildFile; fileRef = CF8B7548CA86AA6AD76DEEDB /* arabic.json */; };
+		0D16EF7668CE60A75D0595A6 /* logic.json in Resources */ = {isa = PBXBuildFile; fileRef = BBBADCF9593A6188D62C99B7 /* logic.json */; };
+		131DC6F7C4D9FD99E8C84795 /* python.json in Resources */ = {isa = PBXBuildFile; fileRef = 2558463843F88D615C200354 /* python.json */; };
+		13DBA14E7DBBD40A04EA7AFE /* cpp.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BE666DF95E425B711E90081 /* cpp.json */; };
+		28972A2E39E0A81A6848D546 /* LingoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48042F3BA345F64023502DB5 /* LingoApp.swift */; };
+		2B65281A89034D25A150879B /* geography.json in Resources */ = {isa = PBXBuildFile; fileRef = 36BADF1122486F4DB65F1F78 /* geography.json */; };
+		2ED5FFDAFDD001F321FCEF29 /* physics.json in Resources */ = {isa = PBXBuildFile; fileRef = E9261B0C87E6F1D387DBF0A7 /* physics.json */; };
+		35DA9B6CAB3A26D1AB6EBB87 /* music_theory.json in Resources */ = {isa = PBXBuildFile; fileRef = 4349CA379EE52052DE5210F6 /* music_theory.json */; };
+		3611CFACF566DFF8AF545AEB /* french.json in Resources */ = {isa = PBXBuildFile; fileRef = 817171023F298347664538D7 /* french.json */; };
+		363024C112FBA06FC30C0C88 /* trigonometry.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E0F8517A7ABB25B93AC01E7 /* trigonometry.json */; };
+		366722AFB2EE4D334077114B /* statistics.json in Resources */ = {isa = PBXBuildFile; fileRef = 56A17B17BA470F4F8C7AD0B3 /* statistics.json */; };
+		36782B3C342C30B3D64092CE /* calculus.json in Resources */ = {isa = PBXBuildFile; fileRef = 53442AF129549F934E4477A6 /* calculus.json */; };
+		3BB09C4102B4DDCE0D57CB50 /* catalog.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E13461BDB5DDAFF671A5AC4 /* catalog.json */; };
+		4169FB4E1C7A828D60FBCB43 /* chess.json in Resources */ = {isa = PBXBuildFile; fileRef = 82D1548A44AF9461019E577B /* chess.json */; };
+		4ECF489A147474F5AC270527 /* german.json in Resources */ = {isa = PBXBuildFile; fileRef = 3701094CFDB3AAD051661459 /* german.json */; };
+		4F49103CB511C5FEE8B6672A /* arithmetic.json in Resources */ = {isa = PBXBuildFile; fileRef = 31395F36291D691B8F443E99 /* arithmetic.json */; };
+		50A073AFAEE88E9E2EAC1BEB /* spanish.json in Resources */ = {isa = PBXBuildFile; fileRef = 721FEFF6757512300B8F10FB /* spanish.json */; };
+		53A1D6C9199FB8804F8758E6 /* sql.json in Resources */ = {isa = PBXBuildFile; fileRef = 8EF34A271C6CF10F334D884F /* sql.json */; };
+		551561690DB355F67B368DD2 /* chemistry.json in Resources */ = {isa = PBXBuildFile; fileRef = B5B4FAB3C10777FC492A17C8 /* chemistry.json */; };
+		597CA4E3D0C3A5A35B6726C4 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F214D0F0810B9E696D99BDC /* Models.swift */; };
+		62DFDE9E87DEBA260541EF77 /* computers.json in Resources */ = {isa = PBXBuildFile; fileRef = B6179B0E028A5343849EF466 /* computers.json */; };
+		67A36B726F46A3C59B87B6B3 /* UnitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FC754CAC83C4C7B926C3F4 /* UnitsView.swift */; };
+		68839C409A4A3F8AAB4F49DC /* portuguese.json in Resources */ = {isa = PBXBuildFile; fileRef = 85262F07D23361702C21C7DA /* portuguese.json */; };
+		71582AB930C647E653D4A49B /* LessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0163DDE677931DCE5655D900 /* LessonView.swift */; };
+		7A007768E4B740AA524405D3 /* music_history.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E497242C06CB2BE09147F1E /* music_history.json */; };
+		7DB404B693AEA4EADFA4BCDC /* rust.json in Resources */ = {isa = PBXBuildFile; fileRef = B47A509557BCADC7E56991E1 /* rust.json */; };
+		8247E9154BF512FC785F4ACD /* algebra.json in Resources */ = {isa = PBXBuildFile; fileRef = 698847033238209C4252DDE8 /* algebra.json */; };
+		913AD7EDC1697999EF83BC9D /* italian.json in Resources */ = {isa = PBXBuildFile; fileRef = E96829EFE58B59935649CEA6 /* italian.json */; };
+		9A7E4ECAAFE389739FFB84D2 /* russian.json in Resources */ = {isa = PBXBuildFile; fileRef = E28878C7B0B1D588D2471F69 /* russian.json */; };
+		A24464F550AA5BC63FC42FD3 /* precalc12.json in Resources */ = {isa = PBXBuildFile; fileRef = 3E08CADD3672CCCBFFB75423 /* precalc12.json */; };
+		AF7F7EE841811BB66825ABFC /* astronomy.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DC67454921AA331D2D3EC7C /* astronomy.json */; };
+		B3FD61DB8BA782A823DA70AF /* anatomy12.json in Resources */ = {isa = PBXBuildFile; fileRef = 3BEF57FDC8F27D5751826EF2 /* anatomy12.json */; };
+		BC8E6A3AEE9C4A242AE2BE28 /* linear_algebra.json in Resources */ = {isa = PBXBuildFile; fileRef = 0331E3C0FAC6DD186E906475 /* linear_algebra.json */; };
+		CF33E5ECE6D9F4FC66472380 /* hindi.json in Resources */ = {isa = PBXBuildFile; fileRef = BF9D238688612B66E23AD263 /* hindi.json */; };
+		DBF52E22BE2DCA6FBCD8C923 /* japanese.json in Resources */ = {isa = PBXBuildFile; fileRef = 957B0D682A78332B3AF55252 /* japanese.json */; };
+		DE5A16AE1BA9681A8933322B /* javascript.json in Resources */ = {isa = PBXBuildFile; fileRef = 4462801DB409CFD3D81F2E5B /* javascript.json */; };
+		E0BF49FF4C5ACDC5A2F62C83 /* ContentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF81D8C00013D3CA01B1ECA /* ContentStore.swift */; };
+		E1B39DEEE9E231FEBC5F2645 /* biology.json in Resources */ = {isa = PBXBuildFile; fileRef = 82E2BFEDCA965D066CA39E04 /* biology.json */; };
+		E1E420F02C4ABC6502AE60EB /* chinese.json in Resources */ = {isa = PBXBuildFile; fileRef = 1298E370FBBBFAA5DE8131CB /* chinese.json */; };
+		E28C27863E18EF25455A0C80 /* java.json in Resources */ = {isa = PBXBuildFile; fileRef = 8907AAEC9D9D95B8AB2BC0C3 /* java.json */; };
+		E432FEA928A995B57233427B /* dutch.json in Resources */ = {isa = PBXBuildFile; fileRef = 6DC5E8D574577465E5EC8F51 /* dutch.json */; };
+		E86CA720801E933134FF7E23 /* world_history.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E83CD684AE62F94F9439943 /* world_history.json */; };
+		EC29403F1EF5FD559210D5A5 /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900AD1B4E1C7B36978569073 /* CatalogView.swift */; };
+		EFC32035248DAA79D1EC8AC5 /* go.json in Resources */ = {isa = PBXBuildFile; fileRef = EDDC45AA716BBD04CF700F92 /* go.json */; };
+		FFE490F230A0AD75750AABCB /* geometry.json in Resources */ = {isa = PBXBuildFile; fileRef = 78329C083F6292E361208131 /* geometry.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0163DDE677931DCE5655D900 /* LessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonView.swift; sourceTree = "<group>"; };
+		0331E3C0FAC6DD186E906475 /* linear_algebra.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = linear_algebra.json; sourceTree = "<group>"; };
+		1298E370FBBBFAA5DE8131CB /* chinese.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chinese.json; sourceTree = "<group>"; };
+		2558463843F88D615C200354 /* python.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = python.json; sourceTree = "<group>"; };
+		31395F36291D691B8F443E99 /* arithmetic.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = arithmetic.json; sourceTree = "<group>"; };
+		36BADF1122486F4DB65F1F78 /* geography.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = geography.json; sourceTree = "<group>"; };
+		3701094CFDB3AAD051661459 /* german.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = german.json; sourceTree = "<group>"; };
+		3BEF57FDC8F27D5751826EF2 /* anatomy12.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = anatomy12.json; sourceTree = "<group>"; };
+		3E08CADD3672CCCBFFB75423 /* precalc12.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = precalc12.json; sourceTree = "<group>"; };
+		3F214D0F0810B9E696D99BDC /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		4349CA379EE52052DE5210F6 /* music_theory.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = music_theory.json; sourceTree = "<group>"; };
+		4462801DB409CFD3D81F2E5B /* javascript.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = javascript.json; sourceTree = "<group>"; };
+		48042F3BA345F64023502DB5 /* LingoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LingoApp.swift; sourceTree = "<group>"; };
+		4DC67454921AA331D2D3EC7C /* astronomy.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = astronomy.json; sourceTree = "<group>"; };
+		4FA73EEEDA6CB0678990FF20 /* Lingo-iOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "Lingo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53442AF129549F934E4477A6 /* calculus.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = calculus.json; sourceTree = "<group>"; };
+		56A17B17BA470F4F8C7AD0B3 /* statistics.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = statistics.json; sourceTree = "<group>"; };
+		5879FA1B9F4064EFBFBE7F15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5E497242C06CB2BE09147F1E /* music_history.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = music_history.json; sourceTree = "<group>"; };
+		68FC754CAC83C4C7B926C3F4 /* UnitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsView.swift; sourceTree = "<group>"; };
+		698847033238209C4252DDE8 /* algebra.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = algebra.json; sourceTree = "<group>"; };
+		6DC5E8D574577465E5EC8F51 /* dutch.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dutch.json; sourceTree = "<group>"; };
+		721FEFF6757512300B8F10FB /* spanish.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = spanish.json; sourceTree = "<group>"; };
+		78329C083F6292E361208131 /* geometry.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = geometry.json; sourceTree = "<group>"; };
+		817171023F298347664538D7 /* french.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = french.json; sourceTree = "<group>"; };
+		82D1548A44AF9461019E577B /* chess.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chess.json; sourceTree = "<group>"; };
+		82E2BFEDCA965D066CA39E04 /* biology.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = biology.json; sourceTree = "<group>"; };
+		85262F07D23361702C21C7DA /* portuguese.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = portuguese.json; sourceTree = "<group>"; };
+		879E14E2752370F51B709C91 /* precalc11.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = precalc11.json; sourceTree = "<group>"; };
+		8907AAEC9D9D95B8AB2BC0C3 /* java.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = java.json; sourceTree = "<group>"; };
+		8E0F8517A7ABB25B93AC01E7 /* trigonometry.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = trigonometry.json; sourceTree = "<group>"; };
+		8E13461BDB5DDAFF671A5AC4 /* catalog.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = catalog.json; sourceTree = "<group>"; };
+		8EF34A271C6CF10F334D884F /* sql.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sql.json; sourceTree = "<group>"; };
+		900AD1B4E1C7B36978569073 /* CatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogView.swift; sourceTree = "<group>"; };
+		957B0D682A78332B3AF55252 /* japanese.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = japanese.json; sourceTree = "<group>"; };
+		9BE666DF95E425B711E90081 /* cpp.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cpp.json; sourceTree = "<group>"; };
+		9E83CD684AE62F94F9439943 /* world_history.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = world_history.json; sourceTree = "<group>"; };
+		B47A509557BCADC7E56991E1 /* rust.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = rust.json; sourceTree = "<group>"; };
+		B5B4FAB3C10777FC492A17C8 /* chemistry.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chemistry.json; sourceTree = "<group>"; };
+		B6179B0E028A5343849EF466 /* computers.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = computers.json; sourceTree = "<group>"; };
+		BBBADCF9593A6188D62C99B7 /* logic.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = logic.json; sourceTree = "<group>"; };
+		BF9D238688612B66E23AD263 /* hindi.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hindi.json; sourceTree = "<group>"; };
+		BFF81D8C00013D3CA01B1ECA /* ContentStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentStore.swift; sourceTree = "<group>"; };
+		C1328B3C2F4DE1C280B2CFA8 /* korean.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = korean.json; sourceTree = "<group>"; };
+		CF8B7548CA86AA6AD76DEEDB /* arabic.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = arabic.json; sourceTree = "<group>"; };
+		E28878C7B0B1D588D2471F69 /* russian.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = russian.json; sourceTree = "<group>"; };
+		E9261B0C87E6F1D387DBF0A7 /* physics.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = physics.json; sourceTree = "<group>"; };
+		E96829EFE58B59935649CEA6 /* italian.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = italian.json; sourceTree = "<group>"; };
+		EDDC45AA716BBD04CF700F92 /* go.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = go.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1E3AB1BDA519C1598FFEB63D = {
+			isa = PBXGroup;
+			children = (
+				DCDA32ED94FA6991B198FBDA /* iOS */,
+				4AEC2E6F392F55CD517CCF99 /* Resources */,
+				86F9DF7A4BDF5AFA784C550F /* Shared */,
+				D8622F3E3F551CE7430FDA09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AEC2E6F392F55CD517CCF99 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5C7E2DC1E8B45F0131B7D506 /* content */,
+			);
+			name = Resources;
+			path = Sources/Resources;
+			sourceTree = "<group>";
+		};
+		5C7E2DC1E8B45F0131B7D506 /* content */ = {
+			isa = PBXGroup;
+			children = (
+				8E13461BDB5DDAFF671A5AC4 /* catalog.json */,
+				E3BE56DB18B123B89E3681D2 /* courses */,
+			);
+			path = content;
+			sourceTree = "<group>";
+		};
+		86F9DF7A4BDF5AFA784C550F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				BFF81D8C00013D3CA01B1ECA /* ContentStore.swift */,
+				3F214D0F0810B9E696D99BDC /* Models.swift */,
+			);
+			name = Shared;
+			path = Sources/Shared;
+			sourceTree = "<group>";
+		};
+		D8622F3E3F551CE7430FDA09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FA73EEEDA6CB0678990FF20 /* Lingo-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCDA32ED94FA6991B198FBDA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				900AD1B4E1C7B36978569073 /* CatalogView.swift */,
+				5879FA1B9F4064EFBFBE7F15 /* Info.plist */,
+				0163DDE677931DCE5655D900 /* LessonView.swift */,
+				48042F3BA345F64023502DB5 /* LingoApp.swift */,
+				68FC754CAC83C4C7B926C3F4 /* UnitsView.swift */,
+			);
+			name = iOS;
+			path = Sources/iOS;
+			sourceTree = "<group>";
+		};
+		E3BE56DB18B123B89E3681D2 /* courses */ = {
+			isa = PBXGroup;
+			children = (
+				698847033238209C4252DDE8 /* algebra.json */,
+				3BEF57FDC8F27D5751826EF2 /* anatomy12.json */,
+				CF8B7548CA86AA6AD76DEEDB /* arabic.json */,
+				31395F36291D691B8F443E99 /* arithmetic.json */,
+				4DC67454921AA331D2D3EC7C /* astronomy.json */,
+				82E2BFEDCA965D066CA39E04 /* biology.json */,
+				53442AF129549F934E4477A6 /* calculus.json */,
+				B5B4FAB3C10777FC492A17C8 /* chemistry.json */,
+				82D1548A44AF9461019E577B /* chess.json */,
+				1298E370FBBBFAA5DE8131CB /* chinese.json */,
+				B6179B0E028A5343849EF466 /* computers.json */,
+				9BE666DF95E425B711E90081 /* cpp.json */,
+				6DC5E8D574577465E5EC8F51 /* dutch.json */,
+				817171023F298347664538D7 /* french.json */,
+				36BADF1122486F4DB65F1F78 /* geography.json */,
+				78329C083F6292E361208131 /* geometry.json */,
+				3701094CFDB3AAD051661459 /* german.json */,
+				EDDC45AA716BBD04CF700F92 /* go.json */,
+				BF9D238688612B66E23AD263 /* hindi.json */,
+				E96829EFE58B59935649CEA6 /* italian.json */,
+				957B0D682A78332B3AF55252 /* japanese.json */,
+				8907AAEC9D9D95B8AB2BC0C3 /* java.json */,
+				4462801DB409CFD3D81F2E5B /* javascript.json */,
+				C1328B3C2F4DE1C280B2CFA8 /* korean.json */,
+				0331E3C0FAC6DD186E906475 /* linear_algebra.json */,
+				BBBADCF9593A6188D62C99B7 /* logic.json */,
+				5E497242C06CB2BE09147F1E /* music_history.json */,
+				4349CA379EE52052DE5210F6 /* music_theory.json */,
+				E9261B0C87E6F1D387DBF0A7 /* physics.json */,
+				85262F07D23361702C21C7DA /* portuguese.json */,
+				879E14E2752370F51B709C91 /* precalc11.json */,
+				3E08CADD3672CCCBFFB75423 /* precalc12.json */,
+				2558463843F88D615C200354 /* python.json */,
+				E28878C7B0B1D588D2471F69 /* russian.json */,
+				B47A509557BCADC7E56991E1 /* rust.json */,
+				721FEFF6757512300B8F10FB /* spanish.json */,
+				8EF34A271C6CF10F334D884F /* sql.json */,
+				56A17B17BA470F4F8C7AD0B3 /* statistics.json */,
+				8E0F8517A7ABB25B93AC01E7 /* trigonometry.json */,
+				9E83CD684AE62F94F9439943 /* world_history.json */,
+			);
+			path = courses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B0A8481F5C4FDED8C3532E4 /* Lingo-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 291BB107766710F1FC25E793 /* Build configuration list for PBXNativeTarget "Lingo-iOS" */;
+			buildPhases = (
+				EA0849FD6CDA3298D4BBFD4E /* Sources */,
+				B8CBB4883B3FA8064BA0FDA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lingo-iOS";
+			packageProductDependencies = (
+			);
+			productName = "Lingo-iOS";
+			productReference = 4FA73EEEDA6CB0678990FF20 /* Lingo-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F2560A77660B5388073E78F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					2B0A8481F5C4FDED8C3532E4 = {
+						DevelopmentTeam = QMM486NPYC;
+					};
+				};
+			};
+			buildConfigurationList = 53440AF208FAC9115E3744FE /* Build configuration list for PBXProject "lingo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 1E3AB1BDA519C1598FFEB63D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D8622F3E3F551CE7430FDA09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B0A8481F5C4FDED8C3532E4 /* Lingo-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8CBB4883B3FA8064BA0FDA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8247E9154BF512FC785F4ACD /* algebra.json in Resources */,
+				B3FD61DB8BA782A823DA70AF /* anatomy12.json in Resources */,
+				0BB7B0CD6F4A3CC8281854C9 /* arabic.json in Resources */,
+				4F49103CB511C5FEE8B6672A /* arithmetic.json in Resources */,
+				AF7F7EE841811BB66825ABFC /* astronomy.json in Resources */,
+				E1B39DEEE9E231FEBC5F2645 /* biology.json in Resources */,
+				36782B3C342C30B3D64092CE /* calculus.json in Resources */,
+				3BB09C4102B4DDCE0D57CB50 /* catalog.json in Resources */,
+				551561690DB355F67B368DD2 /* chemistry.json in Resources */,
+				4169FB4E1C7A828D60FBCB43 /* chess.json in Resources */,
+				E1E420F02C4ABC6502AE60EB /* chinese.json in Resources */,
+				62DFDE9E87DEBA260541EF77 /* computers.json in Resources */,
+				13DBA14E7DBBD40A04EA7AFE /* cpp.json in Resources */,
+				E432FEA928A995B57233427B /* dutch.json in Resources */,
+				3611CFACF566DFF8AF545AEB /* french.json in Resources */,
+				2B65281A89034D25A150879B /* geography.json in Resources */,
+				FFE490F230A0AD75750AABCB /* geometry.json in Resources */,
+				4ECF489A147474F5AC270527 /* german.json in Resources */,
+				EFC32035248DAA79D1EC8AC5 /* go.json in Resources */,
+				CF33E5ECE6D9F4FC66472380 /* hindi.json in Resources */,
+				913AD7EDC1697999EF83BC9D /* italian.json in Resources */,
+				DBF52E22BE2DCA6FBCD8C923 /* japanese.json in Resources */,
+				E28C27863E18EF25455A0C80 /* java.json in Resources */,
+				DE5A16AE1BA9681A8933322B /* javascript.json in Resources */,
+				045907B630F7999ACB5E5B8C /* korean.json in Resources */,
+				BC8E6A3AEE9C4A242AE2BE28 /* linear_algebra.json in Resources */,
+				0D16EF7668CE60A75D0595A6 /* logic.json in Resources */,
+				7A007768E4B740AA524405D3 /* music_history.json in Resources */,
+				35DA9B6CAB3A26D1AB6EBB87 /* music_theory.json in Resources */,
+				2ED5FFDAFDD001F321FCEF29 /* physics.json in Resources */,
+				68839C409A4A3F8AAB4F49DC /* portuguese.json in Resources */,
+				032AEBC42C7E6F3DA3A91693 /* precalc11.json in Resources */,
+				A24464F550AA5BC63FC42FD3 /* precalc12.json in Resources */,
+				131DC6F7C4D9FD99E8C84795 /* python.json in Resources */,
+				9A7E4ECAAFE389739FFB84D2 /* russian.json in Resources */,
+				7DB404B693AEA4EADFA4BCDC /* rust.json in Resources */,
+				50A073AFAEE88E9E2EAC1BEB /* spanish.json in Resources */,
+				53A1D6C9199FB8804F8758E6 /* sql.json in Resources */,
+				366722AFB2EE4D334077114B /* statistics.json in Resources */,
+				363024C112FBA06FC30C0C88 /* trigonometry.json in Resources */,
+				E86CA720801E933134FF7E23 /* world_history.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA0849FD6CDA3298D4BBFD4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC29403F1EF5FD559210D5A5 /* CatalogView.swift in Sources */,
+				E0BF49FF4C5ACDC5A2F62C83 /* ContentStore.swift in Sources */,
+				71582AB930C647E653D4A49B /* LessonView.swift in Sources */,
+				28972A2E39E0A81A6848D546 /* LingoApp.swift in Sources */,
+				597CA4E3D0C3A5A35B6726C4 /* Models.swift in Sources */,
+				67A36B726F46A3C59B87B6B3 /* UnitsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3F67D24C74E8DC041BC905AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = QMM486NPYC;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		A05F742DD366B7CB5772205D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = QMM486NPYC;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		ED47F15A82D4CA51F12DA8C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nulljosh.lingo;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F16B07D53BE7F7997B44D2A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nulljosh.lingo;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		291BB107766710F1FC25E793 /* Build configuration list for PBXNativeTarget "Lingo-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED47F15A82D4CA51F12DA8C0 /* Debug */,
+				F16B07D53BE7F7997B44D2A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		53440AF208FAC9115E3744FE /* Build configuration list for PBXProject "lingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05F742DD366B7CB5772205D /* Debug */,
+				3F67D24C74E8DC041BC905AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F2560A77660B5388073E78F /* Project object */;
+}

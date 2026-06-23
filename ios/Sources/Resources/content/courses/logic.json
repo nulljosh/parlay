@@ -1,0 +1,154 @@
+{
+  "id": "logic",
+  "name": "Logic",
+  "category": "math",
+  "icon": "fa-solid fa-puzzle-piece",
+  "level": "Puzzles & Reasoning",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "math",
+              "question": "TRUE AND FALSE",
+              "answer": "FALSE",
+              "id": "logic_0"
+            },
+            {
+              "type": "math",
+              "question": "TRUE OR FALSE",
+              "answer": "TRUE",
+              "id": "logic_1"
+            },
+            {
+              "type": "math",
+              "question": "NOT TRUE",
+              "answer": "FALSE",
+              "id": "logic_2"
+            },
+            {
+              "type": "math",
+              "question": "TRUE AND TRUE",
+              "answer": "TRUE",
+              "id": "logic_3"
+            },
+            {
+              "type": "math",
+              "question": "FALSE OR FALSE",
+              "answer": "FALSE",
+              "id": "logic_4"
+            },
+            {
+              "type": "math",
+              "question": "TRUE XOR TRUE",
+              "answer": "FALSE",
+              "id": "logic_5"
+            },
+            {
+              "type": "math",
+              "question": "TRUE XOR FALSE",
+              "answer": "TRUE",
+              "id": "logic_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "math",
+              "question": "NOT (TRUE AND FALSE)",
+              "answer": "TRUE",
+              "id": "logic_7"
+            },
+            {
+              "type": "math",
+              "question": "(TRUE OR FALSE) AND TRUE",
+              "answer": "TRUE",
+              "id": "logic_8"
+            },
+            {
+              "type": "math",
+              "question": "NOT (FALSE OR FALSE)",
+              "answer": "TRUE",
+              "id": "logic_9"
+            },
+            {
+              "type": "mathChoice",
+              "question": "De Morgan's law: NOT(A AND B) = ?",
+              "answer": "NOT A OR NOT B",
+              "choices": [
+                "NOT A OR NOT B",
+                "NOT A AND NOT B",
+                "A OR B",
+                "A AND B"
+              ],
+              "id": "logic_10"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Modus ponens: If P then Q, P is true. Q is?",
+              "answer": "True",
+              "choices": [
+                "True",
+                "False",
+                "Unknown",
+                "Depends"
+              ],
+              "id": "logic_11"
+            },
+            {
+              "type": "mathChoice",
+              "question": "A tautology is always?",
+              "answer": "True",
+              "choices": [
+                "True",
+                "False",
+                "Unknown",
+                "Contradictory"
+              ],
+              "id": "logic_12"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Contrapositive of \"If P then Q\"?",
+              "answer": "If NOT Q then NOT P",
+              "choices": [
+                "If NOT Q then NOT P",
+                "If Q then P",
+                "If NOT P then NOT Q",
+                "If P then NOT Q"
+              ],
+              "id": "logic_13"
+            }
+          ]
+        },
+        {
+          "id": "u1l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "How many rows in truth table for 3 variables?",
+              "answer": "8",
+              "choices": [
+                "4",
+                "6",
+                "8",
+                "16"
+              ],
+              "id": "logic_14"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

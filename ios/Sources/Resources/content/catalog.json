@@ -1,0 +1,327 @@
+{
+  "version": 1,
+  "categories": {
+    "languages": {
+      "title": "Choose a language",
+      "subjects": [
+        {
+          "id": "spanish",
+          "name": "Spanish",
+          "icon": "fa-solid fa-earth-americas",
+          "level": "Beginner to Advanced",
+          "packPath": "content/courses/spanish.json",
+          "lang": "es-ES"
+        },
+        {
+          "id": "french",
+          "name": "French",
+          "icon": "fa-solid fa-earth-europe",
+          "level": "Beginner to Advanced",
+          "packPath": "content/courses/french.json",
+          "lang": "fr-FR"
+        },
+        {
+          "id": "german",
+          "name": "German",
+          "icon": "fa-solid fa-language",
+          "level": "Beginner to Intermediate",
+          "packPath": "content/courses/german.json",
+          "lang": "de-DE"
+        },
+        {
+          "id": "italian",
+          "name": "Italian",
+          "icon": "fa-solid fa-pizza-slice",
+          "level": "Beginner to Intermediate",
+          "packPath": "content/courses/italian.json",
+          "lang": "it-IT"
+        },
+        {
+          "id": "portuguese",
+          "name": "Portuguese",
+          "icon": "fa-solid fa-earth-americas",
+          "level": "Beginner",
+          "packPath": "content/courses/portuguese.json",
+          "lang": "pt-BR"
+        },
+        {
+          "id": "japanese",
+          "name": "Japanese",
+          "icon": "fa-solid fa-earth-asia",
+          "level": "Beginner",
+          "packPath": "content/courses/japanese.json",
+          "lang": "ja-JP"
+        },
+        {
+          "id": "chinese",
+          "name": "Chinese",
+          "icon": "fa-solid fa-earth-asia",
+          "level": "Beginner",
+          "packPath": "content/courses/chinese.json",
+          "lang": "zh-CN"
+        },
+        {
+          "id": "korean",
+          "name": "Korean",
+          "icon": "fa-solid fa-earth-asia",
+          "level": "Beginner",
+          "packPath": "content/courses/korean.json",
+          "lang": "ko-KR"
+        },
+        {
+          "id": "russian",
+          "name": "Russian",
+          "icon": "fa-solid fa-earth-europe",
+          "level": "Beginner",
+          "packPath": "content/courses/russian.json",
+          "lang": "ru-RU"
+        },
+        {
+          "id": "arabic",
+          "name": "Arabic",
+          "icon": "fa-solid fa-earth-africa",
+          "level": "Beginner",
+          "packPath": "content/courses/arabic.json",
+          "lang": "ar-SA"
+        },
+        {
+          "id": "hindi",
+          "name": "Hindi",
+          "icon": "fa-solid fa-earth-asia",
+          "level": "Beginner",
+          "packPath": "content/courses/hindi.json",
+          "lang": "hi-IN"
+        },
+        {
+          "id": "dutch",
+          "name": "Dutch",
+          "icon": "fa-solid fa-earth-europe",
+          "level": "Beginner",
+          "packPath": "content/courses/dutch.json",
+          "lang": "nl-NL"
+        }
+      ]
+    },
+    "programming": {
+      "title": "Choose a programming language",
+      "subjects": [
+        {
+          "id": "javascript",
+          "name": "JavaScript",
+          "icon": "fa-brands fa-js",
+          "level": "Web Development",
+          "packPath": "content/courses/javascript.json"
+        },
+        {
+          "id": "python",
+          "name": "Python",
+          "icon": "fa-brands fa-python",
+          "level": "General Purpose",
+          "packPath": "content/courses/python.json"
+        },
+        {
+          "id": "rust",
+          "name": "Rust",
+          "icon": "fa-brands fa-rust",
+          "level": "Systems Programming",
+          "packPath": "content/courses/rust.json"
+        },
+        {
+          "id": "cpp",
+          "name": "C++",
+          "icon": "fa-solid fa-microchip",
+          "level": "Systems & Games",
+          "packPath": "content/courses/cpp.json"
+        },
+        {
+          "id": "java",
+          "name": "Java",
+          "icon": "fa-brands fa-java",
+          "level": "Enterprise & Android",
+          "packPath": "content/courses/java.json"
+        },
+        {
+          "id": "go",
+          "name": "Go",
+          "icon": "fa-brands fa-golang",
+          "level": "Cloud & DevOps",
+          "packPath": "content/courses/go.json"
+        },
+        {
+          "id": "sql",
+          "name": "SQL",
+          "icon": "fa-solid fa-database",
+          "level": "Database Queries",
+          "packPath": "content/courses/sql.json"
+        }
+      ]
+    },
+    "computers": {
+      "title": "Choose a computer skill",
+      "subjects": [
+        {
+          "id": "computers",
+          "name": "Computer Basics",
+          "icon": "fa-solid fa-computer",
+          "level": "Digital Literacy",
+          "packPath": "content/courses/computers.json"
+        }
+      ]
+    },
+    "math": {
+      "title": "Choose a math topic",
+      "subjects": [
+        {
+          "id": "arithmetic",
+          "name": "Arithmetic",
+          "icon": "fa-solid fa-plus",
+          "level": "Basic Math",
+          "packPath": "content/courses/arithmetic.json"
+        },
+        {
+          "id": "algebra",
+          "name": "Algebra",
+          "icon": "fa-solid fa-superscript",
+          "level": "Equations & Variables",
+          "packPath": "content/courses/algebra.json"
+        },
+        {
+          "id": "geometry",
+          "name": "Geometry",
+          "icon": "fa-solid fa-draw-polygon",
+          "level": "Shapes & Angles",
+          "packPath": "content/courses/geometry.json"
+        },
+        {
+          "id": "trigonometry",
+          "name": "Trigonometry",
+          "icon": "fa-solid fa-wave-square",
+          "level": "Sine, Cosine, Tangent",
+          "packPath": "content/courses/trigonometry.json"
+        },
+        {
+          "id": "calculus",
+          "name": "Calculus",
+          "icon": "fa-solid fa-infinity",
+          "level": "Limits to Series",
+          "packPath": "content/courses/calculus.json"
+        },
+        {
+          "id": "statistics",
+          "name": "Statistics",
+          "icon": "fa-solid fa-chart-bar",
+          "level": "Data Analysis",
+          "packPath": "content/courses/statistics.json"
+        },
+        {
+          "id": "linear_algebra",
+          "name": "Linear Algebra",
+          "icon": "fa-solid fa-table-cells",
+          "level": "Matrices & Vectors",
+          "packPath": "content/courses/linear_algebra.json"
+        },
+        {
+          "id": "logic",
+          "name": "Logic",
+          "icon": "fa-solid fa-puzzle-piece",
+          "level": "Puzzles & Reasoning",
+          "packPath": "content/courses/logic.json"
+        },
+        {
+          "id": "precalc11",
+          "name": "Pre-Calculus 11",
+          "icon": "fa-solid fa-book",
+          "level": "BC Grade 12",
+          "packPath": "content/courses/precalc11.json"
+        },
+        {
+          "id": "precalc12",
+          "name": "Pre-Calculus 12",
+          "icon": "fa-solid fa-book-open",
+          "level": "BC Grade 12",
+          "packPath": "content/courses/precalc12.json"
+        }
+      ]
+    },
+    "science": {
+      "title": "Choose a science topic",
+      "subjects": [
+        {
+          "id": "physics",
+          "name": "Physics",
+          "icon": "fa-solid fa-atom",
+          "level": "Forces & Energy",
+          "packPath": "content/courses/physics.json"
+        },
+        {
+          "id": "chemistry",
+          "name": "Chemistry",
+          "icon": "fa-solid fa-flask",
+          "level": "Elements & Reactions",
+          "packPath": "content/courses/chemistry.json"
+        },
+        {
+          "id": "biology",
+          "name": "Biology",
+          "icon": "fa-solid fa-dna",
+          "level": "Life Sciences",
+          "packPath": "content/courses/biology.json"
+        },
+        {
+          "id": "astronomy",
+          "name": "Astronomy",
+          "icon": "fa-solid fa-satellite",
+          "level": "Space & Cosmos",
+          "packPath": "content/courses/astronomy.json"
+        },
+        {
+          "id": "anatomy12",
+          "name": "Anatomy & Physiology 12",
+          "icon": "fa-solid fa-heart-pulse",
+          "level": "BC Grade 12",
+          "packPath": "content/courses/anatomy12.json"
+        }
+      ]
+    },
+    "skills": {
+      "title": "Choose a skill",
+      "subjects": [
+        {
+          "id": "chess",
+          "name": "Chess",
+          "icon": "fa-solid fa-chess",
+          "level": "Strategy & Tactics",
+          "packPath": "content/courses/chess.json"
+        },
+        {
+          "id": "music_theory",
+          "name": "Music Theory",
+          "icon": "fa-solid fa-music",
+          "level": "Notes & Chords",
+          "packPath": "content/courses/music_theory.json"
+        },
+        {
+          "id": "music_history",
+          "name": "Music History",
+          "icon": "fa-solid fa-guitar",
+          "level": "Genres & Artists",
+          "packPath": "content/courses/music_history.json"
+        },
+        {
+          "id": "world_history",
+          "name": "World History",
+          "icon": "fa-solid fa-landmark",
+          "level": "Events & Civilizations",
+          "packPath": "content/courses/world_history.json"
+        },
+        {
+          "id": "geography",
+          "name": "Geography",
+          "icon": "fa-solid fa-globe",
+          "level": "Countries & Capitals",
+          "packPath": "content/courses/geography.json"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "id": "chemistry",
+  "name": "Chemistry",
+  "category": "science",
+  "icon": "fa-solid fa-flask",
+  "level": "Elements & Reactions",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "pH of pure water?",
+              "answer": "7",
+              "choices": [
+                "7",
+                "0",
+                "14",
+                "1"
+              ],
+              "id": "chemistry_0"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Noble gas group?",
+              "answer": "Group 18",
+              "choices": [
+                "Group 18",
+                "Group 1",
+                "Group 7",
+                "Group 14"
+              ],
+              "id": "chemistry_1"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Catalyst does what?",
+              "answer": "Speeds reaction",
+              "choices": [
+                "Speeds reaction",
+                "Slows reaction",
+                "Stops reaction",
+                "Reverses reaction"
+              ],
+              "id": "chemistry_2"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Atomic number represents?",
+              "answer": "Number of protons",
+              "choices": [
+                "Number of protons",
+                "Number of neutrons",
+                "Number of electrons",
+                "Atomic mass"
+              ],
+              "id": "chemistry_3"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Most abundant element?",
+              "answer": "Hydrogen",
+              "choices": [
+                "Hydrogen",
+                "Oxygen",
+                "Carbon",
+                "Nitrogen"
+              ],
+              "id": "chemistry_4"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Chemical symbol for gold?",
+              "answer": "Au",
+              "choices": [
+                "Au",
+                "Ag",
+                "Go",
+                "Gd"
+              ],
+              "id": "chemistry_5"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Chemical symbol for sodium?",
+              "answer": "Na",
+              "choices": [
+                "Na",
+                "So",
+                "Sd",
+                "S"
+              ],
+              "id": "chemistry_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "How many elements in the periodic table (approx)?",
+              "answer": "118",
+              "choices": [
+                "92",
+                "103",
+                "118",
+                "150"
+              ],
+              "id": "chemistry_7"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Water molecule formula?",
+              "answer": "H2O",
+              "choices": [
+                "H2O",
+                "HO2",
+                "H2O2",
+                "OH"
+              ],
+              "id": "chemistry_8"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Acids have pH below?",
+              "answer": "7",
+              "choices": [
+                "7",
+                "0",
+                "14",
+                "10"
+              ],
+              "id": "chemistry_9"
+            },
+            {
+              "type": "mathChoice",
+              "question": "What is an ion?",
+              "answer": "Atom with net charge",
+              "choices": [
+                "Atom with net charge",
+                "Neutral atom",
+                "A molecule",
+                "An isotope"
+              ],
+              "id": "chemistry_10"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Covalent bond involves?",
+              "answer": "Sharing electrons",
+              "choices": [
+                "Sharing electrons",
+                "Transferring electrons",
+                "Sharing protons",
+                "Magnetic attraction"
+              ],
+              "id": "chemistry_11"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Avogadro's number?",
+              "answer": "6.022 x 10^23",
+              "choices": [
+                "6.022 x 10^23",
+                "3.14 x 10^8",
+                "1.602 x 10^19",
+                "9.81 x 10^2"
+              ],
+              "id": "chemistry_12"
+            },
+            {
+              "type": "mathChoice",
+              "question": "What is an isotope?",
+              "answer": "Same element, different neutrons",
+              "choices": [
+                "Same element, different neutrons",
+                "Different element, same mass",
+                "Same protons and neutrons",
+                "A charged atom"
+              ],
+              "id": "chemistry_13"
+            }
+          ]
+        },
+        {
+          "id": "u1l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Oxidation involves?",
+              "answer": "Loss of electrons",
+              "choices": [
+                "Loss of electrons",
+                "Gain of electrons",
+                "Loss of protons",
+                "Gain of neutrons"
+              ],
+              "id": "chemistry_14"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

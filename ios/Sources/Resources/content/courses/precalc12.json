@@ -1,0 +1,628 @@
+{
+  "id": "precalc12",
+  "name": "Pre-Calculus 12",
+  "category": "math",
+  "icon": "fa-solid fa-book-open",
+  "level": "BC Grade 12",
+  "version": 2,
+  "units": [
+    {
+      "id": "u1",
+      "title": "Transformations & Function Operations",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Transformations",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "y = f(x-3) shifts the graph of f(x)...",
+              "answer": "Right 3 units",
+              "choices": [
+                "Right 3 units",
+                "Left 3 units",
+                "Up 3 units",
+                "Down 3 units"
+              ],
+              "id": "precalc12_u1_l1_0"
+            },
+            {
+              "type": "mathChoice",
+              "question": "y = -f(x) reflects f(x) over the...",
+              "answer": "x-axis",
+              "choices": [
+                "x-axis",
+                "y-axis",
+                "line y=x",
+                "origin"
+              ],
+              "id": "precalc12_u1_l1_1"
+            },
+            {
+              "type": "mathChoice",
+              "question": "y = f(-x) reflects f(x) over the...",
+              "answer": "y-axis",
+              "choices": [
+                "x-axis",
+                "y-axis",
+                "line y=x",
+                "origin"
+              ],
+              "id": "precalc12_u1_l1_2"
+            },
+            {
+              "type": "math",
+              "question": "If f(x)=x^2 and g(x)=f(x)+4, what is g(2)?",
+              "answer": "8",
+              "id": "precalc12_u1_l1_3"
+            },
+            {
+              "type": "mathChoice",
+              "question": "y = 2f(x) is a vertical...",
+              "answer": "stretch by factor 2",
+              "choices": [
+                "stretch by factor 2",
+                "compression by factor 2",
+                "shift up 2",
+                "shift right 2"
+              ],
+              "id": "precalc12_u1_l1_4"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Inverse Functions",
+          "exercises": [
+            {
+              "type": "math",
+              "question": "Find the inverse of f(x) = x + 5: f^-1(x) =",
+              "answer": "x-5",
+              "id": "precalc12_u1_l2_0"
+            },
+            {
+              "type": "mathChoice",
+              "question": "The graph of f^-1(x) is the reflection of f(x) over...",
+              "answer": "y = x",
+              "choices": [
+                "y = x",
+                "x-axis",
+                "y-axis",
+                "origin"
+              ],
+              "id": "precalc12_u1_l2_1"
+            },
+            {
+              "type": "math",
+              "question": "Find the inverse of f(x) = 2x: f^-1(x) =",
+              "answer": "x/2",
+              "id": "precalc12_u1_l2_2"
+            },
+            {
+              "type": "mathChoice",
+              "question": "For f^-1 to exist as a function, f must be...",
+              "answer": "one-to-one",
+              "choices": [
+                "one-to-one",
+                "even",
+                "odd",
+                "continuous"
+              ],
+              "id": "precalc12_u1_l2_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u2",
+      "title": "Polynomial Functions",
+      "lessons": [
+        {
+          "id": "u2l1",
+          "title": "Factoring & Division",
+          "exercises": [
+            {
+              "type": "math",
+              "question": "Divide: (x^2 - 1) / (x - 1) =",
+              "answer": "x+1",
+              "id": "precalc12_u2_l1_0"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Remainder Theorem: dividing P(x) by (x-a), the remainder equals...",
+              "answer": "P(a)",
+              "choices": [
+                "P(a)",
+                "P(0)",
+                "P(1)",
+                "a"
+              ],
+              "id": "precalc12_u2_l1_1"
+            },
+            {
+              "type": "mathChoice",
+              "question": "By the Factor Theorem, (x-a) is a factor of P(x) if...",
+              "answer": "P(a) = 0",
+              "choices": [
+                "P(a) = 0",
+                "P(0) = a",
+                "P(a) = 1",
+                "a = 0"
+              ],
+              "id": "precalc12_u2_l1_2"
+            },
+            {
+              "type": "math",
+              "question": "Factor: x^2 - 9 =",
+              "answer": "(x-3)(x+3)",
+              "id": "precalc12_u2_l1_3"
+            },
+            {
+              "type": "math",
+              "question": "Find the remainder when x^2+3x+2 is divided by (x-1)",
+              "answer": "6",
+              "id": "precalc12_u2_l1_4"
+            }
+          ]
+        },
+        {
+          "id": "u2l2",
+          "title": "Graphing Polynomials",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "An odd-degree polynomial with positive leading coefficient: as x->infinity, y->",
+              "answer": "infinity",
+              "choices": [
+                "infinity",
+                "negative infinity",
+                "0",
+                "1"
+              ],
+              "id": "precalc12_u2_l2_0"
+            },
+            {
+              "type": "math",
+              "question": "How many x-intercepts (max) can a degree-4 polynomial have?",
+              "answer": "4",
+              "id": "precalc12_u2_l2_1"
+            },
+            {
+              "type": "mathChoice",
+              "question": "A root with even multiplicity touches the x-axis and...",
+              "answer": "bounces off",
+              "choices": [
+                "bounces off",
+                "crosses through",
+                "disappears",
+                "becomes a hole"
+              ],
+              "id": "precalc12_u2_l2_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u3",
+      "title": "Trigonometry: Angles & Unit Circle",
+      "lessons": [
+        {
+          "id": "u3l1",
+          "title": "Radians & the Unit Circle",
+          "exercises": [
+            {
+              "type": "math",
+              "question": "Convert to radians: 180 deg",
+              "answer": "pi",
+              "id": "precalc12_u3_l1_0"
+            },
+            {
+              "type": "math",
+              "question": "Convert to radians: 90 deg",
+              "answer": "pi/2",
+              "id": "precalc12_u3_l1_1"
+            },
+            {
+              "type": "math",
+              "question": "Exact value: sin(pi/6)",
+              "answer": "1/2",
+              "id": "precalc12_u3_l1_2"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Unit circle: cos(pi/2)",
+              "answer": "0",
+              "choices": [
+                "0",
+                "1",
+                "-1",
+                "sqrt(2)/2"
+              ],
+              "id": "precalc12_u3_l1_3"
+            },
+            {
+              "type": "math",
+              "question": "Exact value: tan(pi/4)",
+              "answer": "1",
+              "id": "precalc12_u3_l1_4"
+            },
+            {
+              "type": "math",
+              "question": "Exact value: cos(pi/3)",
+              "answer": "1/2",
+              "id": "precalc12_u3_l1_5"
+            }
+          ]
+        },
+        {
+          "id": "u3l2",
+          "title": "Trig Equations",
+          "exercises": [
+            {
+              "type": "math",
+              "question": "Solve: sin(x) = 1/2, 0 <= x <= 2pi",
+              "answer": "pi/6, 5pi/6",
+              "id": "precalc12_u3_l2_0"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Amplitude of y = 3sin(2x)",
+              "answer": "3",
+              "choices": [
+                "1",
+                "2",
+                "3",
+                "6"
+              ],
+              "id": "precalc12_u3_l2_1"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Period of y = sin(2x)",
+              "answer": "pi",
+              "choices": [
+                "2pi",
+                "pi",
+                "pi/2",
+                "4pi"
+              ],
+              "id": "precalc12_u3_l2_2"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Law of Sines?",
+              "answer": "a/sin(A) = b/sin(B) = c/sin(C)",
+              "choices": [
+                "a^2=b^2+c^2",
+                "a/sin(A) = b/sin(B)",
+                "sin(A)/a = sin(B)/b",
+                "a/sin(A) = b/sin(B) = c/sin(C)"
+              ],
+              "id": "precalc12_u3_l2_3"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Law of Cosines?",
+              "answer": "c^2 = a^2 + b^2 - 2ab*cos(C)",
+              "choices": [
+                "c^2 = a^2 + b^2 - 2ab*cos(C)",
+                "c = a + b",
+                "c^2 = a^2 + b^2",
+                "c^2 = a^2 - b^2"
+              ],
+              "id": "precalc12_u3_l2_4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u4",
+      "title": "Trigonometric Identities",
+      "lessons": [
+        {
+          "id": "u4l1",
+          "title": "Pythagorean & Reciprocal Identities",
+          "exercises": [
+            {
+              "type": "math",
+              "question": "sin^2(x) + cos^2(x) =",
+              "answer": "1",
+              "id": "precalc12_u4_l1_0"
+            },
+            {
+              "type": "mathChoice",
+              "question": "csc(x) is the reciprocal of...",
+              "answer": "sin(x)",
+              "choices": [
+                "sin(x)",
+                "cos(x)",
+                "tan(x)",
+                "cot(x)"
+              ],
+              "id": "precalc12_u4_l1_1"
+            },
+            {
+              "type": "mathChoice",
+              "question": "1 + tan^2(x) =",
+              "answer": "sec^2(x)",
+              "choices": [
+                "sec^2(x)",
+                "csc^2(x)",
+                "cot^2(x)",
+                "1"
+              ],
+              "id": "precalc12_u4_l1_2"
+            },
+            {
+              "type": "mathChoice",
+              "question": "sec(x) is the reciprocal of...",
+              "answer": "cos(x)",
+              "choices": [
+                "sin(x)",
+                "cos(x)",
+                "tan(x)",
+                "cot(x)"
+              ],
+              "id": "precalc12_u4_l1_3"
+            }
+          ]
+        },
+        {
+          "id": "u4l2",
+          "title": "Sum & Difference Formulas",
+          "exercises": [
+            {
+              "type": "math",
+              "question": "sin(A+B) = sin(A)cos(B) + ?",
+              "answer": "cos(A)sin(B)",
+              "id": "precalc12_u4_l2_0"
+            },
+            {
+              "type": "math",
+              "question": "cos(2x) = cos^2(x) - ?",
+              "answer": "sin^2(x)",
+              "id": "precalc12_u4_l2_1"
+            },
+            {
+              "type": "math",
+              "question": "sin(2x) =",
+              "answer": "2sin(x)cos(x)",
+              "id": "precalc12_u4_l2_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u5",
+      "title": "Exponential Functions",
+      "lessons": [
+        {
+          "id": "u5l1",
+          "title": "Exponential Growth & Decay",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Exponential growth model?",
+              "answer": "y = a * b^x",
+              "choices": [
+                "y = mx + b",
+                "y = a * b^x",
+                "y = ax^2",
+                "y = a/x"
+              ],
+              "id": "precalc12_u5_l1_0"
+            },
+            {
+              "type": "mathChoice",
+              "question": "If 0 < b < 1 in y = a*b^x, the function represents...",
+              "answer": "decay",
+              "choices": [
+                "growth",
+                "decay",
+                "a line",
+                "a parabola"
+              ],
+              "id": "precalc12_u5_l1_1"
+            },
+            {
+              "type": "math",
+              "question": "Simplify: 2^3 * 2^2 =",
+              "answer": "32",
+              "id": "precalc12_u5_l1_2"
+            },
+            {
+              "type": "math",
+              "question": "Simplify: (x^2)^3 =",
+              "answer": "x^6",
+              "id": "precalc12_u5_l1_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u6",
+      "title": "Logarithmic Functions",
+      "lessons": [
+        {
+          "id": "u6l1",
+          "title": "Log Laws & Equations",
+          "exercises": [
+            {
+              "type": "math",
+              "question": "Evaluate: log3(27)",
+              "answer": "3",
+              "id": "precalc12_u6_l1_0"
+            },
+            {
+              "type": "math",
+              "question": "Evaluate: log2(8)",
+              "answer": "3",
+              "id": "precalc12_u6_l1_1"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Product law: log(MN) =",
+              "answer": "log(M) + log(N)",
+              "choices": [
+                "log(M) + log(N)",
+                "log(M) * log(N)",
+                "log(M) - log(N)",
+                "log(M)/log(N)"
+              ],
+              "id": "precalc12_u6_l1_2"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Power law: log(M^k) =",
+              "answer": "k*log(M)",
+              "choices": [
+                "k*log(M)",
+                "log(M)^k",
+                "log(M)/k",
+                "log(k*M)"
+              ],
+              "id": "precalc12_u6_l1_3"
+            },
+            {
+              "type": "math",
+              "question": "Solve: log2(x) = 4, x =",
+              "answer": "16",
+              "id": "precalc12_u6_l1_4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u7",
+      "title": "Combinatorics & Series",
+      "lessons": [
+        {
+          "id": "u7l1",
+          "title": "Permutations & Combinations",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Number of permutations: P(5,3)",
+              "answer": "60",
+              "choices": [
+                "20",
+                "60",
+                "120",
+                "125"
+              ],
+              "id": "precalc12_u7_l1_0"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Combinations C(5,2) =",
+              "answer": "10",
+              "choices": [
+                "10",
+                "20",
+                "5",
+                "25"
+              ],
+              "id": "precalc12_u7_l1_1"
+            },
+            {
+              "type": "math",
+              "question": "5! =",
+              "answer": "120",
+              "id": "precalc12_u7_l1_2"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Combinations differ from permutations because order...",
+              "answer": "does not matter",
+              "choices": [
+                "does not matter",
+                "matters",
+                "is reversed",
+                "is squared"
+              ],
+              "id": "precalc12_u7_l1_3"
+            }
+          ]
+        },
+        {
+          "id": "u7l2",
+          "title": "Geometric Series",
+          "exercises": [
+            {
+              "type": "math",
+              "question": "Sum of first 4 terms of geometric series 2,4,8,16: S4 =",
+              "answer": "30",
+              "id": "precalc12_u7_l2_0"
+            },
+            {
+              "type": "mathChoice",
+              "question": "A geometric series converges when |r| is...",
+              "answer": "less than 1",
+              "choices": [
+                "less than 1",
+                "greater than 1",
+                "equal to 1",
+                "equal to 0"
+              ],
+              "id": "precalc12_u7_l2_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fin",
+      "title": "Final Review",
+      "lessons": [
+        {
+          "id": "finl1",
+          "title": "Mixed Review",
+          "exercises": [
+            {
+              "type": "math",
+              "question": "Convert to radians: 270 deg",
+              "answer": "3pi/2",
+              "id": "precalc12_fin_l1_0"
+            },
+            {
+              "type": "math",
+              "question": "Evaluate: log5(125)",
+              "answer": "3",
+              "id": "precalc12_fin_l1_1"
+            },
+            {
+              "type": "mathChoice",
+              "question": "C(6,3) =",
+              "answer": "20",
+              "choices": [
+                "15",
+                "18",
+                "20",
+                "30"
+              ],
+              "id": "precalc12_fin_l1_2"
+            },
+            {
+              "type": "math",
+              "question": "sin^2(x) + cos^2(x) =",
+              "answer": "1",
+              "id": "precalc12_fin_l1_3"
+            },
+            {
+              "type": "math",
+              "question": "Factor: x^2 - 16 =",
+              "answer": "(x-4)(x+4)",
+              "id": "precalc12_fin_l1_4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

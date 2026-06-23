@@ -1,0 +1,208 @@
+{
+  "id": "russian",
+  "name": "Russian",
+  "category": "languages",
+  "icon": "fa-solid fa-earth-europe",
+  "level": "Beginner",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "translation",
+              "question": "Hello",
+              "answer": "Privet",
+              "choices": [
+                "Privet",
+                "Spasibo",
+                "Do svidaniya",
+                "Pozhaluysta"
+              ],
+              "id": "russian_0"
+            },
+            {
+              "type": "translation",
+              "question": "Thank you",
+              "answer": "Spasibo",
+              "choices": [
+                "Spasibo",
+                "Privet",
+                "Da",
+                "Izvinite"
+              ],
+              "id": "russian_1"
+            },
+            {
+              "type": "translation",
+              "question": "Goodbye",
+              "answer": "Do svidaniya",
+              "choices": [
+                "Do svidaniya",
+                "Privet",
+                "Spasibo",
+                "Poka"
+              ],
+              "id": "russian_2"
+            },
+            {
+              "type": "translation",
+              "question": "Water",
+              "answer": "Voda",
+              "choices": [
+                "Voda",
+                "Ogon",
+                "Vozdukh",
+                "Zemlya"
+              ],
+              "id": "russian_3"
+            },
+            {
+              "type": "translation",
+              "question": "Yes",
+              "answer": "Da",
+              "choices": [
+                "Da",
+                "Net",
+                "Mozhet byt",
+                "Nikogda"
+              ],
+              "id": "russian_4"
+            },
+            {
+              "type": "translation",
+              "question": "Cat",
+              "answer": "Koshka",
+              "choices": [
+                "Koshka",
+                "Sobaka",
+                "Ptitsa",
+                "Ryba"
+              ],
+              "id": "russian_5"
+            },
+            {
+              "type": "translation",
+              "question": "Good morning",
+              "answer": "Dobroye utro",
+              "choices": [
+                "Dobroye utro",
+                "Dobryy vecher",
+                "Spokoynoy nochi",
+                "Privet"
+              ],
+              "id": "russian_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "translation",
+              "question": "Please",
+              "answer": "Pozhaluysta",
+              "choices": [
+                "Pozhaluysta",
+                "Spasibo",
+                "Izvinite",
+                "Da"
+              ],
+              "id": "russian_7"
+            },
+            {
+              "type": "sentence",
+              "question": "I am a student",
+              "answer": "Ya student",
+              "words": [
+                "Ya",
+                "student",
+                "uchitel",
+                "On",
+                "ona",
+                "est"
+              ],
+              "id": "russian_8"
+            },
+            {
+              "type": "sentence",
+              "question": "The cat is small",
+              "answer": "Koshka malenkaya",
+              "words": [
+                "Koshka",
+                "malenkaya",
+                "bolshaya",
+                "Sobaka",
+                "krasivaya",
+                "est"
+              ],
+              "id": "russian_9"
+            },
+            {
+              "type": "sentence",
+              "question": "I like tea",
+              "answer": "Mne nravitsya chay",
+              "words": [
+                "Mne",
+                "nravitsya",
+                "chay",
+                "kofe",
+                "ne",
+                "voda"
+              ],
+              "id": "russian_10"
+            },
+            {
+              "type": "sentence",
+              "question": "This is a book",
+              "answer": "Eto kniga",
+              "words": [
+                "Eto",
+                "kniga",
+                "ruchka",
+                "To",
+                "moya",
+                "est"
+              ],
+              "id": "russian_11"
+            },
+            {
+              "type": "listening",
+              "question": "Type what you hear",
+              "audio": "Privet",
+              "answer": "Privet",
+              "id": "russian_12"
+            },
+            {
+              "type": "listening",
+              "question": "Type what you hear",
+              "audio": "Spasibo bolshoye",
+              "answer": "Spasibo bolshoye",
+              "id": "russian_13"
+            }
+          ]
+        },
+        {
+          "id": "u1l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "listening",
+              "question": "Type what you hear",
+              "audio": "Dobroye utro",
+              "answer": "Dobroye utro",
+              "id": "russian_14"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "lang": "ru-RU"
+}

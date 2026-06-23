@@ -1,0 +1,208 @@
+{
+  "id": "french",
+  "name": "French",
+  "category": "languages",
+  "icon": "fa-solid fa-earth-europe",
+  "level": "Beginner to Advanced",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "translation",
+              "question": "Hello",
+              "answer": "Bonjour",
+              "choices": [
+                "Bonjour",
+                "Au revoir",
+                "Merci",
+                "Bonsoir"
+              ],
+              "id": "french_0"
+            },
+            {
+              "type": "translation",
+              "question": "Thank you",
+              "answer": "Merci",
+              "choices": [
+                "Merci",
+                "De rien",
+                "Bonjour",
+                "Bonne nuit"
+              ],
+              "id": "french_1"
+            },
+            {
+              "type": "translation",
+              "question": "Goodbye",
+              "answer": "Au revoir",
+              "choices": [
+                "Au revoir",
+                "Bonjour",
+                "Bonsoir",
+                "Salut"
+              ],
+              "id": "french_2"
+            },
+            {
+              "type": "translation",
+              "question": "Water",
+              "answer": "Eau",
+              "choices": [
+                "Eau",
+                "Feu",
+                "Air",
+                "Terre"
+              ],
+              "id": "french_3"
+            },
+            {
+              "type": "translation",
+              "question": "Cat",
+              "answer": "Chat",
+              "choices": [
+                "Chat",
+                "Chien",
+                "Cheval",
+                "Cochon"
+              ],
+              "id": "french_4"
+            },
+            {
+              "type": "translation",
+              "question": "House",
+              "answer": "Maison",
+              "choices": [
+                "Maison",
+                "Jardin",
+                "Chambre",
+                "Cuisine"
+              ],
+              "id": "french_5"
+            },
+            {
+              "type": "translation",
+              "question": "Please",
+              "answer": "S'il vous plait",
+              "choices": [
+                "S'il vous plait",
+                "Merci",
+                "De rien",
+                "Pardon"
+              ],
+              "id": "french_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "translation",
+              "question": "Yes",
+              "answer": "Oui",
+              "choices": [
+                "Oui",
+                "Non",
+                "Peut-etre",
+                "Jamais"
+              ],
+              "id": "french_7"
+            },
+            {
+              "type": "sentence",
+              "question": "The cat is black",
+              "answer": "Le chat est noir",
+              "words": [
+                "Le",
+                "chat",
+                "est",
+                "noir",
+                "blanc",
+                "chien"
+              ],
+              "id": "french_8"
+            },
+            {
+              "type": "sentence",
+              "question": "I eat bread",
+              "answer": "Je mange du pain",
+              "words": [
+                "Je",
+                "mange",
+                "du",
+                "pain",
+                "bois",
+                "lait"
+              ],
+              "id": "french_9"
+            },
+            {
+              "type": "sentence",
+              "question": "She is beautiful",
+              "answer": "Elle est belle",
+              "words": [
+                "Elle",
+                "est",
+                "belle",
+                "Il",
+                "grand",
+                "petit"
+              ],
+              "id": "french_10"
+            },
+            {
+              "type": "sentence",
+              "question": "I like music",
+              "answer": "J'aime la musique",
+              "words": [
+                "J'aime",
+                "la",
+                "musique",
+                "le",
+                "film",
+                "deteste"
+              ],
+              "id": "french_11"
+            },
+            {
+              "type": "listening",
+              "question": "Type what you hear",
+              "audio": "Bonjour",
+              "answer": "Bonjour",
+              "id": "french_12"
+            },
+            {
+              "type": "listening",
+              "question": "Type what you hear",
+              "audio": "Comment allez-vous",
+              "answer": "Comment allez-vous",
+              "id": "french_13"
+            }
+          ]
+        },
+        {
+          "id": "u1l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "listening",
+              "question": "Type what you hear",
+              "audio": "Bonne nuit",
+              "answer": "Bonne nuit",
+              "id": "french_14"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "lang": "fr-FR"
+}

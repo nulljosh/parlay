@@ -1,0 +1,160 @@
+{
+  "id": "trigonometry",
+  "name": "Trigonometry",
+  "category": "math",
+  "icon": "fa-solid fa-wave-square",
+  "level": "Sine, Cosine, Tangent",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "math",
+              "question": "sin(30)",
+              "answer": "0.5",
+              "id": "trigonometry_0"
+            },
+            {
+              "type": "math",
+              "question": "cos(60)",
+              "answer": "0.5",
+              "id": "trigonometry_1"
+            },
+            {
+              "type": "math",
+              "question": "tan(45)",
+              "answer": "1",
+              "id": "trigonometry_2"
+            },
+            {
+              "type": "math",
+              "question": "sin^2(x) + cos^2(x)",
+              "answer": "1",
+              "id": "trigonometry_3"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Pythagorean identity?",
+              "answer": "sin^2 + cos^2 = 1",
+              "choices": [
+                "sin^2 + cos^2 = 1",
+                "sin^2 - cos^2 = 1",
+                "sin + cos = 1",
+                "tan = sin/cos"
+              ],
+              "id": "trigonometry_4"
+            },
+            {
+              "type": "math",
+              "question": "cos(0)",
+              "answer": "1",
+              "id": "trigonometry_5"
+            },
+            {
+              "type": "math",
+              "question": "sin(90)",
+              "answer": "1",
+              "id": "trigonometry_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "math",
+              "question": "tan(0)",
+              "answer": "0",
+              "id": "trigonometry_7"
+            },
+            {
+              "type": "math",
+              "question": "sin(45) (decimal to 4 places)",
+              "answer": "0.7071",
+              "id": "trigonometry_8"
+            },
+            {
+              "type": "math",
+              "question": "cos(180)",
+              "answer": "-1",
+              "id": "trigonometry_9"
+            },
+            {
+              "type": "mathChoice",
+              "question": "SOH-CAH-TOA: what is CAH?",
+              "answer": "cos = adjacent/hypotenuse",
+              "choices": [
+                "cos = adjacent/hypotenuse",
+                "cos = opposite/hypotenuse",
+                "cos = opposite/adjacent",
+                "cos = hypotenuse/adjacent"
+              ],
+              "id": "trigonometry_10"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Period of sin(x)?",
+              "answer": "2pi",
+              "choices": [
+                "pi",
+                "2pi",
+                "pi/2",
+                "4pi"
+              ],
+              "id": "trigonometry_11"
+            },
+            {
+              "type": "mathChoice",
+              "question": "tan(x) = ?",
+              "answer": "sin(x)/cos(x)",
+              "choices": [
+                "sin(x)/cos(x)",
+                "cos(x)/sin(x)",
+                "sin(x)*cos(x)",
+                "1/sin(x)"
+              ],
+              "id": "trigonometry_12"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Inverse of sin is?",
+              "answer": "arcsin",
+              "choices": [
+                "arcsin",
+                "cosec",
+                "1/sin",
+                "arccos"
+              ],
+              "id": "trigonometry_13"
+            }
+          ]
+        },
+        {
+          "id": "u1l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "How many degrees in a radian?",
+              "answer": "57.3 approximately",
+              "choices": [
+                "57.3 approximately",
+                "90",
+                "180",
+                "360"
+              ],
+              "id": "trigonometry_14"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "id": "sql",
+  "name": "SQL",
+  "category": "programming",
+  "icon": "fa-solid fa-database",
+  "level": "Database Queries",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Select all columns?",
+              "answer": "SELECT *",
+              "choices": [
+                "SELECT *",
+                "SELECT ALL",
+                "GET *",
+                "FETCH ALL"
+              ],
+              "id": "sql_0"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Filter rows?",
+              "answer": "WHERE",
+              "choices": [
+                "WHERE",
+                "FILTER",
+                "HAVING",
+                "IF"
+              ],
+              "id": "sql_1"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Sort results?",
+              "answer": "ORDER BY",
+              "choices": [
+                "ORDER BY",
+                "SORT BY",
+                "GROUP BY",
+                "ARRANGE BY"
+              ],
+              "id": "sql_2"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Count rows in a table?",
+              "answer": "COUNT(*)",
+              "choices": [
+                "COUNT(*)",
+                "SUM(*)",
+                "TOTAL(*)",
+                "NUM(*)"
+              ],
+              "id": "sql_3"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Join two tables?",
+              "answer": "JOIN ... ON",
+              "choices": [
+                "JOIN ... ON",
+                "MERGE ... WITH",
+                "COMBINE ... WHERE",
+                "LINK ... TO"
+              ],
+              "id": "sql_4"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Remove duplicate rows?",
+              "answer": "SELECT DISTINCT",
+              "choices": [
+                "SELECT DISTINCT",
+                "SELECT UNIQUE",
+                "SELECT NODUP",
+                "SELECT SINGLE"
+              ],
+              "id": "sql_5"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Group aggregate results?",
+              "answer": "GROUP BY",
+              "choices": [
+                "GROUP BY",
+                "ORDER BY",
+                "SORT BY",
+                "COLLECT BY"
+              ],
+              "id": "sql_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Filter groups after aggregation?",
+              "answer": "HAVING",
+              "choices": [
+                "HAVING",
+                "WHERE",
+                "FILTER",
+                "WHEN"
+              ],
+              "id": "sql_7"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Insert a row?",
+              "answer": "INSERT INTO ... VALUES",
+              "choices": [
+                "INSERT INTO ... VALUES",
+                "ADD TO ... VALUES",
+                "PUT INTO ... VALUES",
+                "CREATE ROW ..."
+              ],
+              "id": "sql_8"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Update existing data?",
+              "answer": "UPDATE ... SET",
+              "choices": [
+                "UPDATE ... SET",
+                "MODIFY ... SET",
+                "CHANGE ... TO",
+                "ALTER ... SET"
+              ],
+              "id": "sql_9"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Delete rows?",
+              "answer": "DELETE FROM",
+              "choices": [
+                "DELETE FROM",
+                "REMOVE FROM",
+                "DROP FROM",
+                "ERASE FROM"
+              ],
+              "id": "sql_10"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Create a new table?",
+              "answer": "CREATE TABLE",
+              "choices": [
+                "CREATE TABLE",
+                "NEW TABLE",
+                "MAKE TABLE",
+                "ADD TABLE"
+              ],
+              "id": "sql_11"
+            },
+            {
+              "type": "mathChoice",
+              "question": "NULL check syntax?",
+              "answer": "IS NULL",
+              "choices": [
+                "IS NULL",
+                "== NULL",
+                "= NULL",
+                "EQUALS NULL"
+              ],
+              "id": "sql_12"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Limit number of results?",
+              "answer": "LIMIT",
+              "choices": [
+                "LIMIT",
+                "TOP",
+                "MAX",
+                "FIRST"
+              ],
+              "id": "sql_13"
+            }
+          ]
+        },
+        {
+          "id": "u1l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "mathChoice",
+              "question": "Subquery returns one value?",
+              "answer": "Scalar subquery",
+              "choices": [
+                "Scalar subquery",
+                "Table subquery",
+                "Correlated subquery",
+                "Nested query"
+              ],
+              "id": "sql_14"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

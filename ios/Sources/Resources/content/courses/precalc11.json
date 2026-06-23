@@ -1,0 +1,112 @@
+{
+  "id": "precalc11",
+  "name": "Pre-Calculus 11",
+  "category": "math",
+  "icon": "fa-solid fa-book",
+  "level": "BC Grade 12",
+  "version": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "All",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "math",
+              "question": "Factor: x^2 - 5x + 6",
+              "answer": "(x-2)(x-3)",
+              "id": "precalc11_0"
+            },
+            {
+              "type": "math",
+              "question": "Solve: 2^(x+1) = 32",
+              "answer": "4",
+              "id": "precalc11_1"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Arithmetic sequence: 3, 7, 11, ... Find a10",
+              "answer": "39",
+              "choices": [
+                "35",
+                "37",
+                "39",
+                "41"
+              ],
+              "id": "precalc11_2"
+            },
+            {
+              "type": "math",
+              "question": "Sum of geometric series: 2 + 6 + 18 + ... (4 terms)",
+              "answer": "80",
+              "id": "precalc11_3"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Quadratic formula?",
+              "answer": "x = (-b +/- sqrt(b^2-4ac))/2a",
+              "choices": [
+                "x = (-b +/- sqrt(b^2-4ac))/2a",
+                "x = -b/2a",
+                "x = +/- sqrt(b^2-4ac)",
+                "x = -b +/- sqrt(b^2+4ac)/2a"
+              ],
+              "id": "precalc11_4"
+            },
+            {
+              "type": "math",
+              "question": "Complete the square: x^2 + 6x",
+              "answer": "(x+3)^2 - 9",
+              "id": "precalc11_5"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Domain of f(x) = 1/(x-3)?",
+              "answer": "All reals except x=3",
+              "choices": [
+                "All reals",
+                "All reals except x=3",
+                "x>3",
+                "x<3"
+              ],
+              "id": "precalc11_6"
+            }
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "math",
+              "question": "Solve: |2x - 5| = 7",
+              "answer": "x = 6 or x = -1",
+              "id": "precalc11_7"
+            },
+            {
+              "type": "mathChoice",
+              "question": "Compound interest formula?",
+              "answer": "A = P(1 + r/n)^(nt)",
+              "choices": [
+                "A = P(1 + r/n)^(nt)",
+                "A = Prt",
+                "A = Pe^(rt)",
+                "A = P + rt"
+              ],
+              "id": "precalc11_8"
+            },
+            {
+              "type": "math",
+              "question": "Rationalize: 1/sqrt(3)",
+              "answer": "sqrt(3)/3",
+              "id": "precalc11_9"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
