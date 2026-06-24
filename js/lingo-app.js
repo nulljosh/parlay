@@ -459,6 +459,15 @@ function renderProfilePanel() {
     });
     form.appendChild(statsGrid);
 
+    const schoolLink = document.createElement('a');
+    schoolLink.href = 'school/index.html';
+    schoolLink.className = 'btn';
+    schoolLink.style.display = 'block';
+    schoolLink.style.textAlign = 'center';
+    schoolLink.style.marginBottom = '12px';
+    schoolLink.textContent = 'School dashboard';
+    form.appendChild(schoolLink);
+
     const actions = document.createElement('div');
     actions.className = 'profile-actions';
     const saveBtn = document.createElement('button');
