@@ -8,6 +8,8 @@ A gamified language and skill learning app. Web + native iOS/macOS (LingoAce / L
 
 Live at [lingo.heyitsmejosh.com](https://lingo.heyitsmejosh.com).
 
+<img src="assets/screenshot-ios.png" width="240"> <img src="assets/screenshot-ios-65.png" width="240">
+
 ## Platforms
 
 | Platform | Name | Status |
