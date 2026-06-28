@@ -50,3 +50,14 @@ struct LingoProgress: Codable {
     var streak: Int = 0
     var completedLessonIds: Set<String> = []
 }
+
+struct DBProgress: Codable {
+    var id: String
+    var xp: Int
+    var streak: Int
+    var hearts: Int
+    var completed_subjects: [String]
+    var trophy_ids: [String]
+    var lessons_completed: [String: Bool]
+    var updated_at: String
+}

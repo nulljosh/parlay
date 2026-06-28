@@ -16,18 +16,10 @@ final class ContentStore {
     func syncFromCloud() async {
         guard let uid = try? await supabase.auth.session.user.id.uuidString else { return }
         guard let row = try? await supabase.from("lingo_progress")
-            .select().eq("id", value: uid).single().execute().value as [String: AnyJSON]? else { return }
-        var p = progress
-        if case .integer(let v) = row["xp"] { p.xp = Int(v) }
-        if case .integer(let v) = row["streak"] { p.streak = Int(v) }
-        if case .array(let arr) = row["completed_subjects"] {
-            // completed_subjects drives completedLessonIds indirectly; store streak/xp is enough for now
-            _ = arr
-        }
-        if case .object(let obj) = row["lessons_completed"] {
-            p.completedLessonIds = Set(obj.keys)
-        }
-        progress = p
+            .select().eq("id", value: uid).single().execute().value as DBProgress? else { return }
+        progress.xp = row.xp
+        progress.streak = row.streak
+        progress.completedLessonIds = Set(row.lessons_completed.keys)
         save()
     }
 
@@ -49,19 +41,16 @@ final class ContentStore {
         if let data = try? JSONEncoder().encode(progress) {
             UserDefaults.standard.set(data, forKey: progressKey)
         }
+        let snap = progress
         Task {
             guard let uid = try? await supabase.auth.session.user.id.uuidString else { return }
-            let lessonsObj = Dictionary(uniqueKeysWithValues: progress.completedLessonIds.map { ($0, true) })
-            try? await supabase.from("lingo_progress").upsert([
-                "id": uid,
-                "xp": String(progress.xp),
-                "streak": String(progress.streak),
-                "hearts": "5",
-                "completed_subjects": "[]",
-                "lessons_completed": (try? String(data: JSONSerialization.data(withJSONObject: lessonsObj), encoding: .utf8)) ?? "{}",
-                "trophy_ids": "[]",
-                "updated_at": ISO8601DateFormatter().string(from: Date()),
-            ]).execute()
+            let row = DBProgress(
+                id: uid, xp: snap.xp, streak: snap.streak, hearts: 5,
+                completed_subjects: [], trophy_ids: [],
+                lessons_completed: Dictionary(uniqueKeysWithValues: snap.completedLessonIds.map { ($0, true) }),
+                updated_at: ISO8601DateFormatter().string(from: Date())
+            )
+            try? await supabase.from("lingo_progress").upsert(row).execute()
         }
     }
 
