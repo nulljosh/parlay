@@ -1,4 +1,10 @@
 name: lingo
+
+packages:
+  Supabase:
+    url: https://github.com/supabase/supabase-swift
+    from: "2.0.0"
+
 options:
   bundleIdPrefix: com.nulljosh
   deploymentTarget:
@@ -30,6 +36,9 @@ targets:
       - path: Sources/Shared
       - path: Sources/iOS
       - path: Sources/Resources
+    dependencies:
+      - package: Supabase
+        product: Supabase
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.nulljosh.lingo
@@ -56,6 +65,9 @@ targets:
       - path: Sources/Shared
       - path: Sources/macOS
       - path: Sources/Resources
+    dependencies:
+      - package: Supabase
+        product: Supabase
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.nulljosh.lingo.mac

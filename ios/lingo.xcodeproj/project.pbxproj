@@ -13,6 +13,7 @@
 		06DDEAC9DBEEF0109B73C87D /* chess.json in Resources */ = {isa = PBXBuildFile; fileRef = 82D1548A44AF9461019E577B /* chess.json */; };
 		0A5D3970081ED2480A4AA13D /* precalc11.json in Resources */ = {isa = PBXBuildFile; fileRef = 879E14E2752370F51B709C91 /* precalc11.json */; };
 		0BB7B0CD6F4A3CC8281854C9 /* arabic.json in Resources */ = {isa = PBXBuildFile; fileRef = CF8B7548CA86AA6AD76DEEDB /* arabic.json */; };
+		0C5D53AFA6E0B1E0D717D4B7 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D983068D2FA587BBD5F4FA81 /* AuthView.swift */; };
 		0D16EF7668CE60A75D0595A6 /* logic.json in Resources */ = {isa = PBXBuildFile; fileRef = BBBADCF9593A6188D62C99B7 /* logic.json */; };
 		131DC6F7C4D9FD99E8C84795 /* python.json in Resources */ = {isa = PBXBuildFile; fileRef = 2558463843F88D615C200354 /* python.json */; };
 		13BE5B84EB37A9EDBBE94227 /* statistics.json in Resources */ = {isa = PBXBuildFile; fileRef = 56A17B17BA470F4F8C7AD0B3 /* statistics.json */; };
@@ -50,6 +51,7 @@
 		533DE048D1F574A4C8CEA9B4 /* geography.json in Resources */ = {isa = PBXBuildFile; fileRef = 36BADF1122486F4DB65F1F78 /* geography.json */; };
 		53A1D6C9199FB8804F8758E6 /* sql.json in Resources */ = {isa = PBXBuildFile; fileRef = 8EF34A271C6CF10F334D884F /* sql.json */; };
 		551561690DB355F67B368DD2 /* chemistry.json in Resources */ = {isa = PBXBuildFile; fileRef = B5B4FAB3C10777FC492A17C8 /* chemistry.json */; };
+		57437A5D05AC13732DAB8A5B /* AuthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145F99C74BD922728A9B3871 /* AuthStore.swift */; };
 		597CA4E3D0C3A5A35B6726C4 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F214D0F0810B9E696D99BDC /* Models.swift */; };
 		5CEC9CE21397145119FCCE01 /* astronomy.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DC67454921AA331D2D3EC7C /* astronomy.json */; };
 		5E55058CB8B6390B0B6B2F51 /* catalog.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E13461BDB5DDAFF671A5AC4 /* catalog.json */; };
@@ -60,6 +62,7 @@
 		6CDF0E7D244D43765DF0B1A1 /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99103E67EEEBFAD239C1DFB7 /* CatalogView.swift */; };
 		6E5C05E5064707F08881D627 /* ContentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF81D8C00013D3CA01B1ECA /* ContentStore.swift */; };
 		6EB73B9995297F591B5F0B7D /* chemistry.json in Resources */ = {isa = PBXBuildFile; fileRef = B5B4FAB3C10777FC492A17C8 /* chemistry.json */; };
+		72E19D1FDDE16D54F3318F07 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 48B8AB9DC041EF61EF11842B /* Supabase */; };
 		7A007768E4B740AA524405D3 /* music_history.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E497242C06CB2BE09147F1E /* music_history.json */; };
 		7B0650BB4C81FFF35689E8E6 /* cpp.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BE666DF95E425B711E90081 /* cpp.json */; };
 		7DB404B693AEA4EADFA4BCDC /* rust.json in Resources */ = {isa = PBXBuildFile; fileRef = B47A509557BCADC7E56991E1 /* rust.json */; };
@@ -88,6 +91,8 @@
 		D6090057FCD71A991D157BBD /* LingoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41722A7250A176A189B216F /* LingoApp.swift */; };
 		DAA555E8C1D5E9339DACD2E6 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FCEEF6AC9EB8AA785F6719 /* Color+Hex.swift */; };
 		DAAED67B144713AEF10BE165 /* geometry.json in Resources */ = {isa = PBXBuildFile; fileRef = 78329C083F6292E361208131 /* geometry.json */; };
+		DB141D5C6EA14049987CEEDD /* AuthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145F99C74BD922728A9B3871 /* AuthStore.swift */; };
+		DB7126F261D8C19189202E93 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 782342964314D86AB9DC7ECC /* Supabase */; };
 		DBF52E22BE2DCA6FBCD8C923 /* japanese.json in Resources */ = {isa = PBXBuildFile; fileRef = 957B0D682A78332B3AF55252 /* japanese.json */; };
 		DC39534230732711541B4746 /* algebra.json in Resources */ = {isa = PBXBuildFile; fileRef = 698847033238209C4252DDE8 /* algebra.json */; };
 		DE5A16AE1BA9681A8933322B /* javascript.json in Resources */ = {isa = PBXBuildFile; fileRef = 4462801DB409CFD3D81F2E5B /* javascript.json */; };
@@ -107,6 +112,7 @@
 		F6897E8DA0302CF2FEF002D3 /* german.json in Resources */ = {isa = PBXBuildFile; fileRef = 3701094CFDB3AAD051661459 /* german.json */; };
 		F760457EFB5523B12867ECCF /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99103E67EEEBFAD239C1DFB7 /* CatalogView.swift */; };
 		FA146A59BECD4740462C3479 /* calculus.json in Resources */ = {isa = PBXBuildFile; fileRef = 53442AF129549F934E4477A6 /* calculus.json */; };
+		FB293EB1161E4B4AC2ED01F2 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D983068D2FA587BBD5F4FA81 /* AuthView.swift */; };
 		FFE490F230A0AD75750AABCB /* geometry.json in Resources */ = {isa = PBXBuildFile; fileRef = 78329C083F6292E361208131 /* geometry.json */; };
 /* End PBXBuildFile section */
 
@@ -123,6 +129,7 @@
 /* Begin PBXFileReference section */
 		0331E3C0FAC6DD186E906475 /* linear_algebra.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = linear_algebra.json; sourceTree = "<group>"; };
 		1298E370FBBBFAA5DE8131CB /* chinese.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chinese.json; sourceTree = "<group>"; };
+		145F99C74BD922728A9B3871 /* AuthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthStore.swift; sourceTree = "<group>"; };
 		2558463843F88D615C200354 /* python.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = python.json; sourceTree = "<group>"; };
 		31395F36291D691B8F443E99 /* arithmetic.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = arithmetic.json; sourceTree = "<group>"; };
 		36BADF1122486F4DB65F1F78 /* geography.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = geography.json; sourceTree = "<group>"; };
@@ -175,6 +182,7 @@
 		C1328B3C2F4DE1C280B2CFA8 /* korean.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = korean.json; sourceTree = "<group>"; };
 		CF8B7548CA86AA6AD76DEEDB /* arabic.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = arabic.json; sourceTree = "<group>"; };
 		D41722A7250A176A189B216F /* LingoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LingoApp.swift; sourceTree = "<group>"; };
+		D983068D2FA587BBD5F4FA81 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		E28878C7B0B1D588D2471F69 /* russian.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = russian.json; sourceTree = "<group>"; };
 		E9261B0C87E6F1D387DBF0A7 /* physics.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = physics.json; sourceTree = "<group>"; };
 		E96829EFE58B59935649CEA6 /* italian.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = italian.json; sourceTree = "<group>"; };
@@ -182,6 +190,25 @@
 		ECE2200B9A4385F8C0628B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		EDDC45AA716BBD04CF700F92 /* go.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = go.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7730263B3A3EFAAA58C22E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72E19D1FDDE16D54F3318F07 /* Supabase in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2428340598278C80AFE05BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7126F261D8C19189202E93 /* Supabase in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		17C87B2087B12CD3A432A5C2 /* Tests */ = {
@@ -238,6 +265,8 @@
 		86F9DF7A4BDF5AFA784C550F /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				145F99C74BD922728A9B3871 /* AuthStore.swift */,
+				D983068D2FA587BBD5F4FA81 /* AuthView.swift */,
 				99103E67EEEBFAD239C1DFB7 /* CatalogView.swift */,
 				72FCEEF6AC9EB8AA785F6719 /* Color+Hex.swift */,
 				BFF81D8C00013D3CA01B1ECA /* ContentStore.swift */,
@@ -327,6 +356,7 @@
 			buildPhases = (
 				EA0849FD6CDA3298D4BBFD4E /* Sources */,
 				B8CBB4883B3FA8064BA0FDA1 /* Resources */,
+				E7730263B3A3EFAAA58C22E2 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -334,6 +364,7 @@
 			);
 			name = "Lingo-iOS";
 			packageProductDependencies = (
+				48B8AB9DC041EF61EF11842B /* Supabase */,
 			);
 			productName = "Lingo-iOS";
 			productReference = 4FA73EEEDA6CB0678990FF20 /* Lingo-iOS.app */;
@@ -345,6 +376,7 @@
 			buildPhases = (
 				F6FA1117176A49680FE2384E /* Sources */,
 				5CADB1ECF485F445ABBBAD84 /* Resources */,
+				F2428340598278C80AFE05BE /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -352,6 +384,7 @@
 			);
 			name = "Lingo-macOS";
 			packageProductDependencies = (
+				782342964314D86AB9DC7ECC /* Supabase */,
 			);
 			productName = "Lingo-macOS";
 			productReference = EAC571CBB172A60AD70C334B /* Lingo-macOS.app */;
@@ -404,6 +437,9 @@
 			);
 			mainGroup = 1E3AB1BDA519C1598FFEB63D;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				99F3180C842AB825B82844A4 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D8622F3E3F551CE7430FDA09 /* Products */;
 			projectDirPath = "";
@@ -532,6 +568,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57437A5D05AC13732DAB8A5B /* AuthStore.swift in Sources */,
+				FB293EB1161E4B4AC2ED01F2 /* AuthView.swift in Sources */,
 				F760457EFB5523B12867ECCF /* CatalogView.swift in Sources */,
 				DAA555E8C1D5E9339DACD2E6 /* Color+Hex.swift in Sources */,
 				E0BF49FF4C5ACDC5A2F62C83 /* ContentStore.swift in Sources */,
@@ -546,6 +584,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB141D5C6EA14049987CEEDD /* AuthStore.swift in Sources */,
+				0C5D53AFA6E0B1E0D717D4B7 /* AuthView.swift in Sources */,
 				6CDF0E7D244D43765DF0B1A1 /* CatalogView.swift in Sources */,
 				25AE68830FA308BB7068A16E /* Color+Hex.swift in Sources */,
 				6E5C05E5064707F08881D627 /* ContentStore.swift in Sources */,
@@ -836,6 +876,30 @@
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		99F3180C842AB825B82844A4 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		48B8AB9DC041EF61EF11842B /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99F3180C842AB825B82844A4 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+		782342964314D86AB9DC7ECC /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99F3180C842AB825B82844A4 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3F2560A77660B5388073E78F /* Project object */;
 }

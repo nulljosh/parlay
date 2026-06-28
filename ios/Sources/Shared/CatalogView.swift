@@ -2,6 +2,7 @@ import SwiftUI
 
 struct CatalogView: View {
     var store: ContentStore
+    var auth: AuthStore
 
     var body: some View {
         NavigationStack {
@@ -24,6 +25,13 @@ struct CatalogView: View {
                 }
             }
             .navigationTitle("LingoAce")
+            .toolbar {
+                ToolbarItem(placement: .automatic) {
+                    Button("Sign Out") {
+                        Task { try? await auth.signOut() }
+                    }
+                }
+            }
         }
     }
 }
