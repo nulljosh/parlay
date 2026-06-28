@@ -19,6 +19,7 @@ final class ContentStore {
             .select().eq("id", value: uid).single().execute().value as DBProgress? else { return }
         progress.xp = row.xp
         progress.streak = row.streak
+        progress.lastPlayed = row.last_played ?? ""
         progress.completedLessonIds = Set(row.lessons_completed.keys)
         save()
     }
@@ -34,7 +35,21 @@ final class ContentStore {
 
     func completeLesson(_ lessonId: String) {
         progress.completedLessonIds.insert(lessonId)
+        updateStreak()
         save()
+    }
+
+    private func updateStreak() {
+        let fmt = DateFormatter(); fmt.dateFormat = "yyyy-MM-dd"
+        let today = fmt.string(from: Date())
+        guard progress.lastPlayed != today else { return }
+        if let prev = fmt.date(from: progress.lastPlayed) {
+            let days = Calendar.current.dateComponents([.day], from: prev, to: Date()).day ?? 0
+            progress.streak = days > 1 ? 1 : progress.streak + 1
+        } else {
+            progress.streak += 1
+        }
+        progress.lastPlayed = today
     }
 
     private func save() {
@@ -48,6 +63,7 @@ final class ContentStore {
                 id: uid, xp: snap.xp, streak: snap.streak, hearts: 5,
                 completed_subjects: [], trophy_ids: [],
                 lessons_completed: Dictionary(uniqueKeysWithValues: snap.completedLessonIds.map { ($0, true) }),
+                last_played: snap.lastPlayed.isEmpty ? nil : snap.lastPlayed,
                 updated_at: ISO8601DateFormatter().string(from: Date())
             )
             try? await supabase.from("lingo_progress").upsert(row).execute()
