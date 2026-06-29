@@ -30,8 +30,10 @@ struct AuthView: View {
                 }
                 TextField("Email", text: $email)
                     .textContentType(.emailAddress)
+                    #if os(iOS)
                     .keyboardType(.emailAddress)
                     .autocapitalization(.none)
+                    #endif
                     .textFieldStyle(.roundedBorder)
                 SecureField("Password", text: $password)
                     .textContentType(mode == .signUp ? .newPassword : .password)

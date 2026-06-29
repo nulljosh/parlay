@@ -72,7 +72,9 @@ struct LessonView: View {
             }
         }
         .navigationTitle(lesson.title)
+        #if os(iOS)
         .navigationBarTitleDisplayMode(.inline)
+        #endif
         .animation(.spring(response: 0.35, dampingFraction: 0.8), value: feedback)
     }
 
@@ -101,7 +103,7 @@ private struct ChoiceButton: View {
         Button(action: action) {
             HStack { Text(choice); Spacer() }
                 .padding()
-                .background(isSelected ? Color(hex: "5B9BD5").opacity(0.15) : Color(.systemGray6))
+                .background(isSelected ? Color(hex: "5B9BD5").opacity(0.15) : Color.secondary.opacity(0.12))
                 .overlay(RoundedRectangle(cornerRadius: 10, style: .continuous)
                     .stroke(isSelected ? Color(hex: "5B9BD5") : .clear, lineWidth: 2))
                 .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
