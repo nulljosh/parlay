@@ -21,17 +21,15 @@ Parlay — a static, vanilla JS/HTML/CSS gamified learning app. No framework, no
 - Accessibility: maintain `aria-label`s and skip-link already present in `index.html` when editing the header/nav
 
 ## Roadmap
-- [x] Confirm whether the app still exists/is current (recovered 2026-06-21 after accidental deletion)
-- [ ] Build out: language quizzes + law quizzes, plus macOS/Windows "how to use computers" quizzes
-- [ ] Screenshots for both iOS and macOS App Store listings (currently blocking submission)
-- [ ] Submit both Parlay (iOS) and Parlay Mac (macOS) once screenshots are ready
-- [x] iOS + macOS apps both exist and ship (ios/Sources/Shared is cross-platform; iOS/macOS dirs just hold each app's entry point + Info.plist)
-- [x] App Store: registered as "Parlay" (iOS, app 6783501611) and "Parlay Mac" (macOS, app 6783501927) — "Parlay", "ParlayPlay", "ParlayLeap", "ParlayQuest", "ParlayStar" all taken on the App Store
-- [x] School content (anatomy12, precalc11, precalc12) split into its own `school` category in catalog.json, not buried in math/science
-- [x] SwiftUI polish: icon chips, spring animations, feedback banner, unit progress fractions (2026-06-28)
+- [x] School content (precalc11, precalc12, anatomy12, AP Bio 12) in `school` category
+- [x] SwiftUI polish: icon chips, spring animations, feedback banner, unit progress (2026-06-28)
+- [x] Dark mode card colors fixed — cards visible (2026-06-29)
+- [x] Auth modal background fixed — no longer transparent (2026-06-29)
+- [x] Signup emailRedirectTo set to window.location.origin (2026-06-29)
+- [x] Mac build version fixed: 1.1.0 / build 6 (2026-06-29)
+- [ ] Add `https://lingo.heyitsmejosh.com` to Supabase spark project redirect allow list (dashboard only)
 - [ ] Upload screenshots to ASC (files at screenshots/6.7/ and 6.5/) then submit both apps
 - [ ] macOS screenshot still needed before submission
-- [ ] Run `/mint` on it once it stands up
 
 ## Testing
 - `node tools/validate-catalog.js` — smoke-checks catalog.json structure + every course pack referenced from it

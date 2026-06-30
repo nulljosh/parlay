@@ -1,47 +1,43 @@
 <img src="assets/icon.svg" width="80" style="border-radius:18px">
 
-# Lingo
+# Parlay
 
-![version](https://img.shields.io/badge/version-1.1.0-blue) ![license](https://img.shields.io/badge/license-MIT-green) [![GitHub](https://img.shields.io/badge/GitHub-nulljosh%2Flingo-black?logo=github)](https://github.com/nulljosh/lingo)
+![version](https://img.shields.io/badge/version-1.1.0-blue) ![license](https://img.shields.io/badge/license-MIT-green) [![GitHub](https://img.shields.io/badge/GitHub-nulljosh%2Fparlay-black?logo=github)](https://github.com/nulljosh/parlay)
 
-A gamified language and skill learning app. Web + native iOS/macOS (LingoAce / LingoAce Mac).
+A gamified language and skill learning app. Web + native iOS/macOS.
 
 Live at [lingo.heyitsmejosh.com](https://lingo.heyitsmejosh.com).
 
-<img src="assets/screenshot-ios.png" width="240"> <img src="assets/screenshot-ios-65.png" width="240">
-
 ## Platforms
 
-| Platform | Name | Status |
-|---|---|---|
-| Web | Lingo | Live |
-| iOS | LingoAce (6783501611) | PREPARE_FOR_SUBMISSION — upload screenshots |
-| macOS | LingoAce Mac (6783501927) | PREPARE_FOR_SUBMISSION — upload screenshots |
+| Platform | Name | App ID | Status |
+|---|---|---|---|
+| Web | Parlay | — | Live |
+| iOS | Parlay (6783501611) | com.nulljosh.lingo | Build 1.1.0/6 ready to upload |
+| macOS | Parlay Mac (6783501927) | com.nulljosh.lingo.mac | Build 1.1.0/6 ready to upload |
 
 ## Features
 
-- 40+ courses across languages, programming, math, science, school, and skills
+- 40+ courses: languages, programming, math, science, school (PC12, AP Bio 12), skills
 - Spaced repetition review, XP, streaks, hearts, achievements
 - Speech recognition for language courses
-- Native iOS/macOS: SF Symbol icon chips, spring animations, per-unit progress, animated feedback
-- **Accounts** — email/password auth via Supabase, progress syncs across all platforms
-- Masterclass (BC curriculum) unlocks automatically after sign-in
+- Native iOS/macOS: SF Symbol icon chips, spring animations, per-unit progress
+- Email/password auth via Supabase (spark project), progress syncs across platforms
 - Light/dark theme, PWA-ready
 
 ## Structure
 
 ```
 index.html              # web app shell
-css/lingo.css           # all styling (Fraunces display, DM Sans body, #5B9BD5 accent)
+css/lingo.css           # all styling
 js/lingo-app.js         # state, auth/profile, lesson rendering
 js/games.js             # game-type logic
 content/catalog.json    # course catalog
 content/courses/        # individual course packs (JSON)
-ios/Sources/Shared/     # native SwiftUI views (cross-platform)
+ios/Sources/Shared/     # SwiftUI views (cross-platform)
 ios/Sources/iOS/        # iOS entry point
 ios/Sources/macOS/      # macOS entry point
-school/                 # master class HTML pages (BC curriculum)
-screenshots/            # App Store screenshots (6.5" + 6.7")
+school/                 # BC curriculum HTML masterclass pages
 ```
 
 ## Running locally
@@ -54,7 +50,7 @@ npx serve .
 
 ```bash
 cd ios && xcodegen generate
-# open lingo.xcodeproj, build Lingo-iOS or Lingo-macOS scheme
+# archive Lingo-iOS or Lingo-macOS, upload via asc-xcode-build skill
 ```
 
 ## Testing
@@ -62,10 +58,3 @@ cd ios && xcodegen generate
 ```bash
 node tools/validate-catalog.js
 ```
-
-## Roadmap
-
-**App Store — icons (2026-06-28)**
-- [x] App icon assets verified clean (1024 has no alpha) — iOS and macOS
-- [ ] **Ship fresh iOS + macOS builds** — ASC still shows the old mis-scaled icon because no new build was uploaded. `cd ios && xcodegen generate`, then archive + upload (`ship` / asc-xcode-build), wait ~5–30 min for processing.
-- [ ] Pick a mononame (current App Store name LingoAce; Lingo/LingoPlay/LingoLeap/LingoQuest/LingoStar taken) — cascades into bundle IDs + ASC records, do as its own task
