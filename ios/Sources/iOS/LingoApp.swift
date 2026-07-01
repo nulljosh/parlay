@@ -17,6 +17,7 @@ struct LingoApp: App {
                 }
             }
             .tint(Color(hex: "5B9BD5"))
+            .overlay { WhatsNewSheet() }
         }
     }
 }
