@@ -105,9 +105,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     setupEventListeners();
     setupKeyboardNav();
     setupTouchGestures();
-    renderAvatarPicker('authAvatarPicker', selectedAuthAvatar, (avatarId) => {
-        selectedAuthAvatar = avatarId;
-    });
     initSpeechRecognition();
     updateStats();
     await loadCatalog();
