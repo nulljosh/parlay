@@ -6,7 +6,7 @@
 - [ ] Screenshots + metadata (description, keywords, support URL) for iOS + Mac, then submit both.
 
 ## From icons-bugs.pdf (imported 2026-06-30)
-- [ ] Fix icon scaling — likely single asset/export issue, check AppIcon.appiconset in ~/Documents/Code/lingo/ios/Sources/{iOS,macOS}/Assets.xcassets
+- [x] Fix icon scaling — fixed 2026-07-02: regenerated 1024×1024 no-alpha icons for iOS+macOS (recovered from stale lingo/ clone before deleting it)
 
 ## From Lingo.pdf (imported 2026-07-01)
 - [x] Sign-in broken since Supabase migration — fixed 2026-07-02 (4002822: hydrateFromDb wrapped in try/catch, profile auto-created on first sign-in). Verified live at lexly.heyitsmejosh.com.

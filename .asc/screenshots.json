@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "app": {
+    "bundle_id": "com.nulljosh.lingo",
+    "udid": "8B1A8082-C5F3-48FB-A17A-F12504938E6C",
+    "output_dir": "./screenshots/raw/6.7"
+  },
+  "steps": [
+    { "action": "launch" },
+    { "action": "wait", "duration_ms": 1500 },
+    { "action": "tap", "label": "Sign In" },
+    { "action": "wait", "duration_ms": 500 },
+    { "action": "type", "text": "jatrommel@gmail.com", "field": "Email" },
+    { "action": "type", "text": "Joshisrad4$!!", "field": "Password" },
+    { "action": "tap", "label": "Sign In" },
+    { "action": "wait", "duration_ms": 2000 },
+    { "action": "screenshot", "name": "01_home" },
+    { "action": "tap", "label": "Spanish" },
+    { "action": "wait", "duration_ms": 1000 },
+    { "action": "screenshot", "name": "02_course" }
+  ]
+}

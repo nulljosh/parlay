@@ -1,8 +1,23 @@
-<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="64" cy="64" r="60" fill="#667eea"/>
-  <g transform="translate(64, 64)" fill="white">
-    <path d="M -30 -5 L 0 -15 L 30 -5 L 30 5 L 0 15 L -30 5 Z"/>
-    <path d="M -35 -10 L 0 -20 L 35 -10 L 0 0 Z"/>
-    <circle cx="15" cy="-8" r="3"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#111218" rx="36"/>
+
+  <!-- primary speech bubble (top-left) -->
+  <rect x="22" y="34" width="116" height="86" rx="18" fill="none" stroke="#6c8ef7" stroke-width="2.6"/>
+  <!-- tail pointing down-right -->
+  <path d="M54,120 L54,144 L80,120 Z" fill="#111218" stroke="#6c8ef7" stroke-width="2.6" stroke-linejoin="round"/>
+
+  <!-- three dots inside primary bubble -->
+  <circle cx="58" cy="77" r="7" fill="#6c8ef7"/>
+  <circle cx="80" cy="77" r="7" fill="#6c8ef7"/>
+  <circle cx="102" cy="77" r="7" fill="#6c8ef7"/>
+
+  <!-- secondary speech bubble (bottom-right, slightly smaller) -->
+  <rect x="96" y="106" width="82" height="58" rx="14" fill="none" stroke="rgba(108,142,247,0.5)" stroke-width="2"/>
+  <!-- tail pointing up-left -->
+  <path d="M116,106 L104,88 L138,106 Z" fill="#111218" stroke="rgba(108,142,247,0.5)" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- two dots inside secondary bubble -->
+  <circle cx="121" cy="135" r="5.5" fill="rgba(108,142,247,0.55)"/>
+  <circle cx="142" cy="135" r="5.5" fill="rgba(108,142,247,0.55)"/>
+  <circle cx="163" cy="135" r="5.5" fill="rgba(108,142,247,0.55)"/>
 </svg>
