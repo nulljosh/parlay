@@ -708,34 +708,99 @@ function updateHeaderProfile() {
     const label = localProfile ? localProfile.display_name : 'Start';
     const avatar = getAvatarById(localProfile ? localProfile.avatar_id : null);
     document.getElementById('profileName').textContent = label;
-    document.getElementById('profileAvatar').textContent = avatar.emoji;
+    const chip = document.getElementById('profileAvatar');
+    const avId = localProfile ? localProfile.avatar_id : null;
+    if (isDataAvatar(avId)) {
+        chip.textContent = '';
+        chip.style.backgroundImage = `url("${avId}")`;
+        chip.style.backgroundSize = 'cover';
+    } else {
+        chip.style.backgroundImage = '';
+        chip.textContent = avatar.emoji;
+    }
+}
+
+
+function generatePixelArtSVG() {
+    const palettes = [
+        ['#e63946','#457b9d','#1d3557'],
+        ['#7b2d8b','#c77dff','#e0aaff'],
+        ['#0077b6','#00b4d8','#90e0ef'],
+        ['#d62828','#f77f00','#fcbf49'],
+        ['#2d6a4f','#52b788','#b7e4c7']
+    ];
+    const bgs = ['#111','#0d0d0d','#1a1a1a','#0f0f1a','#0a1a0a'];
+    const palette = palettes[Math.floor(Math.random() * palettes.length)];
+    const bg = bgs[Math.floor(Math.random() * bgs.length)];
+    const px = 8, size = 8, total = size * px;
+    const grid = Array.from({length: size}, () =>
+        Array.from({length: Math.ceil(size / 2)}, () =>
+            Math.random() > 0.45 ? Math.floor(Math.random() * 3) : -1
+        )
+    );
+    let rects = '';
+    for (let row = 0; row < size; row++) {
+        for (let col = 0; col < size; col++) {
+            const ci = grid[row][col < size / 2 ? col : size - 1 - col];
+            if (ci >= 0) rects += `<rect x="${col*px}" y="${row*px}" width="${px}" height="${px}" fill="${palette[ci]}"/>`;
+        }
+    }
+    return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${total} ${total}" width="${total}" height="${total}" shape-rendering="crispEdges"><rect width="${total}" height="${total}" fill="${bg}"/>${rects}</svg>`;
+}
+
+function svgDataUri(svg) {
+    return 'data:image/svg+xml;base64,' + btoa(unescape(encodeURIComponent(svg)));
+}
+
+function isDataAvatar(id) {
+    return typeof id === 'string' && id.startsWith('data:');
 }
 
 function renderAvatarPicker(containerId, selectedId, onSelect) {
     const container = document.getElementById(containerId);
     if (!container) return;
     container.textContent = '';
-    AVATAR_PRESETS.forEach((avatar) => {
-        const button = document.createElement('button');
-        button.className = 'avatar-option' + (avatar.id === selectedId ? ' selected' : '');
-        button.dataset.avatarId = avatar.id;
-        button.type = 'button';
-        button.setAttribute('aria-label', avatar.label);
-        const emojiSpan = document.createElement('span');
-        emojiSpan.className = 'avatar-emoji';
-        emojiSpan.textContent = avatar.emoji;
-        const labelSpan = document.createElement('span');
-        labelSpan.className = 'avatar-label';
-        labelSpan.textContent = avatar.label;
-        button.appendChild(emojiSpan);
-        button.appendChild(labelSpan);
-        button.addEventListener('click', () => {
-            container.querySelectorAll('.avatar-option').forEach((item) => item.classList.remove('selected'));
-            button.classList.add('selected');
-            onSelect(button.dataset.avatarId);
-        });
-        container.appendChild(button);
+    let current = isDataAvatar(selectedId) ? selectedId : svgDataUri(generatePixelArtSVG());
+    onSelect(current);
+    const img = document.createElement('img');
+    img.src = current;
+    img.alt = 'Avatar — tap to generate a new one';
+    img.title = 'Tap to generate a new avatar';
+    img.style.cssText = 'width:56px;height:56px;border-radius:12px;cursor:pointer;display:block;';
+    img.addEventListener('click', () => {
+        current = svgDataUri(generatePixelArtSVG());
+        img.src = current;
+        onSelect(current);
     });
+    const upload = document.createElement('button');
+    upload.type = 'button';
+    upload.className = 'avatar-option';
+    upload.textContent = 'Upload';
+    const file = document.createElement('input');
+    file.type = 'file';
+    file.accept = 'image/*';
+    file.hidden = true;
+    upload.addEventListener('click', () => file.click());
+    file.addEventListener('change', () => {
+        const f = file.files[0];
+        if (!f) return;
+        const reader = new FileReader();
+        reader.onload = () => {
+            const im = new Image();
+            im.onload = () => {
+                const c = document.createElement('canvas');
+                c.width = c.height = 64;
+                const sq = Math.min(im.width, im.height);
+                c.getContext('2d').drawImage(im, (im.width - sq) / 2, (im.height - sq) / 2, sq, sq, 0, 0, 64, 64);
+                current = c.toDataURL('image/jpeg', 0.85);
+                img.src = current;
+                onSelect(current);
+            };
+            im.src = reader.result;
+        };
+        reader.readAsDataURL(f);
+    });
+    container.append(img, upload, file);
 }
 
 function initSpeechRecognition() {

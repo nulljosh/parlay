@@ -27,7 +27,7 @@ Lexly — a static, vanilla JS/HTML/CSS gamified learning app. No framework, no 
 - [x] Auth modal background fixed — no longer transparent (2026-06-29)
 - [x] Signup emailRedirectTo set to window.location.origin (2026-06-29)
 - [x] Mac build version fixed: 1.1.0 / build 6 (2026-06-29)
-- [ ] Add `https://lingo.heyitsmejosh.com` to Supabase spark project redirect allow list (dashboard only)
+- [ ] Add `https://lexly.heyitsmejosh.com` to Supabase spark project redirect allow list (dashboard only)
 - [ ] Upload screenshots to ASC (files at screenshots/6.7/ and 6.5/) then submit both apps
 - [ ] macOS screenshot still needed before submission
 

@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'lingo-v3';
+const CACHE_VERSION = 'lexly-v4';
 
 const APP_SHELL = [
     './',

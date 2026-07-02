@@ -1,0 +1,5 @@
+{
+  "redirects": [
+    { "source": "/:path*", "has": [{ "type": "host", "value": "lingo.heyitsmejosh.com" }], "destination": "https://lexly.heyitsmejosh.com/:path*", "permanent": true }
+  ]
+}

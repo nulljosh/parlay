@@ -6,7 +6,7 @@
 
 A gamified language and skill learning app. Web + native iOS/macOS.
 
-Live at [lingo.heyitsmejosh.com](https://lingo.heyitsmejosh.com).
+Live at [lexly.heyitsmejosh.com](https://lexly.heyitsmejosh.com).
 
 ## Platforms
 
