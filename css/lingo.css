@@ -23,9 +23,9 @@
 }
 
 :root {
-    --bg-primary: #FFF8F0;
-    --bg-secondary: #f0ece6;
-    --bg-tertiary: #e8e4de;
+    --bg-primary: #ffffff;
+    --bg-secondary: #f5f5f5;
+    --bg-tertiary: #ececec;
     --text-primary: #1A1A1A;
     --text-secondary: rgba(26,26,26,0.55);
     --text-muted: rgba(26,26,26,0.35);
@@ -46,7 +46,7 @@
     --card-border: rgba(0,0,0,0.1);
     --card-shadow: rgba(0, 0, 0, 0.04);
     --input-bg: #fff;
-    --header-bg: #fafafa;
+    --header-bg: #ffffff;
     --choice-selected-bg: #f0f0f0;
     --correct-bg: #f0faf4;
     --correct-border: #a3d4b0;

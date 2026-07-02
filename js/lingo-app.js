@@ -628,6 +628,7 @@ function setupEventListeners() {
             renderProfilePanel();
         } else {
             const dialog = document.getElementById('authShell');
+            document.getElementById('tabSignin').click();
             dialog.showModal();
             setTimeout(() => document.getElementById('signinEmail')?.focus(), 100);
         }
@@ -685,8 +686,13 @@ function setupEventListeners() {
         if (error) { feedback.textContent = error.message; feedback.className = 'auth-feedback error'; return; }
         currentUser = data.user;
         setAuthCookie();
-        await hydrateFromDb(currentUser.id);
+        try { await hydrateFromDb(currentUser.id); } catch (_) {}
         localProfile = loadProfile();
+        if (!localProfile) {
+            localProfile = { display_name: email.split('@')[0], avatar_id: selectedAuthAvatar };
+            saveProfile(localProfile);
+        }
+        feedback.textContent = '';
         syncGameStateFromProgress();
         updateHeaderProfile();
         updateStats();
