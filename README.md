@@ -1,8 +1,8 @@
 <img src="assets/icon.svg" width="80" style="border-radius:18px">
 
-# Parlay
+# Lexly
 
-![version](https://img.shields.io/badge/version-1.1.0-blue) ![license](https://img.shields.io/badge/license-MIT-green) [![GitHub](https://img.shields.io/badge/GitHub-nulljosh%2Fparlay-black?logo=github)](https://github.com/nulljosh/parlay)
+![version](https://img.shields.io/badge/version-1.1.0-blue) ![license](https://img.shields.io/badge/license-MIT-green) [![GitHub](https://img.shields.io/badge/GitHub-nulljosh%2Flexly-black?logo=github)](https://github.com/nulljosh/lexly)
 
 A gamified language and skill learning app. Web + native iOS/macOS.
 
@@ -12,9 +12,9 @@ Live at [lingo.heyitsmejosh.com](https://lingo.heyitsmejosh.com).
 
 | Platform | Name | App ID | Status |
 |---|---|---|---|
-| Web | Parlay | — | Live |
-| iOS | Parlay (6783501611) | com.nulljosh.lingo | Build 1.1.0/6 ready to upload |
-| macOS | Parlay Mac (6783501927) | com.nulljosh.lingo.mac | Build 1.1.0/6 ready to upload |
+| Web | Lexly | — | Live |
+| iOS | Lexly (6783501611) | com.nulljosh.lingo | Build 1.1.0/6 ready to upload |
+| macOS | Lexly Mac (6783501927) | com.nulljosh.lingo.mac | Build 1.1.0/6 ready to upload |
 
 ## Features
 

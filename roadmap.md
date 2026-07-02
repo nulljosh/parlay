@@ -1,7 +1,7 @@
-# Lingo (Parlay) Roadmap
+# Lexly Roadmap
 
 ## Session handoff (2026-07-01)
-- [ ] **Naming conflict**: ASC apps are named "Lexly" (6783501611) / "Lexly Mac" (6783501927), bundle IDs com.nulljosh.lingo(.mac), but repo/README say Parlay. Decide the final name and align ASC + repo + metadata.
+- [x] **Naming resolved 2026-07-01**: final name is **Lexly** (matches ASC 6783501611/6783501927). Repo, web UI, plists, docs aligned; bundle IDs stay com.nulljosh.lingo(.mac).
 - [ ] **No macos/ dir in this repo** — Mac builds can't be produced locally; the uploaded Mac builds came from elsewhere. Add a macos/ xcodegen target (mirror ios/) or recover the Mac project source.
 - [ ] Screenshots + metadata (description, keywords, support URL) for iOS + Mac, then submit both.
 

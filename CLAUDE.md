@@ -4,14 +4,14 @@ Guidance for working in this repo.
 
 ## What this is
 
-Parlay — a static, vanilla JS/HTML/CSS gamified learning app. No framework, no bundler, no build step. Live at parlay.heyitsmejosh.com.
+Lexly — a static, vanilla JS/HTML/CSS gamified learning app. No framework, no bundler, no build step. Live at lexly.heyitsmejosh.com.
 
 ## Architecture
 
 - `index.html` — single-page app shell, all screens are toggled divs
-- `js/parlay-app.js` — app state, profile/auth (local only — no backend, profile is stored client-side), lesson loading from `content/catalog.json`
+- `js/lingo-app.js` — app state, profile/auth (local only — no backend, profile is stored client-side), lesson loading from `content/catalog.json`
 - `js/games.js` — individual lesson/game-type rendering and scoring logic
-- `css/parlay.css` — all styles, includes light/dark theme via `data-theme` attribute on `<html>`
+- `css/lingo.css` — all styles, includes light/dark theme via `data-theme` attribute on `<html>`
 
 ## Conventions
 

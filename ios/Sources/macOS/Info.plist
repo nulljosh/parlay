@@ -5,9 +5,9 @@
     <key>CFBundleExecutable</key>
     <string>$(EXECUTABLE_NAME)</string>
     <key>CFBundleName</key>
-    <string>Parlay</string>
+    <string>Lexly</string>
     <key>CFBundleDisplayName</key>
-    <string>Parlay</string>
+    <string>Lexly</string>
     <key>CFBundleIdentifier</key>
     <string>com.nulljosh.lingo.mac</string>
     <key>CFBundlePackageType</key>
